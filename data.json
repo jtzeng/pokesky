@@ -1,0 +1,2273 @@
+{
+	"special_pokemon": {
+		"whac": [
+			6, 62, 65, 91, 94, 99, 121, 130, 135, 141, 142, 149, 150, 151, 169, 186, 208, 230, 248, 330, 334, 348, 350, 354, 373, 395, 398, 407, 426, 445, 454, 462, 466, 467, 468, 469, 474, 477, 478, 482, 485
+		],
+		"powerful": [
+			3, 6, 9, 12, 15, 18, 22, 24, 26, 28, 31, 34, 38, 45, 49, 51, 55, 57, 59, 62, 65, 68, 71, 73, 76, 80, 82, 91, 94, 99, 101, 103, 110, 121, 127, 130, 131, 134, 135, 136, 139, 141, 142, 143, 149, 151, 154, 157, 160, 169, 178, 184, 186, 189, 195, 199, 202, 205, 208, 212, 214, 217, 219, 226, 227, 229, 230, 232, 242, 248, 251, 254, 257, 260, 267, 269, 272, 275, 279, 282, 286, 289, 291, 302, 306, 319, 323, 324, 330, 332, 334, 344, 346, 348, 350, 354, 357, 362, 373, 376, 385, 389, 392, 395, 398, 405, 407, 409, 411, 414, 423, 424, 426, 429, 430, 437, 442, 445, 448, 450, 452, 454, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 490, 492, 494, 497, 500, 503, 508, 512, 514, 516, 521, 523, 526, 530, 534, 537, 542, 545, 547, 553, 555, 560, 563, 567, 569, 571, 579, 584, 589, 591, 593, 596, 598, 601, 604, 609, 612, 615, 617, 620, 621, 623, 625, 628, 631, 632, 635, 637
+		],
+		"starter": [
+			1, 4, 7, 152, 155, 158, 252, 255, 258, 387, 390, 393
+		],
+		"legendary": [
+			144, 145, 146, 150, 151, 243, 244, 245, 249, 250, 251, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 490, 481, 492, 493
+		]
+	},
+	"attacks": {
+		"Bug": [
+			"Tail Glow", "Leech Life", "String Shot", "Pin Missile", "Bug Tackle", "Beez Buzz", "Fury Cutter", "Bug Bite", "Silver Wind", "U-Turn", "Signal Beam", "X-Scissor", "Bug Buzz", "Megahorn"
+		],
+
+		"Dark": [
+			"Nasty Plot", "Dark Rage", "Trickery", "Assurance", "Payback", "Bite", "Pursuit", "Beat Up", "Faint Attack", "Night Slash", "Sucker Punch", "Crunch", "Dark Pulse", "Night Blast"
+		],
+
+		"Dragon": [
+			"Dragon Dance", "Lizard Scratch", "Tail Smack", "Dragon Rage", "Twister", "Dragon Tail", "Dragonbreath", "Dual Chop", "Dragon Claw", "Dragon Rush", "Delta Strike", "Dragon Pulse", "Outrage", "Draco Meteor"
+		],
+
+		"Electric": [
+			"Thunder Wave", "Static Shock", "Electrostatics", "Thundershock", "Charge Beam", "Shock Wave", "Thunder Fang", "Thunderpunch", "Discharge", "Wild Charge", "Thunderbolt", "Thunder", "Zap Cannon", "Lightning Strike"
+		],
+
+		"Fighting": [
+			"Low Kick", "Karate Chop", "Seismic Toss", "Mach Punch", "Brick Break", "Drain Punch", "Cross Chop", "Hammer Arm", "Aura Sphere", "Close Combat", "Superpower", "Dynamicpunch", "Focus Blast", "Focus Punch"
+		],
+
+		"Fire": [
+			"Smoke", "Ember", "Flame Wheel", "Fire Fang", "Fire Punch", "Outrageous Heat", "Flamethrower", "Heat Wave", "Fire Blast", "Lava Cyclone", "Flare Blitz", "Eruption", "Overheat", "White Flame"
+		],
+
+		"Flying": [
+			"Roost", "Peck", "Gust", "Wing Attack", "Air Cutter", "Aerial Ace", "Air Slash", "Drill Peck", "Fly", "Acrobatics", "Aeroblast", "Brave Bird", "Hurricane", "Sky Attack"
+		],
+
+		"Ghost": [
+			"Hypnosis", "Sneak Attack", "Astonish", "Confuse Ray", "Lick", "Shadow Sneak", "Hex", "Shadow Punch", "Shadow Pulse", "Night Shade", "Shadow Claw", "Shadow Ball", "Shadow Blast", "Shadow Force"
+		],
+
+		"Grass": [
+			"Spore", "Leech Seed", "Absorb", "Vine Whip", "Razor Leaf", "Mega Leaf", "Giga Drain", "Seed Bomb", "Energy Ball", "Grass Knot", "Leaf Blade", "Solarbeam", "Leaf Storm", "Frenzy Plant"
+		],
+
+		"Ground": [
+			"Sandstorm", "Sand Attack", "Sand Ball", "Mud Slap", "Sand Tomb", "Mud Shot", "Magnitude", "Dig", "Mud Bomb", "Desert Wave", "Earth Bomb", "Drill Liner", "Earth Power", "Earthquake"
+		],
+
+		"Ice": [
+			"Hail", "Snowball", "Icy Wind", "Powder Snow", "Icicle Drop", "Aurora Beam", "Ice Fang", "Avalanche", "Ice Punch", "Frost Breath", "Ice Beam", "Blizzard", "Ice Burn", "Freeze Shock"
+		],
+
+		"Normal": [
+			"Supersonic", "Screech", "Tickle", "Pound", "Scratch", "Tackle", "Fury Swipes", "Quick Attack", "Swift", "Headbutt", "Slash", "Retaliation", "Hyper Fang", "Body Slam", "Extremespeed", "Slam", "Spike Cannon", "Mega Kick", "Mega Punch", "Skull Bash", "Take Down", "Thrash", "Return", "Double Edge", "Last Resort", "Giga Impact", "Hyper Beam", "Explosion"
+		],
+
+		"Poison": [
+			"Nasty Gas", "Poison Gas", "Poison Sting", "Smog", "Acid Bomb", "Poison Tail", "Venom Shock", "Poison Fang", "Sludge", "Venom Bolt", "Poison Jab", "Sludge Bomb", "Sludge Wave", "Gunk Shot"
+		],
+
+		"Psychic": [
+			"Calm Mind", "Mind Bend", "Confusion", "Psywave", "Psybeam", "Synchronise", "Psycho Cut", "Extrasensory", "Psyshock", "Future Sight", "Zen Headbutt", "Psychic", "Super Psy Bolt", "Psycho Boost"
+		],
+
+		"Rock": [
+			"Rock Polish", "Rock Crush", "Sharp Rocks", "Rollout", "Rock Throw", "Rock Blast", "Knock Down", "Rock Tomb", "Ancientpower", "Rock Slide", "Power Gem", "Stone Edge", "Rock Wrecker", "Head Smash"
+		],
+
+		"Steel": [
+			"Iron Defense", "Metal Claw", "Gear Saucer", "Mirror Shot", "Metal Blast", "Steel Wing", "Spinning Tail", "Bullet Punch", "Iron Head", "Flash Cannon", "Iron Tail", "Gyro Ball", "Meteor Mash", "Doom Desire"
+		],
+
+		"Water": [
+			"Splash", "Bubble", "Water Gun", "Aqua Jet", "Bubblebeam", "Water Pulse", "Brine", "Waterfall", "Scald", "Aqua Tail", "Crabhammer", "Surf", "Hydro Pump", "Hydro Cannon"
+		]
+	},
+	"types": [
+		"Bug", "Dark", "Dragon", "Electric", "Fighting", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Normal", "Poison", "Psychic", "Rock", "Steel", "Water"
+	],
+	"type_x": {
+		"Bug": [
+			1, 2, 1, 1, 0.5, 0.5, 0.5, 0.5, 2, 1, 1, 1, 0.5, 2, 1, 0.5, 1
+		],
+		"Dark": [
+			1, 0.5, 1, 1, 0.5, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 0.5, 1
+		],
+		"Dragon": [
+			1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 1
+		],
+		"Electric": [
+			1, 1, 0.5, 0.5, 1, 1, 2, 1, 0.5, 0, 1, 1, 1, 1, 1, 1, 2
+		],
+		"Fighting": [
+			0.5, 2, 1, 1, 1, 1, 0.5, 0, 1, 1, 2, 2, 0.5, 0.5, 2, 2, 1
+		],
+		"Fire": [
+			2, 1, 0.5, 1, 1, 0.5, 1, 1, 2, 1, 2, 1, 1, 1, 0.5, 2, 0.5
+		],
+		"Flying": [
+			2, 1, 1, 0.5, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0.5, 0.5, 1
+		],
+		"Ghost": [
+			1, 0.5, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1, 2, 1, 0.5, 1
+		],
+		"Grass": [
+			0.5, 1, 0.5, 1, 1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 0.5, 1, 2, 0.5, 2
+		],
+		"Ground": [
+			0.5, 1, 1, 2, 1, 2, 0, 1, 0.5, 1, 1, 1, 2, 1, 2, 2, 1
+		],
+		"Ice": [
+			1, 1, 2, 1, 1, 0.5, 2, 1, 2, 2, 0.5, 1, 1, 1, 1, 0.5, 0.5
+		],
+		"Normal": [
+			1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 1
+		],
+		"Poison": [
+			1, 1, 1, 1, 1, 1, 1, 0.5, 2, 0.5, 1, 1, 0.5, 1, 0.5, 0, 1
+		],
+		"Psychic": [
+			1, 0, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 0.5, 1, 0.5, 1
+		],
+		"Rock": [
+			2, 1, 1, 1, 0.5, 2, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 0.5, 1
+		],
+		"Steel": [
+			1, 1, 1, 0.5, 1, 0.5, 1, 1, 1, 1, 2, 1, 1, 1, 2, 0.5, 0.5
+		],
+		"Water": [
+			1, 1, 0.5, 1, 1, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 2, 1, 0.5
+		]
+	},
+	"movepools": {
+		"Bulbasaur": [
+			"Vine Whip", "Razor Leaf", "Tackle", "Sludge", "Skull Bash"
+		],
+		"Ivysaur": [
+			"Seed Bomb", "Giga Drain", "Skull Bash", "Sludge", "Take Down"
+		],
+		"Venusaur": [
+			"Solarbeam", "Leaf Storm", "Sludge Bomb", "Take Down", "Earthquake"
+		],
+		"Charmander": [
+			"Ember", "Flame Wheel", "Scratch", "Dragon Rage", "Slash"
+		],
+		"Charmeleon": [
+			"Flamethrower", "Dragon Rage", "Slash", "Rock Slide", "Dig"
+		],
+		"Charizard": [
+			"Fire Blast", "Take Down", "Fly", "Dragon Pulse", "Earthquake"
+		],
+		"Squirtle": [
+			"Bubble", "Tackle", "Skull Bash", "Bite", "Brick Break"
+		],
+		"Wartortle": [
+			"Water Pulse", "Skull Bash", "Bite", "Brick Break", "Dig"
+		],
+		"Blastoise": [
+			"Hydro Pump", "Double Edge", "Gyro Ball", "Ice Beam", "Earthquake"
+		],
+		"Caterpie": [
+			"Bug Tackle", "Tackle", "Poison Sting", "Bite", "Rollout"
+		],
+		"Metapod": [
+			"Bug Bite", "Body Slam", "Tackle", "Bite", "Rollout"
+		],
+		"Butterfree": [
+			"Bug Buzz", "Solarbeam", "Shadow Ball", "Psychic", "Air Slash"
+		],
+		"Weedle": [
+			"Bug Tackle", "Tackle", "Poison Sting", "Bite", "Rollout"
+		],
+		"Kakuna": [
+			"Bug Bite", "Body Slam", "Tackle", "Bite", "Rollout"
+		],
+		"Beedrill": [
+			"X-Scissor", "Poison Jab", "Solarbeam", "Brick Break", "Acrobatics"
+		],
+		"Pidgey": [
+			"Wing Attack", "Tackle", "Quick Attack", "Steel Wing", "U-Turn"
+		],
+		"Pidgeotto": [
+			"Fly", "Tackle", "Body Slam", "Steel Wing", "U-Turn"
+		],
+		"Pidgeot": [
+			"Brave Bird", "Steel Wing", "Giga Impact", "U-Turn", "Twister"
+		],
+		"Rattata": [
+			"Bite", "Dig", "Quick Attack", "Hyper Fang", "Tail Smack"
+		],
+		"Raticate": [
+			"Crunch", "Dig", "Thunderbolt", "Ice Beam", "Shadow Ball"
+		],
+		"Spearow": [
+			"Wing Attack", "Tackle", "Quick Attack", "Steel Wing", "U-Turn"
+		],
+		"Fearow": [
+			"Sky Attack", "Steel Wing", "Giga Impact", "Pursuit", "Drill Peck"
+		],
+		"Ekans": [
+			"Poison Tail", "Bite", "Fire Fang", "Thunder Fang", "Ice Fang"
+		],
+		"Arbok": [
+			"Gunk Shot", "Crunch", "Fire Fang", "Earthquake", "Ice Fang"
+		],
+		"Pikachu": [
+			"Thunderbolt", "Tackle", "Quick Attack", "Dig", "Iron Tail"
+		],
+		"Raichu": [
+			"Thunder", "Dig", "Focus Blast", "Return", "Iron Tail"
+		],
+		"Sandshrew": [
+			"Dig", "Rock Slide", "Slash", "Brick Break", "Metal Claw"
+		],
+		"Sandslash": [
+			"Earthquake", "Rock Slide", "X-Scissor", "Night Slash", "Shadow Claw"
+		],
+		"Nidoran F": [
+			"Poison Sting", "Tackle", "Fury Cutter", "Peck", "Absorb"
+		],
+		"Nidorina": [
+			"Poison Jab", "Slash", "Dig", "Peck", "Dragon Tail"
+		],
+		"Nidoqueen": [
+			"Earth Power", "Blizzard", "Thunder", "Megahorn", "Sludge Wave"
+		],
+		"Nidoran M": [
+			"Poison Sting", "Tackle", "Fury Cutter", "Peck", "Absorb"
+		],
+		"Nidorino": [
+			"Poison Jab", "Slash", "Dig", "Peck", "Dragon Tail"
+		],
+		"Nidoking": [
+			"Earth Power", "Blizzard", "Thunder", "Fire Blast", "Sludge Wave"
+		],
+		"Clefairy": [
+			"Pound", "Tackle", "Flame Wheel", "Charge Beam", "Bite"
+		],
+		"Clefable": [
+			"Giga Impact", "Return", "Shadow Ball", "Brick Break", "Thunderbolt"
+		],
+		"Vulpix": [
+			"Ember", "Absorb", "Sand Ball", "Pin Missile", "Slash"
+		],
+		"Ninetales": [
+			"Heat Wave", "Giga Drain", "Earth Power", "X-Scissor", "Slam"
+		],
+		"Jigglypuff": [
+			"Pound", "Static Shock", "Icicle Drop", "Karate Chop", "Flame Wheel"
+		],
+		"Wigglytuff": [
+			"Thrash", "Thunderbolt", "Ice Fang", "Cross Chop", "Lava Cyclone"
+		],
+		"Zubat": [
+			"Leech Life", "Wing Attack", "Smog", "Mega Leaf", "Trickery"
+		],
+		"Golbat": [
+			"Bug Bite", "Drill Peck", "Venom Bolt", "Seed Bomb", "Pursuit"
+		],
+		"Oddish": [
+			"Leech Life", "Absorb", "Poison Sting", "Tackle", "Bite"
+		],
+		"Gloom": [
+			"Silver Wind", "Mega Leaf", "Poison Tail", "Retaliation", "Crunch"
+		],
+		"Vileplume": [
+			"Signal Beam", "Solarbeam", "Sludge Bomb", "Mega Kick", "Dark Pulse"
+		],
+		"Paras": [
+			"String Shot", "Vine Whip", "Absorb", "Poison Gas", "Tackle"
+		],
+		"Parasect": [
+			"Bug Buzz", "Grass Knot", "Giga Drain", "Venom Bolt", "Mega Punch"
+		],
+		"Venonat": [
+			"Bug Tackle", "Beez Buzz", "Leech Seed", "Nasty Gas", "Slash"
+		],
+		"Venomoth": [
+			"Bug Buzz", "Silver Wind", "Seed Bomb", "Sludge", "Take Down"
+		],
+		"Diglett": [
+			"Mud Shot", "Sneak Attack", "Assurance", "Rock Crush", "Pursuit"
+		],
+		"Dugtrio": [
+			"Earthquake", "Sucker Punch", "Dynamicpunch", "Rock Slide", "Drill Liner"
+		],
+		"Meowth": [
+			"Scratch", "Fury Swipes", "Trickery", "Astonish", "Static Shock"
+		],
+		"Persian": [
+			"Take Down", "Double Edge", "Night Slash", "Shadow Claw", "Thunderbolt"
+		],
+		"Psyduck": [
+			"Water Gun", "Tackle", "Confusion", "Powder Snow", "Shadow Sneak"
+		],
+		"Golduck": [
+			"Aqua Tail", "Fury Swipes", "Psychic", "Ice Beam", "Shadow Claw"
+		],
+		"Mankey": [
+			"Low Kick", "Tackle", "Charge Beam", "Sand Ball", "Trickery"
+		],
+		"Primeape": [
+			"Dynamicpunch", "Thrash", "Thunderbolt", "Earth Power", "Sucker Punch"
+		],
+		"Growlithe": [
+			"Flame Wheel", "Tackle", "Mud Bomb", "Bite", "Ember"
+		],
+		"Arcanine": [
+			"Flare Blitz", "Return", "Drill Liner", "Crunch", "Lava Cyclone"
+		],
+		"Poliwag": [
+			"Bubble", "Aurora Beam", "Confusion", "Mud Shot", "Tackle"
+		],
+		"Poliwhirl": [
+			"Surf", "Ice Beam", "Psychic", "Drill Liner", "Skull Bash"
+		],
+		"Poliwrath": [
+			"Hydro Cannon", "Ice Burn", "Earth Power", "Dynamicpunch", "Hyper Beam"
+		],
+		"Abra": [
+			"Confusion", "Tackle", "Electrostatics", "Absorb", "Low Kick"
+		],
+		"Kadabra": [
+			"Extrasensory", "Slash", "Shock Wave", "Energy Ball", "Hammer Arm"
+		],
+		"Alakazam": [
+			"Psycho Boost", "Hyper Beam", "Thunderbolt", "Focus Blast", "Leaf Storm"
+		],
+		"Machop": [
+			"Low Kick", "Tackle", "Rock Throw", "Sand Tomb", "Flame Wheel"
+		],
+		"Machoke": [
+			"Cross Chop", "Slam", "Rock Tomb", "Desert Wave", "Flamethrower"
+		],
+		"Machamp": [
+			"Focus Punch", "Double Edge", "Rock Wrecker", "Earth Power", "Flare Blitz"
+		],
+		"Bellsprout": [
+			"Leech Life", "Absorb", "Poison Sting", "Tackle", "Bite"
+		],
+		"Weepinbell": [
+			"Beez Buzz", "Mega Leaf", "Poison Tail", "Retaliation", "Crunch"
+		],
+		"Victreebel": [
+			"Signal Beam", "Solarbeam", "Sludge Bomb", "Mega Kick", "Dark Pulse"
+		],
+		"Tentacool": [
+			"Aqua Jet", "Poison Sting", "Icy Wind", "Confuse Ray", "Screech"
+		],
+		"Tentacruel": [
+			"Hydro Pump", "Sludge Wave", "Frost Breath", "Hex", "Tackle"
+		],
+		"Geodude": [
+			"Rollout", "Sand Ball", "Tackle", "Seismic Toss", "Flame Wheel"
+		],
+		"Graveler": [
+			"Rock Blast", "Mud Bomb", "Body Slam", "Drain Punch", "Lava Cyclone"
+		],
+		"Golem": [
+			"Stone Edge", "Desert Wave", "Last Resort", "Superpower", "Heat Wave"
+		],
+		"Ponyta": [
+			"Flame Wheel", "Tackle", "Mud Bomb", "Bite", "Ember"
+		],
+		"Rapidash": [
+			"Flare Blitz", "Return", "Drill Liner", "Crunch", "Lava Cyclone"
+		],
+		"Slowpoke": [
+			"Water Gun", "Tackle", "Confusion", "Powder Snow", "Shadow Sneak"
+		],
+		"Slowbro": [
+			"Aqua Tail", "Fury Swipes", "Psychic", "Ice Beam", "Shadow Claw"
+		],
+		"Magnemite": [
+			"Electrostatics", "Gear Saucer", "Tackle", "Thunder Wave", "Iron Defense"
+		],
+		"Magneton": [
+			"Charge Beam", "Iron Head", "Body Slam", "Thundershock", "Flash Cannon"
+		],
+		"Farfetchd": [
+			"Gust", "Tackle", "Fury Cutter", "Astonish", "Dark Rage"
+		],
+		"Doduo": [
+			"Gust", "Tackle", "Fury Cutter", "Astonish", "Dark Rage"
+		],
+		"Dodrio": [
+			"Drill Peck", "Skull Bash", "U-Turn", "Shadow Ball", "Night Slash"
+		],
+		"Seel": [
+			"Bubble", "Aurora Beam", "Confusion", "Mud Shot", "Tackle"
+		],
+		"Dewgong": [
+			"Surf", "Ice Burn", "Psychic", "Drill Liner", "Slash"
+		],
+		"Grimer": [
+			"Acid Bomb", "Mud Bomb", "Thundershock", "Ember", "Shadow Sneak"
+		],
+		"Muk": [
+			"Sludge Bomb", "Earth Bomb", "Thunderbolt", "Lava Cyclone", "Shadow Ball"
+		],
+		"Shellder": [
+			"Icicle Drop", "Water Gun", "Bite", "Tackle", "Bug Bite"
+		],
+		"Cloyster": [
+			"Blizzard", "Hydro Pump", "Crunch", "Fire Blast", "Hyper Beam"
+		],
+		"Gastly": [
+			"Lick", "Smog", "Dark Rage", "Thundershock", "Night Shade"
+		],
+		"Haunter": [
+			"Shadow Claw", "Poison Jab", "Dark Pulse", "Thundershock", "Flamethrower"
+		],
+		"Gengar": [
+			"Shadow Ball", "Dark Pulse", "Focus Blast", "Super Psy Bolt", "Thunderbolt"
+		],
+		"Onix": [
+			"Rock Tomb", "Mud Bomb", "Iron Tail", "Rock Throw", "Tackle"
+		],
+		"Drowzee": [
+			"Confusion", "Psybeam", "Headbutt", "Low Kick", "Thunderpunch"
+		],
+		"Hypno": [
+			"Psychic", "Dark Pulse", "Brick Break", "Shadow Ball", "Grass Knot"
+		],
+		"Krabby": [
+			"Water Gun", "Tackle", "Crabhammer", "Powder Snow", "Shadow Sneak"
+		],
+		"Kingler": [
+			"Crabhammer", "Fury Swipes", "Ice Beam", "Shadow Claw", "Dragon Claw"
+		],
+		"Voltorb": [
+			"Charge Beam", "Gyro Ball", "Tackle", "Swift", "Rollout"
+		],
+		"Electrode": [
+			"Thunder", "Flash Cannon", "Swift", "Explosion", "Rollout"
+		],
+		"Exeggcute": [
+			"Absorb", "Psywave", "Grass Knot", "Sludge", "Tackle"
+		],
+		"Exeggutor": [
+			"Giga Drain", "Psychic", "Solarbeam", "Sludge Bomb", "Swift"
+		],
+		"Cubone": [
+			"Drill Liner", "Dragon Rage", "Ember", "Aerial Ace", "Brick Break"
+		],
+		"Marowak": [
+			"Earthquake", "Double Edge", "Rock Slide", "Flamethrower", "Superpower"
+		],
+		"Hitmonlee": [
+			"Close Combat", "Rock Tomb", "Tackle", "Drill Liner", "Body Slam"
+		],
+		"Hitmonchan": [
+			"Close Combat", "Ice Punch", "Rock Tomb", "Desert Wave", "Tackle"
+		],
+		"Lickitung": [
+			"Tackle", "Lick", "Body Slam", "Knock Down", "Dragon Tail"
+		],
+		"Koffing": [
+			"Sludge", "Tackle", "Assurance", "Gyro Ball", "Smog"
+		],
+		"Weezing": [
+			"Sludge Bomb", "Slam", "Sludge", "Flamethrower", "Skull Bash"
+		],
+		"Rhyhorn": [
+			"Rock Tomb", "Mud Bomb", "Brick Break", "Take Down", "Seismic Toss"
+		],
+		"Rhydon": [
+			"Stone Edge", "Drill Liner", "Megahorn", "Surf", "Hammer Arm", "Double Edge"
+		],
+		"Chansey": [
+			"Take Down", "Seismic Toss", "Brick Break", "Pound", "Mud Bomb"
+		],
+		"Tangela": [
+			"Giga Drain", "Vine Whip", "Slam", "Acid Bomb", "Bug Bite"
+		],
+		"Kangaskhan": [
+			"Giga Impact", "Brick Break", "Bite", "Rock Tomb", "Shadow Claw"
+		],
+		"Horsea": [
+			"Water Pulse", "Powder Snow", "Dragon Rage", "Beez Buzz", "Tackle"
+		],
+		"Seadra": [
+			"Scald", "Avalanche", "Dragonbreath", "Bug Buzz", "Slam"
+		],
+		"Goldeen": [
+			"Bubblebeam", "Ice Fang", "Signal Beam", "Tackle", "Psybeam"
+		],
+		"Seaking": [
+			"Brine", "Frost Breath", "Bug Buzz", "Swift", "Drill Peck"
+		],
+		"Staryu": [
+			"Bubblebeam", "Icicle Drop", "Shock Wave", "Confusion", "Swift"
+		],
+		"Starmie": [
+			"Hydro Pump", "Ice Beam", "Thunderbolt", "Psyshock", "Swift"
+		],
+		"Mr. Mime": [
+			"Psycho Cut", "Hex", "Thunderpunch", "Ice Punch", "Fire Punch", "Pursuit"
+		],
+		"Scyther": [
+			"Bug Tackle", "Air Slash", "Slash", "Steel Wing", "Silver Wind"
+		],
+		"Jynx": [
+			"Synchronise", "Icy Wind", "Lick", "Grass Knot", "Tackle"
+		],
+		"Electabuzz": [
+			"Thunderbolt", "Swift", "Brick Break", "Psyshock", "Brick Break"
+		],
+		"Magmar": [
+			"Fire Punch", "Tackle", "Faint Attack", "Drain Punch", "Thunderpunch"
+		],
+		"Pinsir": [
+			"Megahorn", "Tackle", "Superpower", "Desert Wave", "Rock Blast"
+		],
+		"Tauros": [
+			"Take Down", "Body Slam", "Earth Power", "Brick Break", "Rock Tomb"
+		],
+		"Magikarp": [
+			"Tackle", "Bite", "Body Slam", "Splash", "Take Down"
+		],
+		"Gyarados": [
+			"Waterfall", "Fly", "Dragon Pulse", "Ice Beam", "Flamethrower"
+		],
+		"Lapras": [
+			"Scald", "Ice Burn", "Discharge", "Zen Headbutt", "Dragon Pulse"
+		],
+		"Ditto": [
+			"Double Edge", "Last Resort", "Giga Impact", "Hyper Beam", "Shadow Blast"
+		],
+		"Eevee": [
+			"Headbutt", "Bite", "Confuse Ray", "Iron Tail", "Mud Slap", "Tackle"
+		],
+		"Vaporeon": [
+			"Hydro Pump", "Aurora Beam", "Iron Tail", "Crunch", "Take Down"
+		],
+		"Jolteon": [
+			"Thunder", "Signal Beam", "Iron Tail", "Crunch", "Take Down"
+		],
+		"Flareon": [
+			"Fire Blast", "Charge Beam", "Iron Tail", "Crunch", "Take Down"
+		],
+		"Porygon": [
+			"Swift", "Signal Beam", "Aurora Beam", "Charge Beam", "Psybeam"
+		],
+		"Omanyte": [
+			"Water Pulse", "Ancientpower", "Icicle Drop", "Magnitude", "Retaliation"
+		],
+		"Omastar": [
+			"Scald", "Power Gem", "Ice Beam", "Earth Power", "Skull Bash"
+		],
+		"Kabuto": [
+			"Brine", "Rock Throw", "Icicle Drop", "Magnitude", "Retaliation"
+		],
+		"Kabutops": [
+			"Waterfall", "Rock Blast", "Ice Beam", "Drill Liner", "Slash"
+		],
+		"Aerodactyl": [
+			"Stone Edge", "Brave Bird", "Ice Fang", "Fire Fang", "Thunder Fang"
+		],
+		"Snorlax": [
+			"Body Slam", "Close Combat", "Ice Punch", "Fire Punch", "Thunderpunch"
+		],
+		"Articuno": [
+			"Freeze Shock", "Sky Attack", "Hydro Cannon", "Outrage", "Bug Buzz"
+		],
+		"Zapdos": [
+			"Lightning Strike", "Sky Attack", "Head Smash", "Outrage", "Heat Wave"
+		],
+		"Moltres": [
+			"White Flame", "Sky Attack", "Frenzy Plant", "Outrage", "Bug Buzz"
+		],
+		"Dratini": [
+			"Dragon Tail", "Air Cutter", "Icy Wind", "Thundershock", "Flame Wheel"
+		],
+		"Dragonair": [
+			"Dragon Pulse", "Fly", "Frost Breath", "Discharge", "Heat Wave"
+		],
+		"Dragonite": [
+			"Draco Meteor", "Hurricane", "Ice Burn", "Zap Cannon", "White Flame"
+		],
+		"Mewtwo": [
+			"Psycho Boost", "Focus Blast", "Lightning Strike", "Freeze Shock", "Fire Blast"
+		],
+		"Mew": [
+			"Psycho Boost", "Focus Blast", "Ice Burn", "Shadow Force", "Fire Blast"
+		],
+		"Chikorita": [
+			"Vine Whip", "Tackle", "Dig", "Bite", "Bug Bite"
+		],
+		"Bayleef": [
+			"Seed Bomb", "Slam", "Mud Bomb", "Crunch", "U-Turn"
+		],
+		"Meganium": [
+			"Solarbeam", "Retaliation", "Desert Wave", "Dark Pulse", "Bug Buzz"
+		],
+		"Cyndaquil": [
+			"Ember", "Tackle", "Dig", "Bite", "Rock Throw"
+		],
+		"Quilava": [
+			"Lava Cyclone", "Body Slam", "Mud Bomb", "Crunch", "Rock Tomb"
+		],
+		"Typhlosion": [
+			"Flare Blitz", "Mega Punch", "Earth Bomb", "Dark Pulse", "Power Gem"
+		],
+		"Totodile": [
+			"Water Gun", "Tackle", "Dig", "Bite", "Bug Bite"
+		],
+		"Croconaw": [
+			"Brine", "Fury Swipes", "Mud Bomb", "Crunch", "U-Turn"
+		],
+		"Feraligatr": [
+			"Hydro Pump", "Skull Bash", "Earth Bomb", "Dark Pulse", "Bug Buzz"
+		],
+		"Sentret": [
+			"Tackle", "Pound", "Bite", "Sand Ball", "Spinning Tail"
+		],
+		"Furret": [
+			"Slam", "Body Slam", "Crunch", "Sand Tomb", "Iron Tail"
+		],
+		"Hoothoot": [
+			"Tackle", "Wing Attack", "Steel Wing", "Payback", "Shadow Sneak"
+		],
+		"Noctowl": [
+			"Extremespeed", "Drill Peck", "Iron Tail", "Night Slash", "Shadow Pulse"
+		],
+		"Ledyba": [
+			"Beez Buzz", "Absorb", "Peck", "Bite", "Tackle"
+		],
+		"Ledian": [
+			"Bug Buzz", "Giga Drain", "Drill Peck", "Crunch", "Skull Bash"
+		],
+		"Spinarak": [
+			"Bug Tackle", "Razor Leaf", "Bite", "Peck", "Quick Attack"
+		],
+		"Ariados": [
+			"Signal Beam", "Seed Bomb", "Crunch", "Drill Peck", "Spike Cannon"
+		],
+		"Crobat": [
+			"Sludge Wave", "Aeroblast", "Bug Buzz", "Leaf Blade", "Dark Pulse"
+		],
+		"Chinchou": [
+			"Electrostatics", "Water Gun", "Tackle", "Bite", "Bug Bite"
+		],
+		"Lanturn": [
+			"Thunder", "Surf", "Signal Beam", "Crunch", "Skull Bash"
+		],
+		"Pichu": [
+			"Thundershock", "Pound", "Quick Attack", "Mud Slap", "Bite"
+		],
+		"Cleffa": [
+			"Pound", "Tackle", "Psybeam", "Rollout", "Karate Chop"
+		],
+		"Igglybuff": [
+			"Pound", "Tackle", "Psybeam", "Rollout", "Karate Chop"
+		],
+		"Togepi": [
+			"Pound", "Tackle", "Psybeam", "Rollout", "Bite"
+		],
+		"Togetic": [
+			"Fly", "Return", "Steel Wing", "Shadow Pulse", "Water Pulse"
+		],
+		"Natu": [
+			"Psybeam", "Confusion", "Wing Attack", "Bug Bite", "Ember"
+		],
+		"Xatu": [
+			"Psychic", "Steel Wing", "Aerial Ace", "Bug Buzz", "Energy Ball"
+		],
+		"Mareep": [
+			"Thundershock", "Tackle", "Mud Slap", "Brick Break", "Bite"
+		],
+		"Flaaffy": [
+			"Discharge", "Fury Swipes", "Mud Bomb", "Brick Break", "Crunch"
+		],
+		"Ampharos": [
+			"Thunder", "Take Down", "Earth Power", "Aura Sphere", "Flamethrower"
+		],
+		"Bellossom": [
+			"Solarbeam", "U-Turn", "Double Edge", "Dig", "Flamethrower"
+		],
+		"Marill": [
+			"Water Pulse", "Icicle Drop", "Tackle", "Water Gun", "Iron Tail"
+		],
+		"Azumarill": [
+			"Hydro Pump", "Ice Beam", "Swift", "Psyshock", "Iron Tail"
+		],
+		"Sudowoodo": [
+			"Stone Edge", "Earth Power", "Solarbeam", "Return", "Crunch"
+		],
+		"Politoed": [
+			"Hydro Pump", "Blizzard", "Focus Blast", "Psychic", "Earth Power"
+		],
+		"Hoppip": [
+			"Razor Leaf", "Aerial Ace", "Mud Slap", "Pound", "Bite"
+		],
+		"Skiploom": [
+			"Energy Ball", "Aerial Ace", "Mud Bomb", "Swift", "Bite"
+		],
+		"Jumpluff": [
+			"Leaf Storm", "Fly", "Earth Power", "Swift", "Crunch"
+		],
+		"Aipom": [
+			"Mud Slap", "Tackle", "Scratch", "Bite", "Night Slash"
+		],
+		"Sunkern": [
+			"Vine Whip", "Mud Slap", "Pound", "Rollout", "Quick Attack"
+		],
+		"Sunflora": [
+			"Seed Bomb", "Desert Wave", "Surf", "Rock Slide", "Quick Attack"
+		],
+		"Yanma": [
+			"Bug Bite", "Aeroblast", "Ancientpower", "Energy Ball", "Bite"
+		],
+		"Wooper": [
+			"Water Gun", "Mud Shot", "Powder Snow", "Scratch", "Dragon Tail"
+		],
+		"Quagsire": [
+			"Surf", "Dig", "Ice Beam", "Dragon Tail", "Iron Tail"
+		],
+		"Espeon": [
+			"Psychic", "Focus Blast", "Shadow Ball", "Energy Ball", "Thunderbolt"
+		],
+		"Umbreon": [
+			"Dark Pulse", "Psychic", "Shadow Ball", "Thunderbolt", "Bug Buzz"
+		],
+		"Murkrow": [
+			"Night Slash", "Air Slash", "Slash", "Swift", "Confusion"
+		],
+		"Slowking": [
+			"Aqua Tail", "Psychic", "Fire Blast", "Dragon Tail", "Grass Knot"
+		],
+		"Misdreavus": [
+			"Hex", "Pursuit", "Confusion", "Ember", "Aeroblast"
+		],
+		"Unown": [
+			"Psychic", "Ice Beam", "Aura Sphere", "Flamethrower", "Power Gem"
+		],
+		"Wobbuffet": [
+			"Psychic", "Shadow Ball", "Dark Pulse", "Aura Sphere", "Bug Buzz"
+		],
+		"Girafarig": [
+			"Psychic", "Shadow Ball", "Dark Pulse", "Aura Sphere", "Bug Buzz"
+		],
+		"Pineco": [
+			"Bug Bite", "Rock Slide", "Mega Leaf", "Gyro Ball", "Tackle"
+		],
+		"Forretress": [
+			"X-Scissor", "Head Smash", "Gyro Ball", "Explosion", "Earthquake"
+		],
+		"Dunsparce": [
+			"Tackle", "Roost", "Dig", "Ember", "Spinning Tail"
+		],
+		"Gligar": [
+			"Mud Bomb", "Air Slash", "Night Slash", "Slash", "Rock Throw"
+		],
+		"Steelix": [
+			"Gyro Ball", "Earthquake", "Rock Wrecker", "Iron Tail", "Superpower"
+		],
+		"Snubbull": [
+			"Bite", "Ice Fang", "Thunder Fang", "Fire Fang", "Mach Punch"
+		],
+		"Granbull": [
+			"Crunch", "Ice Punch", "Thunderpunch", "Fire Punch", "Drain Punch"
+		],
+		"Qwilfish": [
+			"Scald", "Avalanche", "Venom Shock", "Energy Ball", "Crunch"
+		],
+		"Scizor": [
+			"Meteor Mash", "Close Combat", "Pursuit", "Crunch", "X-Scissor"
+		],
+		"Shuckle": [
+			"Stone Edge", "Bug Bite", "Giga Drain", "Bite", "Mud Shot"
+		],
+		"Heracross": [
+			"Close Combat", "Megahorn", "Earthquake", "Rock Wrecker", "Leaf Storm"
+		],
+		"Sneasel": [
+			"Pursuit", "Ice Punch", "Night Slash", "Mach Punch", "Bullet Punch"
+		],
+		"Teddiursa": [
+			"Scratch", "Tackle", "Ice Punch", "Thunderpunch", "Fire Punch"
+		],
+		"Ursaring": [
+			"Hyper Beam", "Ice Beam", "Thunderbolt", "Flamethrower", "Close Combat"
+		],
+		"Slugma": [
+			"Flamethrower", "Rock Slide", "Desert Wave", "Tackle", "Bug Bite"
+		],
+		"Magcargo": [
+			"Eruption", "Stone Edge", "Earth Power", "Crunch", "Bug Bite"
+		],
+		"Swinub": [
+			"Sand Ball", "Powder Snow", "Rock Throw", "Peck", "Thundershock"
+		],
+		"Piloswine": [
+			"Dig", "Ice Beam", "Rock Throw", "Drill Peck", "Thunderbolt"
+		],
+		"Corsola": [
+			"Surf", "Power Gem", "Ice Beam", "Shadow Ball", "Flash Cannon"
+		],
+		"Remoraid": [
+			"Water Gun", "Tackle", "Bite", "Dragonbreath", "Lick"
+		],
+		"Octillery": [
+			"Surf", "Sludge Wave", "Crunch", "Dragonbreath", "Shadow Ball"
+		],
+		"Delibird": [
+			"Ice Punch", "Fly", "Quick Attack", "X-Scissor", "Sucker Punch"
+		],
+		"Mantine": [
+			"Surf", "Ice Beam", "Thunderbolt", "Aeroblast", "Night Shade"
+		],
+		"Skarmory": [
+			"Aeroblast", "Iron Tail", "Dig", "X-Scissor", "Rock Slide"
+		],
+		"Houndour": [
+			"Ember", "Bite", "Dig", "Shadow Punch", "Brick Break"
+		],
+		"Houndoom": [
+			"Fire Blast", "Crunch", "Earthquake", "Shadow Punch", "Brick Break"
+		],
+		"Kingdra": [
+			"Outrage", "Hydro Pump", "Earthquake", "Blizzard", "Hyper Beam"
+		],
+		"Phanpy": [
+			"Dig", "Quick Attack", "Rollout", "Cross Chop", "Iron Head"
+		],
+		"Donphan": [
+			"Earthquake", "Skull Bash", "Rollout", "Close Combat", "Iron Head"
+		],
+		"Porygon2": [
+			"Hyper Beam", "Ice Beam", "Dark Pulse", "Focus Blast", "Thunderbolt"
+		],
+		"Stantler": [
+			"Take Down", "Superpower", "Crunch", "Psychic", "Power Gem"
+		],
+		"Smeargle": [
+			"Hyper Beam", "Focus Blast", "Head Smash", "Night Blast", "Earth Power"
+		],
+		"Tyrogue": [
+			"Mach Punch", "Sucker Punch", "Fire Punch", "Ice Punch", "Shadow Punch"
+		],
+		"Hitmontop": [
+			"Superpower", "Sucker Punch", "Head Smash", "Gyro Ball", "Shadow Ball"
+		],
+		"Smoochum": [
+			"Confusion", "Powder Snow", "Bubble", "Quick Attack", "Rollout"
+		],
+		"Elekid": [
+			"Thundershock", "Quick Attack", "Ember", "Brick Break", "Mud Slap"
+		],
+		"Magby": [
+			"Ember", "Quick Attack", "Brick Break", "Mud Slap", "Rollout"
+		],
+		"Miltank": [
+			"Return", "Rollout", "Superpower", "Shadow Ball", "Solarbeam"
+		],
+		"Blissey": [
+			"Return", "Ice Beam", "Thunderbolt", "Focus Blast", "Shadow Ball"
+		],
+		"Raikou": [
+			"Thunder", "Extrasensory", "Aura Sphere", "Energy Ball", "Flash Cannon"
+		],
+		"Entei": [
+			"Flare Blitz", "Stone Edge", "Grass Knot", "Shadow Ball", "Dig"
+		],
+		"Suicune": [
+			"Hydro Pump", "Ice Beam", "Shadow Ball", "Hyper Beam", "Dig"
+		],
+		"Larvitar": [
+			"Rock Blast", "Sand Tomb", "Bite", "Dragon Rage", "Headbutt"
+		],
+		"Pupitar": [
+			"Rock Slide", "Dig", "Crunch", "Iron Head", "Shadow Punch"
+		],
+		"Tyranitar": [
+			"Rock Wrecker", "Dark Pulse", "Superpower", "Fire Blast", "Earthquake"
+		],
+		"Lugia": [
+			"Sky Attack", "Psychic", "Dragon Pulse", "Hydro Pump", "Ice Beam"
+		],
+		"Ho-oh": [
+			"White Flame", "Brave Bird", "Earthquake", "Thunderbolt", "Stone Edge"
+		],
+		"Celebi": [
+			"Leaf Storm", "Earth Power", "Super Psy Bolt", "Bug Buzz", "Power Gem"
+		],
+		"Treecko": [
+			"Vine Whip", "Razor Leaf", "Pound", "Mud Shot", "Dragon Tail"
+		],
+		"Grovyle": [
+			"Giga Drain", "Dig", "Iron Tail", "Dragon Tail", "Thunderbolt"
+		],
+		"Sceptile": [
+			"Solarbeam", "Ice Beam", "Earthquake", "Iron Tail", "Outrage"
+		],
+		"Torchic": [
+			"Ember", "Quick Attack", "Mud Bomb", "Rock Tomb", "Peck"
+		],
+		"Combusken": [
+			"Flamethrower", "Wild Charge", "Desert Wave", "Rock Blast", "Drill Peck"
+		],
+		"Blaziken": [
+			"Overheat", "Wild Charge", "Close Combat", "Earthquake", "Aeroblast"
+		],
+		"Mudkip": [
+			"Water Gun", "Mud Shot", "Iron Tail", "Dragon Tail", "Bite"
+		],
+		"Marshtomp": [
+			"Bubblebeam", "Desert Wave", "Iron Tail", "Dragon Tail", "Bite"
+		],
+		"Swampert": [
+			"Hydro Pump", "Earthquake", "Ice Beam", "Grass Knot", "Crunch"
+		],
+		"Poochyena": [
+			"Bite", "Quick Attack", "Fire Fang", "Ice Fang", "Thunder Fang"
+		],
+		"Mightyena": [
+			"Crunch", "Earth Power", "Shadow Ball", "Ice Fang", "Aura Sphere"
+		],
+		"Zigzagoon": [
+			"Bite", "Tackle", "Psybeam", "Aurora Beam", "Signal Beam"
+		],
+		"Linoone": [
+			"Crunch", "Take Down", "Psyshock", "Ice Beam", "Signal Beam"
+		],
+		"Wurmple": [
+			"String Shot", "Tackle", "Razor Leaf", "Sludge", "Iron Tail"
+		],
+		"Silcoon": [
+			"Bug Tackle", "Quick Attack", "Giga Drain", "Venom Shock", "Sludge Bomb"
+		],
+		"Beautifly": [
+			"Bug Buzz", "Take Down", "Leaf Storm", "Sludge Wave", "Brave Bird"
+		],
+		"Cascoon": [
+			"Bug Tackle", "Quick Attack", "Giga Drain", "Venom Shock", "Aerial Ace"
+		],
+		"Dustox": [
+			"Bug Buzz", "Take Down", "Leaf Storm", "Sludge Wave", "Brave Bird"
+		],
+		"Lotad": [
+			"Water Gun", "Razor Leaf", "Tackle", "Pound", "Mud Shot"
+		],
+		"Lombre": [
+			"Water Pulse", "Giga Drain", "Body Slam", "Iron Head", "Mud Bomb"
+		],
+		"Ludicolo": [
+			"Hydro Pump", "Leaf Storm", "Earth Power", "Ice Beam", "Iron Tail"
+		],
+		"Seedot": [
+			"Absorb", "Bug Tackle", "Bite", "Tackle", "Mud Shot"
+		],
+		"Nuzleaf": [
+			"Mega Leaf", "Bug Bite", "Bite", "Skull Bash", "Mud Bomb"
+		],
+		"Shiftry": [
+			"Solarbeam", "Bug Buzz", "Crunch", "Focus Blast", "Earthquake"
+		],
+		"Taillow": [
+			"Aerial Ace", "Quick Attack", "Water Gun", "Ember", "Bite"
+		],
+		"Swellow": [
+			"Brave Bird", "Skull Bash", "Close Combat", "Surf", "Crunch"
+		],
+		"Wingull": [
+			"Aerial Ace", "Quick Attack", "Water Gun", "Bite", "Icicle Drop"
+		],
+		"Pelipper": [
+			"Surf", "Hurricane", "Last Resort", "Crunch", "Blizzard"
+		],
+		"Ralts": [
+			"Psywave", "Psybeam", "Seismic Toss", "Ember", "Mega Leaf"
+		],
+		"Kirlia": [
+			"Psyshock", "Shadow Ball", "Drain Punch", "Flamethrower", "Giga Drain"
+		],
+		"Gardevoir": [
+			"Super Psy Bolt", "Shadow Ball", "Superpower", "Fire Blast", "Energy Ball"
+		],
+		"Surskit": [
+			"Water Gun", "Beez Buzz", "Razor Leaf", "Aurora Beam", "Venom Shock"
+		],
+		"Masquerain": [
+			"Surf", "Bug Buzz", "Leaf Storm", "Ice Beam", "Sludge Bomb"
+		],
+		"Shroomish": [
+			"Mega Leaf", "Brick Break", "Dig", "Poison Tail", "Rock Throw"
+		],
+		"Breloom": [
+			"Focus Punch", "Seed Bomb", "Mud Bomb", "Poison Jab", "Ice Punch"
+		],
+		"Slakoth": [
+			"Tackle", "Sneak Attack", "Faint Attack", "Karate Chop", "Mud Slap"
+		],
+		"Vigoroth": [
+			"Fury Swipes", "Fury Cutter", "Ice Punch", "Fire Punch", "Focus Punch"
+		],
+		"Slaking": [
+			"Giga Impact", "Earthquake", "Close Combat", "Shadow Claw", "Thunderpunch"
+		],
+		"Nincada": [
+			"Leech Life", "Tackle", "Metal Claw", "Poison Sting", "Dig"
+		],
+		"Ninjask": [
+			"Solarbeam", "Bug Buzz", "Shadow Ball", "Air Slash", "Thunder"
+		],
+		"Shedinja": [
+			"Solarbeam", "Bug Buzz", "Shadow Ball", "Air Slash", "Dark Pulse"
+		],
+		"Whismur": [
+			"Pound", "Smog", "Astonish", "Rock Crush", "Payback"
+		],
+		"Loudred": [
+			"Pound", "Mud Shot", "Astonish", "Smog", "Rock Throw"
+		],
+		"Exploud": [
+			"Hyper Beam", "Outrage", "Shadow Punch", "Knock Down", "Sucker Punch"
+		],
+		"Makuhita": [
+			"Karate Chop", "Rock Crush", "Body Slam", "Payback", "Mud Slap"
+		],
+		"Hariyama": [
+			"Superpower", "Body Slam", "Stone Edge", "Sucker Punch", "Bullet Punch"
+		],
+		"Azurill": [
+			"Bubble", "Tackle", "Lick", "Rollout", "Mud Slap"
+		],
+		"Nosepass": [
+			"Rock Crush", "Headbutt", "Iron Defense", "Assurance", "Earth Bomb"
+		],
+		"Skitty": [
+			"Tackle", "Faint Attack", "Sneak Attack", "Calm Mind", "Rollout"
+		],
+		"Delcatty": [
+			"Return", "Faint Attack", "Thunder", "Rollout", "Icy Wind"
+		],
+		"Sableye": [
+			"Night Slash", "Astonish", "Fury Swipes", "Confusion", "Fury Cutter"
+		],
+		"Mawile": [
+			"Iron Head", "Tackle", "Crunch", "Earthquake", "Thunderpunch"
+		],
+		"Aron": [
+			"Iron Head", "Bite", "Tackle", "Rollout", "Dig"
+		],
+		"Lairon": [
+			"Iron Tail", "Headbutt", "Bite", "Rock Crush", "Mud Shot"
+		],
+		"Aggron": [
+			"Head Smash", "Earthquake", "Focus Punch", "Hyper Beam", "Fire Blast"
+		],
+		"Meditite": [
+			"Karate Chop", "Tackle", "Rock Crush", "Fire Punch", "Thunderpunch"
+		],
+		"Medicham": [
+			"Cross Chop", "Fire Punch", "Ice Punch", "Thunderpunch", "Mega Punch"
+		],
+		"Electrike": [
+			"Thunder Wave", "Sand Attack", "Bite", "Scratch", "Rollout"
+		],
+		"Manectric": [
+			"Wild Charge", "Crunch", "Fire Fang", "Ice Fang", "Earth Power"
+		],
+		"Plusle": [
+			"Thunderbolt", "Scratch", "Mud Slap", "Confusion", "Sneak Attack"
+		],
+		"Minun": [
+			"Thunderbolt", "Scratch", "Mud Slap", "Confusion", "Sneak Attack"
+		],
+		"Volbeat": [
+			"Bug Buzz", "Confuse Ray", "Focus Punch", "Tackle", "Mud Slap"
+		],
+		"Illumise": [
+			"Bug Buzz", "Confuse Ray", "Focus Punch", "Tackle", "Mud Slap"
+		],
+		"Roselia": [
+			"Giga Drain", "Tackle", "Shadow Ball", "Poison Sting", "Fury Cutter"
+		],
+		"Gulpin": [
+			"Poison Sting", "Water Pulse", "Shadow Ball", "Tackle", "Rock Throw"
+		],
+		"Swalot": [
+			"Sludge Bomb", "Shadow Ball", "Giga Drain", "Ice Beam", "Take Down"
+		],
+		"Carvanha": [
+			"Brine", "Tackle", "Crunch", "Fury Cutter", "Icy Wind"
+		],
+		"Sharpedo": [
+			"Hydro Pump", "Crunch", "Stone Edge", "Earthquake", "Shadow Ball"
+		],
+		"Wailmer": [
+			"Surf", "Tackle", "Rollout", "Astonish", "Icy Wind"
+		],
+		"Wailord": [
+			"Hydro Pump", "Rollout", "Astonish", "Take Down", "Earthquake"
+		],
+		"Numel": [
+			"Ember", "Smog", "Tackle", "Bite", "Confusion"
+		],
+		"Camerupt": [
+			"Eruption", "Earth Power", "Crunch", "Stone Edge", "Sludge Bomb"
+		],
+		"Torkoal": [
+			"Heat Wave", "Take Down", "Stone Edge", "Earthquake", "Smog"
+		],
+		"Spoink": [
+			"Psywave", "Tackle", "Confuse Ray", "Trickery", "Shock Wave"
+		],
+		"Grumpig": [
+			"Psychic", "Shock Wave", "Confuse Ray", "Focus Punch", "Body Slam"
+		],
+		"Spinda": [
+			"Thrash", "Faint Attack", "Rock Tomb", "Hypnosis", "Psybeam"
+		],
+		"Trapinch": [
+			"Sand Attack", "Bite", "Tackle", "Rock Crush", "Absorb"
+		],
+		"Vibrava": [
+			"Sand Tomb", "Dragonbreath", "Hyper Beam", "Gust", "Rollout"
+		],
+		"Flygon": [
+			"Outrage", "Earthquake", "U-Turn", "Fire Punch", "Power Gem"
+		],
+		"Cacnea": [
+			"Absorb", "Poison Sting", "Bug Bite", "Tackle", "Faint Attack"
+		],
+		"Cacturne": [
+			"Grass Knot", "Night Blast", "Bug Buzz", "Focus Punch", "Ice Beam"
+		],
+		"Swablu": [
+			"Peck", "Tackle", "Ice Beam", "Steel Wing", "Assurance"
+		],
+		"Altaria": [
+			"Outrage", "Brave Bird", "Hyper Beam", "Surf", "Ice Beam"
+		],
+		"Zangoose": [
+			"Slash", "Ice Punch", "Fire Punch", "Thunderpunch", "Fury Cutter"
+		],
+		"Seviper": [
+			"Sludge Bomb", "Hyper Fang", "Dig", "Giga Drain", "Knock Down"
+		],
+		"Lunatone": [
+			"Future Sight", "Rock Throw", "Retaliation", "Hypnosis", "Ice Beam"
+		],
+		"Solrock": [
+			"Confusion", "Rock Throw", "Solarbeam", "Flamethrower", "Shadow Ball"
+		],
+		"Barboach": [
+			"Water Gun", "Mud Slap", "Future Sight", "Ice Beam", "Tackle"
+		],
+		"Whiscash": [
+			"Surf", "Mud Slap", "Future Sight", "Rock Tomb", "Ice Beam"
+		],
+		"Corphish": [
+			"Crabhammer", "Tackle", "Bite", "Hail", "Fury Cutter"
+		],
+		"Crawdaunt": [
+			"Crabhammer", "Crunch", "Ice Beam", "Brick Break", "Stone Edge"
+		],
+		"Baltoy": [
+			"Mud Slap", "Psybeam", "Rock Tomb", "Shadow Ball", "Ice Beam"
+		],
+		"Claydol": [
+			"Ancientpower", "Shadow Ball", "Ice Beam", "Confusion", "Solarbeam"
+		],
+		"Lileep": [
+			"Ancientpower", "Astonish", "Giga Drain", "Body Slam", "Acid Bomb"
+		],
+		"Cradily": [
+			"Ancientpower", "Astonish", "Giga Drain", "Acid Bomb", "Body Slam"
+		],
+		"Anorith": [
+			"Rock Blast", "Slash", "Water Gun", "Metal Claw", "Fury Cutter"
+		],
+		"Armaldo": [
+			"Stone Edge", "Shadow Claw", "Metal Claw", "Megahorn", "Night Slash"
+		],
+		"Feebas": [
+			"Splash", "Tackle", "Hail", "Confusion", "Trickery"
+		],
+		"Milotic": [
+			"Hydro Pump", "Take Down", "Gyro Ball", "Tail Smack", "Future Sight"
+		],
+		"Castform": [
+			"Water Gun", "Ember", "Giga Drain", "Mud Bomb", "Astonish"
+		],
+		"Kecleon": [
+			"Tackle", "Astonish", "Psybeam", "Faint Attack", "Ancientpower"
+		],
+		"Shuppet": [
+			"Faint Attack", "Shadow Ball", "Psybeam", "Poison Gas", "Flare Blitz"
+		],
+		"Banette": [
+			"Shadow Ball", "Super Psy Bolt", "Faint Attack", "Aura Sphere", "Mirror Shot"
+		],
+		"Duskull": [
+			"Confuse Ray", "Faint Attack", "Icy Wind", "Quick Attack", "Dark Rage"
+		],
+		"Dusclops": [
+			"Shadow Punch", "Faint Attack", "Ice Beam", "Earthquake", "Focus Punch"
+		],
+		"Tropius": [
+			"Solarbeam", "Body Slam", "Gust", "Earthquake", "Steel Wing"
+		],
+		"Chimecho": [
+			"Psychic", "Shadow Ball", "Return", "Shock Wave", "Rollout"
+		],
+		"Absol": [
+			"Night Blast", "Shadow Ball", "Psychic", "Fury Cutter", "Icy Wind"
+		],
+		"Wynaut": [
+			"Confusion", "Tackle", "Astonish", "Trickery", "Mud Slap"
+		],
+		"Snorunt": [
+			"Powder Snow", "Tackle", "Bite", "Smog", "Shadow Ball"
+		],
+		"Glalie": [
+			"Blizzard", "Headbutt", "Crunch", "Shadow Ball", "Smog"
+		],
+		"Spheal": [
+			"Powder Snow", "Tackle", "Water Gun", "Iron Defense", "Rollout"
+		],
+		"Sealeo": [
+			"Aurora Beam", "Take Down", "Water Gun", "Rock Tomb", "Earthquake"
+		],
+		"Walrein": [
+			"Blizzard", "Body Slam", "Hydro Pump", "Rock Tomb", "Earthquake"
+		],
+		"Clamperl": [
+			"Water Gun", "Iron Defense", "Hail", "Tackle", "Confusion"
+		],
+		"Huntail": [
+			"Water Pulse", "Bite", "Ice Beam", "Rock Tomb", "Headbutt"
+		],
+		"Gorebyss": [
+			"Water Pulse", "Psychic", "Ice Beam", "Shadow Ball", "Headbutt"
+		],
+		"Relicanth": [
+			"Hydro Pump", "Ancientpower", "Dragon Pulse", "Calm Mind", "Blizzard"
+		],
+		"Luvdisc": [
+			"Water Gun", "Tackle", "Hail", "Payback", "Astonish"
+		],
+		"Bagon": [
+			"Dragonbreath", "Tackle", "Bite", "Ember", "Rock Tomb"
+		],
+		"Shelgon": [
+			"Dragon Claw", "Headbutt", "Bite", "Ember", "Rock Tomb"
+		],
+		"Salamence": [
+			"Outrage", "Earthquake", "Fire Blast", "Fly", "Blizzard"
+		],
+		"Beldum": [
+			"Iron Defense", "Mind Bend", "Tackle", "Rock Crush", "Sandstorm"
+		],
+		"Metang": [
+			"Metal Claw", "Confusion", "Tackle", "Shadow Ball", "Earthquake"
+		],
+		"Metagross": [
+			"Meteor Mash", "Earthquake", "Zen Headbutt", "Stone Edge", "Sludge Bomb"
+		],
+		"Regirock": [
+			"Stone Edge", "Superpower", "Zap Cannon", "Hyper Beam", "Iron Defense"
+		],
+		"Regice": [
+			"Blizzard", "Ancientpower", "Superpower", "Hyper Beam", "Zap Cannon"
+		],
+		"Registeel": [
+			"Iron Head", "Ancientpower", "Superpower", "Hyper Beam", "Zap Cannon"
+		],
+		"Latias": [
+			"Draco Meteor", "Psychic", "Hyper Beam", "Surf", "Thunder"
+		],
+		"Latios": [
+			"Draco Meteor", "Psychic", "Hyper Beam", "Surf", "Thunder"
+		],
+		"Kyogre": [
+			"Hydro Cannon", "Ice Beam", "Ancientpower", "Double Edge", "Calm Mind"
+		],
+		"Groudon": [
+			"Earthquake", "Ancientpower", "Solarbeam", "Eruption", "Dragon Claw"
+		],
+		"Rayquaza": [
+			"Outrage", "Earthquake", "Overheat", "Waterfall", "Hyper Beam"
+		],
+		"Jirachi": [
+			"Doom Desire", "Super Psy Bolt", "Fire Blast", "Thunder", "Aerial Ace"
+		],
+		"Deoxys (N)": [
+			"Psycho Boost", "Hyper Beam", "Superpower", "Zap Cannon", "Night Blast"
+		],
+		"Turtwig": [
+			"Mega Leaf", "Pin Missile", "Sand Tomb", "Headbutt", "Bubblebeam"
+		],
+		"Grotle": [
+			"Seed Bomb", "Fury Cutter", "Magnitude", "Skull Bash", "Brine"
+		],
+		"Torterra": [
+			"Frenzy Plant", "Bug Buzz", "Earthquake", "Hyper Beam", "Surf"
+		],
+		"Chimchar": [
+			"Ember", "Mach Punch", "Rock Throw", "Mud Bomb", "Razor Leaf"
+		],
+		"Monferno": [
+			"Flamethrower", "Hammer Arm", "Rock Slide", "Dig", "Seed Bomb"
+		],
+		"Infernape": [
+			"Overheat", "Earthquake", "Close Combat", "Grass Knot", "Stone Edge"
+		],
+		"Piplup": [
+			"Water Gun", "Quick Attack", "Avalanche", "Wing Attack", "Metal Blast"
+		],
+		"Prinplup": [
+			"Brine", "Spike Cannon", "Avalanche", "Drill Peck", "Iron Head"
+		],
+		"Empoleon": [
+			"Hydro Pump", "Ice Burn", "Earthquake", "Brave Bird", "Meteor Mash"
+		],
+		"Starly": [
+			"Aerial Ace", "Slash", "Bite", "Shadow Sneak", "Psywave"
+		],
+		"Staravia": [
+			"Air Slash", "Take Down", "Psyshock", "Shadow Pulse", "Night Slash"
+		],
+		"Staraptor": [
+			"Brave Bird", "Return", "Close Combat", "Night Blast", "Head Smash"
+		],
+		"Bidoof": [
+			"Iron Head", "Mud Slap", "Quick Attack", "Shadow Pulse", "Bite"
+		],
+		"Bibarel": [
+			"Hydro Pump", "Desert Wave", "Skull Bash", "Shadow Ball", "Crunch"
+		],
+		"Kricketot": [
+			"Beez Buzz", "Giga Drain", "Air Cutter", "Charge Beam", "Hyper Fang"
+		],
+		"Kricketune": [
+			"Signal Beam", "Charge Beam", "Ice Beam", "Solarbeam", "Hyper Beam"
+		],
+		"Shinx": [
+			"Thundershock", "Retaliation", "Mud Slap", "Rock Throw", "Water Gun"
+		],
+		"Luxio": [
+			"Thunderbolt", "Skull Bash", "Dig", "Rock Blast", "Brine"
+		],
+		"Luxray": [
+			"Zap Cannon", "Hyper Beam", "Earth Power", "Stone Edge", "Surf"
+		],
+		"Budew": [
+			"Giga Drain", "Beez Buzz", "Quick Attack", "Payback", "Hex"
+		],
+		"Roserade": [
+			"Solarbeam", "Bug Buzz", "Hyper Beam", "Sludge Wave", "Earth Power"
+		],
+		"Cranidos": [
+			"Rock Throw", "Spinning Tail", "Brick Break", "Mud Bomb", "Night Shade"
+		],
+		"Rampardos": [
+			"Head Smash", "Meteor Mash", "Superpower", "Earthquake", "Shadow Claw"
+		],
+		"Shieldon": [
+			"Rock Throw", "Spinning Tail", "Brick Break", "Mud Bomb", "Night Shade"
+		],
+		"Bastiodon": [
+			"Head Smash", "Meteor Mash", "Superpower", "Earthquake", "Shadow Claw"
+		],
+		"Burmy": [
+			"Razor Leaf", "Fury Cutter", "Bite", "Charge Beam", "Hyper Fang"
+		],
+		"Wormadam (P)": [
+			"Giga Drain", "Silver Wind", "Bite", "Charge Beam", "Hyper Fang"
+		],
+		"Mothim": [
+			"Solarbeam", "Bug Buzz", "Crunch", "Ice Beam", "Take Down"
+		],
+		"Combee": [
+			"Bug Bite", "Air Cutter", "Charge Beam", "Mega Leaf", "Skull Bash"
+		],
+		"Vespiquen": [
+			"Bug Buzz", "Acrobatics", "Ice Beam", "Solarbeam", "Thunderbolt"
+		],
+		"Pachirisu": [
+			"Charge Beam", "Gyro Ball", "Tackle", "Swift", "Rollout"
+		],
+		"Buizel": [
+			"Water Gun", "Avalanche", "Seed Bomb", "Lava Cyclone", "Headbutt"
+		],
+		"Floatzel": [
+			"Surf", "Ice Beam", "Solarbeam", "Fire Blast", "Head Smash"
+		],
+		"Cherubi": [
+			"Mega Leaf", "Fury Cutter", "Extremespeed", "Bubblebeam", "Charge Beam"
+		],
+		"Cherrim": [
+			"Solarbeam", "Bug Buzz", "Hydro Pump", "Ice Beam", "Thunderbolt"
+		],
+		"Shellos": [
+			"Water Gun", "Mud Slap", "Avalanche", "Ancientpower", "Extremespeed"
+		],
+		"Gastrodon": [
+			"Hydro Pump", "Earth Power", "Ice Beam", "Stone Edge", "Grass Knot"
+		],
+		"Ambipom": [
+			"Return", "Close Combat", "Shadow Claw", "Iron Tail", "Aqua Tail"
+		],
+		"Drifloon": [
+			"Shadow Pulse", "Air Slash", "Charge Beam", "Psybeam", "Payback"
+		],
+		"Drifblim": [
+			"Shadow Ball", "Thunder", "Super Psy Bolt", "Focus Blast", "Aeroblast"
+		],
+		"Buneary": [
+			"Mega Kick", "Brick Break", "Shadow Punch", "Ice Punch", "Fire Punch"
+		],
+		"Lopunny": [
+			"Double Edge", "Close Combat", "Shadow Ball", "Ice Beam", "Flamethrower"
+		],
+		"Mismagius": [
+			"Shadow Ball", "Dark Pulse", "Super Psy Bolt", "Double Edge", "Energy Ball"
+		],
+		"Honchkrow": [
+			"Dark Pulse", "Sucker Punch", "Mega Punch", "Psychic", "Shadow Ball"
+		],
+		"Glameow": [
+			"Scratch", "Bite", "Ice Fang", "Fire Fang", "Thunder Fang"
+		],
+		"Purugly": [
+			"Mega Punch", "Crunch", "Ice Punch", "Fire Punch", "Thunderpunch"
+		],
+		"Chingling": [
+			"Psycho Cut", "Pursuit", "Hex", "Water Pulse", "Mega Kick"
+		],
+		"Stunky": [
+			"Sludge", "Giga Drain", "Wild Charge", "Hex", "Headbutt"
+		],
+		"Skuntank": [
+			"Sludge Wave", "Solarbeam", "Wild Charge", "Shadow Ball", "Head Smash"
+		],
+		"Bronzor": [
+			"Psycho Cut", "Iron Head", "Faint Attack", "Shadow Pulse", "Headbutt"
+		],
+		"Bronzong": [
+			"Doom Desire", "Super Psy Bolt", "Night Blast", "Shadow Blast", "Overheat"
+		],
+		"Bonsly": [
+			"Rock Slide", "Mud Slap", "Mega Kick", "Bubblebeam", "Brick Break"
+		],
+		"Mime Jr.": [
+			"Confusion", "Headbutt", "Ice Fang", "Bite", "Fire Fang"
+		],
+		"Happiny": [
+			"Tackle", "Rock Crush", "Low Kick", "Bubble", "Poison Gas"
+		],
+		"Chatot": [
+			"Psycho Cut", "Air Slash", "Night Slash", "Hex", "Dragon Tail"
+		],
+		"Spiritomb": [
+			"Shadow Ball", "Dark Pulse", "Psycho Boost", "Fire Blast", "Blizzard"
+		],
+		"Gible": [
+			"Lizard Scratch", "Mud Slap", "Ember", "Rock Slide", "Thundershock"
+		],
+		"Gabite": [
+			"Dragon Tail", "Desert Wave", "Flamethrower", "Rock Blast", "Thunderbolt"
+		],
+		"Garchomp": [
+			"Outrage", "Earthquake", "Head Smash", "White Flame", "Lightning Strike"
+		],
+		"Munchlax": [
+			"Take Down", "Bite", "Ice Fang", "Thunder Fang", "Fire Fang"
+		],
+		"Riolu": [
+			"Spinning Tail", "Hammer Arm", "Sucker Punch", "Magnitude", "Rock Blast"
+		],
+		"Lucario": [
+			"Doom Desire", "Focus Punch", "Night Blast", "Earthquake", "Rock Wrecker"
+		],
+		"Hippopotas": [
+			"Dig", "Brick Break", "Rock Throw", "Bite", "Shadow Pulse"
+		],
+		"Hippowdon": [
+			"Earth Power", "Close Combat", "Stone Edge", "Crunch", "Shadow Ball"
+		],
+		"Skorupi": [
+			"Sludge", "Giga Drain", "Thundershock", "Hex", "Headbutt"
+		],
+		"Drapion": [
+			"Gunk Shot", "Frenzy Plant", "Thunder", "Shadow Blast", "Head Smash"
+		],
+		"Croagunk": [
+			"Poison Fang", "Brick Break", "Sucker Punch", "Ice Punch", "Fire Punch"
+		],
+		"Toxicroak": [
+			"Gunk Shot", "Focus Punch", "Night Blast", "Ice Burn", "Head Smash"
+		],
+		"Carnivine": [
+			"Leaf Blade", "Night Slash", "Air Cutter", "Fury Cutter", "Ice Beam"
+		],
+		"Finneon": [
+			"Water Pulse", "Ice Beam", "Energy Ball", "Beez Buzz", "Charge Beam"
+		],
+		"Lumineon": [
+			"Hydro Pump", "Ice Burn", "Super Psy Bolt", "Solarbeam", "Zap Cannon"
+		],
+		"Mantyke": [
+			"Brine", "Avalanche", "Psycho Cut", "Icicle Drop", "Air Cutter"
+		],
+		"Snover": [
+			"Ice Fang", "Giga Drain", "Bug Bite", "Ember", "Brick Break"
+		],
+		"Abomasnow": [
+			"Blizzard", "Solarbeam", "X-Scissor", "Flamethrower", "Dynamicpunch"
+		],
+		"Weavile": [
+			"Ice Beam", "Dark Pulse", "Shadow Blast", "Wild Charge", "Surf"
+		],
+		"Magnezone": [
+			"Lightning Strike", "Doom Desire", "White Flame", "Hydro Cannon", "Shadow Blast"
+		],
+		"Lickilicky": [
+			"Hyper Beam", "Ice Beam", "Megahorn", "Head Smash", "Iron Head"
+		],
+		"Rhyperior": [
+			"Earthquake", "Head Smash", "Megahorn", "Focus Punch", "Hydro Cannon"
+		],
+		"Tangrowth": [
+			"Frenzy Plant", "Earth Power", "Head Smash", "Iron Tail", "Focus Punch"
+		],
+		"Electivire": [
+			"Lightning Strike", "White Flame", "Focus Punch", "Earthquake", "Freeze Shock"
+		],
+		"Magmortar": [
+			"White Flame", "Focus Punch", "Lightning Strike", "Earthquake", "Freeze Shock"
+		],
+		"Togekiss": [
+			"Sky Attack", "Hyper Beam", "Shadow Ball", "Focus Blast", "Earth Power"
+		],
+		"Yanmega": [
+			"Bug Buzz", "Aeroblast", "Thunder", "Earth Power", "Super Psy Bolt"
+		],
+		"Leafeon": [
+			"Leaf Blade", "X-Scissor", "Mud Bomb", "Surf", "Ice Beam"
+		],
+		"Glaceon": [
+			"Blizzard", "Leaf Blade", "X-Scissor", "Mud Bomb", "Hydro Pump"
+		],
+		"Gliscor": [
+			"Aeroblast", "Earthquake", "Blizzard", "Outrageous Heat", "Stone Edge"
+		],
+		"Mamoswine": [
+			"Ice Burn", "Earthquake", "Stone Edge", "Focus Punch", "Shadow Blast"
+		],
+		"Porygon-Z": [
+			"Hyper Beam", "Focus Blast", "Thunder", "Dark Pulse", "Ice Burn"
+		],
+		"Gallade": [
+			"Super Psy Bolt", "Superpower", "Dark Pulse", "Shadow Ball", "Ice Beam"
+		],
+		"Probopass": [
+			"Thunderbolt", "Earth Power", "Power Gem", "Flash Cannon", "Surf"
+		],
+		"Dusknoir": [
+			"Shadow Blast", "Overheat", "Earthquake", "Rock Wrecker", "Dynamicpunch"
+		],
+		"Froslass": [
+			"Blizzard", "Shadow Ball", "Crunch", "Aqua Tail", "Iron Tail"
+		],
+		"Rotom": [
+			"Thunder", "Shadow Force", "Ice Beam", "Earth Power", "Hydro Pump"
+		],
+		"Uxie": [
+			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+		],
+		"Mesprit": [
+			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+		],
+		"Azelf": [
+			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+		],
+		"Dialga": [
+			"Draco Meteor", "White Flame", "Lightning Strike", "Doom Desire", "Focus Punch"
+		],
+		"Palkia": [
+			"Draco Meteor", "Hydro Cannon", "Lightning Strike", "White Flame", "Focus Punch"
+		],
+		"Heatran": [
+			"White Flame", "Doom Desire", "Earthquake", "Freeze Shock", "Draco Meteor"
+		],
+		"Regigigas": [
+			"Hyper Beam", "Focus Punch", "Earthquake", "Shadow Blast", "Head Smash"
+		],
+		"Giratina": [
+			"Shadow Blast", "Draco Meteor", "Focus Punch", "Lightning Strike", "Earthquake"
+		],
+		"Cresselia": [
+			"Psycho Boost", "Focus Blast", "Freeze Shock", "Shadow Blast", "White Flame"
+		],
+		"Phione": [
+			"Surf", "Ice Beam", "Focus Blast", "U-Turn", "Stone Edge"
+		],
+		"Manaphy": [
+			"Hydro Cannon", "Freeze Shock", "Frenzy Plant", "Psycho Boost", "Head Smash"
+		],
+		"Darkrai": [
+			"Night Blast", "Focus Punch", "Earthquake", "Freeze Shock", "White Flame"
+		],
+		"Shaymin": [
+			"Frenzy Plant", "Sky Attack", "Ice Burn", "Earthquake", "Focus Punch"
+		],
+		"Arceus": [
+			"Hyper Beam", "Earthquake", "Shadow Blast", "Focus Punch", "Ice Burn"
+		]
+	},
+	"pokemon": {
+		"Bulbasaur": ["Grass", "Poison"],
+		"Ivysaur": ["Grass", "Poison"],
+		"Venusaur": ["Grass", "Poison"],
+		"Charmander": ["Fire", null],
+		"Charmeleon": ["Fire", null],
+		"Charizard": ["Fire", "Flying"],
+		"Squirtle": ["Water", null],
+		"Wartortle": ["Water", null],
+		"Blastoise": ["Water", null],
+		"Caterpie": ["Bug", null],
+		"Metapod": ["Bug", null],
+		"Butterfree": ["Bug", "Flying"],
+		"Weedle": ["Bug", "Poison"],
+		"Kakuna": ["Bug", "Poison"],
+		"Beedrill": ["Bug", "Poison"],
+		"Pidgey": ["Normal", "Flying"],
+		"Pidgeotto": ["Normal", "Flying"],
+		"Pidgeot": ["Normal", "Flying"],
+		"Rattata": ["Normal", null],
+		"Raticate": ["Normal", null],
+		"Spearow": ["Normal", "Flying"],
+		"Fearow": ["Normal", "Flying"],
+		"Ekans": ["Poison", null],
+		"Arbok": ["Poison", null],
+		"Pikachu": ["Electric", null],
+		"Raichu": ["Electric", null],
+		"Sandshrew": ["Ground", null],
+		"Sandslash": ["Ground", null],
+		"Nidoran F": ["Poison", null],
+		"Nidorina": ["Poison", null],
+		"Nidoqueen": ["Poison", "Ground"],
+		"Nidoran M": ["Poison", null],
+		"Nidorino": ["Poison", null],
+		"Nidoking": ["Poison", "Ground"],
+		"Clefairy": ["Normal", null],
+		"Clefable": ["Normal", null],
+		"Vulpix": ["Fire", null],
+		"Ninetales": ["Fire", null],
+		"Jigglypuff": ["Normal", null],
+		"Wigglytuff": ["Normal", null],
+		"Zubat": ["Poison", "Flying"],
+		"Golbat": ["Poison", "Flying"],
+		"Oddish": ["Grass", "Poison"],
+		"Gloom": ["Grass", "Poison"],
+		"Vileplume": ["Grass", "Poison"],
+		"Paras": ["Bug", "Grass"],
+		"Parasect": ["Bug", "Grass"],
+		"Venonat": ["Bug", "Poison"],
+		"Venomoth": ["Bug", "Poison"],
+		"Diglett": ["Ground", null],
+		"Dugtrio": ["Ground", null],
+		"Meowth": ["Normal", null],
+		"Persian": ["Normal", null],
+		"Psyduck": ["Water", null],
+		"Golduck": ["Water", null],
+		"Mankey": ["Fighting", null],
+		"Primeape": ["Fighting", null],
+		"Growlithe": ["Fire", null],
+		"Arcanine": ["Fire", null],
+		"Poliwag": ["Water", null],
+		"Poliwhirl": ["Water", null],
+		"Poliwrath": ["Water", "Fighting"],
+		"Abra": ["Psychic", null],
+		"Kadabra": ["Psychic", null],
+		"Alakazam": ["Psychic", null],
+		"Machop": ["Fighting", null],
+		"Machoke": ["Fighting", null],
+		"Machamp": ["Fighting", null],
+		"Bellsprout": ["Grass", "Poison"],
+		"Weepinbell": ["Grass", "Poison"],
+		"Victreebel": ["Grass", "Poison"],
+		"Tentacool": ["Water", "Poison"],
+		"Tentacruel": ["Water", "Poison"],
+		"Geodude": ["Rock", "Ground"],
+		"Graveler": ["Rock", "Ground"],
+		"Golem": ["Rock", "Ground"],
+		"Ponyta": ["Fire", null],
+		"Rapidash": ["Fire", null],
+		"Slowpoke": ["Water", "Psychic"],
+		"Slowbro": ["Water", "Psychic"],
+		"Magnemite": ["Electric", "Steel"],
+		"Magneton": ["Electric", "Steel"],
+		"Farfetchd": ["Normal", "Flying"],
+		"Doduo": ["Normal", "Flying"],
+		"Dodrio": ["Normal", "Flying"],
+		"Seel": ["Water", null],
+		"Dewgong": ["Water", "Ice"],
+		"Grimer": ["Poison", null],
+		"Muk": ["Poison", null],
+		"Shellder": ["Water", null],
+		"Cloyster": ["Water", "Ice"],
+		"Gastly": ["Ghost", "Poison"],
+		"Haunter": ["Ghost", "Poison"],
+		"Gengar": ["Ghost", "Poison"],
+		"Onix": ["Rock", "Ground"],
+		"Drowzee": ["Psychic", null],
+		"Hypno": ["Psychic", null],
+		"Krabby": ["Water", null],
+		"Kingler": ["Water", null],
+		"Voltorb": ["Electric", null],
+		"Electrode": ["Electric", null],
+		"Exeggcute": ["Grass", "Psychic"],
+		"Exeggutor": ["Grass", "Psychic"],
+		"Cubone": ["Ground", null],
+		"Marowak": ["Ground", null],
+		"Hitmonlee": ["Fighting", null],
+		"Hitmonchan": ["Fighting", null],
+		"Lickitung": ["Normal", null],
+		"Koffing": ["Poison", null],
+		"Weezing": ["Poison", null],
+		"Rhyhorn": ["Ground", "Rock"],
+		"Rhydon": ["Ground", "Rock"],
+		"Chansey": ["Normal", null],
+		"Tangela": ["Grass", null],
+		"Kangaskhan": ["Normal", null],
+		"Horsea": ["Water", null],
+		"Seadra": ["Water", null],
+		"Goldeen": ["Water", null],
+		"Seaking": ["Water", null],
+		"Staryu": ["Water", null],
+		"Starmie": ["Water", "Psychic"],
+		"Mr. Mime": ["Psychic", null],
+		"Scyther": ["Bug", "Flying"],
+		"Jynx": ["Ice", "Psychic"],
+		"Electabuzz": ["Electric", null],
+		"Magmar": ["Fire", null],
+		"Pinsir": ["Bug", null],
+		"Tauros": ["Normal", null],
+		"Magikarp": ["Water", null],
+		"Gyarados": ["Water", "Flying"],
+		"Lapras": ["Water", "Ice"],
+		"Ditto": ["Normal", null],
+		"Eevee": ["Normal", null],
+		"Vaporeon": ["Water", null],
+		"Jolteon": ["Electric", null],
+		"Flareon": ["Fire", null],
+		"Porygon": ["Normal", null],
+		"Omanyte": ["Rock", "Water"],
+		"Omastar": ["Rock", "Water"],
+		"Kabuto": ["Rock", "Water"],
+		"Kabutops": ["Rock", "Water"],
+		"Aerodactyl": ["Rock", "Flying"],
+		"Snorlax": ["Normal", null],
+		"Articuno": ["Ice", "Flying"],
+		"Zapdos": ["Electric", "Flying"],
+		"Moltres": ["Fire", "Flying"],
+		"Dratini": ["Dragon", null],
+		"Dragonair": ["Dragon", null],
+		"Dragonite": ["Dragon", "Flying"],
+		"Mewtwo": ["Psychic", null],
+		"Mew": ["Psychic", null],
+		"Chikorita": ["Grass", null],
+		"Bayleef": ["Grass", null],
+		"Meganium": ["Grass", null],
+		"Cyndaquil": ["Fire", null],
+		"Quilava": ["Fire", null],
+		"Typhlosion": ["Fire", null],
+		"Totodile": ["Water", null],
+		"Croconaw": ["Water", null],
+		"Feraligatr": ["Water", null],
+		"Sentret": ["Normal", null],
+		"Furret": ["Normal", null],
+		"Hoothoot": ["Normal", "Flying"],
+		"Noctowl": ["Normal", "Flying"],
+		"Ledyba": ["Bug", "Flying"],
+		"Ledian": ["Bug", "Flying"],
+		"Spinarak": ["Bug", "Poison"],
+		"Ariados": ["Bug", "Poison"],
+		"Crobat": ["Poison", "Flying"],
+		"Chinchou": ["Water", "Electric"],
+		"Lanturn": ["Water", "Electric"],
+		"Pichu": ["Electric", null],
+		"Cleffa": ["Normal", null],
+		"Igglybuff": ["Normal", null],
+		"Togepi": ["Normal", null],
+		"Togetic": ["Normal", "Flying"],
+		"Natu": ["Psychic", "Flying"],
+		"Xatu": ["Psychic", "Flying"],
+		"Mareep": ["Electric", null],
+		"Flaaffy": ["Electric", null],
+		"Ampharos": ["Electric", null],
+		"Bellossom": ["Grass", null],
+		"Marill": ["Water", null],
+		"Azumarill": ["Water", null],
+		"Sudowoodo": ["Rock", null],
+		"Politoed": ["Water", null],
+		"Hoppip": ["Grass", "Flying"],
+		"Skiploom": ["Grass", "Flying"],
+		"Jumpluff": ["Grass", "Flying"],
+		"Aipom": ["Normal", null],
+		"Sunkern": ["Grass", null],
+		"Sunflora": ["Grass", null],
+		"Yanma": ["Bug", "Flying"],
+		"Wooper": ["Water", "Ground"],
+		"Quagsire": ["Water", "Ground"],
+		"Espeon": ["Psychic", null],
+		"Umbreon": ["Dark", null],
+		"Murkrow": ["Dark", "Flying"],
+		"Slowking": ["Water", "Psychic"],
+		"Misdreavus": ["Ghost", null],
+		"Unown": ["Psychic", null],
+		"Wobbuffet": ["Psychic", null],
+		"Girafarig": ["Normal", "Psychic"],
+		"Pineco": ["Bug", null],
+		"Forretress": ["Bug", "Steel"],
+		"Dunsparce": ["Normal", null],
+		"Gligar": ["Ground", "Flying"],
+		"Steelix": ["Steel", "Ground"],
+		"Snubbull": ["Normal", null],
+		"Granbull": ["Normal", null],
+		"Qwilfish": ["Water", "Poison"],
+		"Scizor": ["Bug", "Steel"],
+		"Shuckle": ["Bug", "Rock"],
+		"Heracross": ["Bug", "Fighting"],
+		"Sneasel": ["Dark", "Ice"],
+		"Teddiursa": ["Normal", null],
+		"Ursaring": ["Normal", null],
+		"Slugma": ["Fire", null],
+		"Magcargo": ["Fire", "Rock"],
+		"Swinub": ["Ice", "Ground"],
+		"Piloswine": ["Ice", "Ground"],
+		"Corsola": ["Water", "Rock"],
+		"Remoraid": ["Water", null],
+		"Octillery": ["Water", null],
+		"Delibird": ["Ice", "Flying"],
+		"Mantine": ["Water", "Flying"],
+		"Skarmory": ["Steel", "Flying"],
+		"Houndour": ["Dark", "Fire"],
+		"Houndoom": ["Dark", "Fire"],
+		"Kingdra": ["Water", "Dragon"],
+		"Phanpy": ["Ground", null],
+		"Donphan": ["Ground", null],
+		"Porygon2": ["Normal", null],
+		"Stantler": ["Normal", null],
+		"Smeargle": ["Normal", null],
+		"Tyrogue": ["Fighting", null],
+		"Hitmontop": ["Fighting", null],
+		"Smoochum": ["Ice", "Psychic"],
+		"Elekid": ["Electric", null],
+		"Magby": ["Fire", null],
+		"Miltank": ["Normal", null],
+		"Blissey": ["Normal", null],
+		"Raikou": ["Electric", null],
+		"Entei": ["Fire", null],
+		"Suicune": ["Water", null],
+		"Larvitar": ["Rock", "Ground"],
+		"Pupitar": ["Rock", "Ground"],
+		"Tyranitar": ["Rock", "Dark"],
+		"Lugia": ["Psychic", "Flying"],
+		"Ho-oh": ["Fire", "Flying"],
+		"Celebi": ["Psychic", "Grass"],
+		"Treecko": ["Grass", null],
+		"Grovyle": ["Grass", null],
+		"Sceptile": ["Grass", null],
+		"Torchic": ["Fire", null],
+		"Combusken": ["Fire", "Fighting"],
+		"Blaziken": ["Fire", "Fighting"],
+		"Mudkip": ["Water", null],
+		"Marshtomp": ["Water", "Ground"],
+		"Swampert": ["Water", "Ground"],
+		"Poochyena": ["Dark", null],
+		"Mightyena": ["Dark", null],
+		"Zigzagoon": ["Normal", null],
+		"Linoone": ["Normal", null],
+		"Wurmple": ["Bug", null],
+		"Silcoon": ["Bug", null],
+		"Beautifly": ["Bug", "Flying"],
+		"Cascoon": ["Bug", null],
+		"Dustox": ["Bug", "Poison"],
+		"Lotad": ["Water", "Grass"],
+		"Lombre": ["Water", "Grass"],
+		"Ludicolo": ["Water", "Grass"],
+		"Seedot": ["Grass", null],
+		"Nuzleaf": ["Grass", "Dark"],
+		"Shiftry": ["Grass", "Dark"],
+		"Taillow": ["Normal", "Flying"],
+		"Swellow": ["Normal", "Flying"],
+		"Wingull": ["Water", "Flying"],
+		"Pelipper": ["Water", "Flying"],
+		"Ralts": ["Psychic", null],
+		"Kirlia": ["Psychic", null],
+		"Gardevoir": ["Psychic", null],
+		"Surskit": ["Bug", "Water"],
+		"Masquerain": ["Bug", "Flying"],
+		"Shroomish": ["Grass", null],
+		"Breloom": ["Grass", "Fighting"],
+		"Slakoth": ["Normal", null],
+		"Vigoroth": ["Normal", null],
+		"Slaking": ["Normal", null],
+		"Nincada": ["Bug", "Ground"],
+		"Ninjask": ["Bug", "Flying"],
+		"Shedinja": ["Bug", "Ghost"],
+		"Whismur": ["Normal", null],
+		"Loudred": ["Normal", null],
+		"Exploud": ["Normal", null],
+		"Makuhita": ["Fighting", null],
+		"Hariyama": ["Fighting", null],
+		"Azurill": ["Normal", null],
+		"Nosepass": ["Rock", null],
+		"Skitty": ["Normal", null],
+		"Delcatty": ["Normal", null],
+		"Sableye": ["Dark", "Ghost"],
+		"Mawile": ["Steel", null],
+		"Aron": ["Steel", "Rock"],
+		"Lairon": ["Steel", "Rock"],
+		"Aggron": ["Steel", "Rock"],
+		"Meditite": ["Fighting", "Psychic"],
+		"Medicham": ["Fighting", "Psychic"],
+		"Electrike": ["Electric", null],
+		"Manectric": ["Electric", null],
+		"Plusle": ["Electric", null],
+		"Minun": ["Electric", null],
+		"Volbeat": ["Bug", null],
+		"Illumise": ["Bug", null],
+		"Roselia": ["Grass", "Poison"],
+		"Gulpin": ["Poison", null],
+		"Swalot": ["Poison", null],
+		"Carvanha": ["Water", "Dark"],
+		"Sharpedo": ["Water", "Dark"],
+		"Wailmer": ["Water", null],
+		"Wailord": ["Water", null],
+		"Numel": ["Fire", "Ground"],
+		"Camerupt": ["Fire", "Ground"],
+		"Torkoal": ["Fire", null],
+		"Spoink": ["Psychic", null],
+		"Grumpig": ["Psychic", null],
+		"Spinda": ["Normal", null],
+		"Trapinch": ["Ground", null],
+		"Vibrava": ["Ground", "Dragon"],
+		"Flygon": ["Ground", "Dragon"],
+		"Cacnea": ["Grass", null],
+		"Cacturne": ["Grass", "Dark"],
+		"Swablu": ["Normal", "Flying"],
+		"Altaria": ["Dragon", "Flying"],
+		"Zangoose": ["Normal", null],
+		"Seviper": ["Poison", null],
+		"Lunatone": ["Rock", "Psychic"],
+		"Solrock": ["Rock", "Psychic"],
+		"Barboach": ["Water", "Ground"],
+		"Whiscash": ["Water", "Ground"],
+		"Corphish": ["Water", null],
+		"Crawdaunt": ["Water", "Dark"],
+		"Baltoy": ["Ground", "Psychic"],
+		"Claydol": ["Ground", "Psychic"],
+		"Lileep": ["Rock", "Grass"],
+		"Cradily": ["Rock", "Grass"],
+		"Anorith": ["Rock", "Bug"],
+		"Armaldo": ["Rock", "Bug"],
+		"Feebas": ["Water", null],
+		"Milotic": ["Water", null],
+		"Castform": ["Normal", null],
+		"Kecleon": ["Normal", null],
+		"Shuppet": ["Ghost", null],
+		"Banette": ["Ghost", null],
+		"Duskull": ["Ghost", null],
+		"Dusclops": ["Ghost", null],
+		"Tropius": ["Grass", "Flying"],
+		"Chimecho": ["Psychic", null],
+		"Absol": ["Dark", null],
+		"Wynaut": ["Psychic", null],
+		"Snorunt": ["Ice", null],
+		"Glalie": ["Ice", null],
+		"Spheal": ["Ice", "Water"],
+		"Sealeo": ["Ice", "Water"],
+		"Walrein": ["Ice", "Water"],
+		"Clamperl": ["Water", null],
+		"Huntail": ["Water", null],
+		"Gorebyss": ["Water", null],
+		"Relicanth": ["Water", "Rock"],
+		"Luvdisc": ["Water", null],
+		"Bagon": ["Dragon", null],
+		"Shelgon": ["Dragon", null],
+		"Salamence": ["Dragon", "Flying"],
+		"Beldum": ["Steel", "Psychic"],
+		"Metang": ["Steel", "Psychic"],
+		"Metagross": ["Steel", "Psychic"],
+		"Regirock": ["Rock", null],
+		"Regice": ["Ice", null],
+		"Registeel": ["Steel", null],
+		"Latias": ["Dragon", "Psychic"],
+		"Latios": ["Dragon", "Psychic"],
+		"Kyogre": ["Water", null],
+		"Groudon": ["Ground", null],
+		"Rayquaza": ["Dragon", "Flying"],
+		"Jirachi": ["Steel", "Psychic"],
+		"Deoxys (N)": ["Psychic", null],
+		"Turtwig": ["Grass", null],
+		"Grotle": ["Grass", null],
+		"Torterra": ["Grass", "Ground"],
+		"Chimchar": ["Fire", null],
+		"Monferno": ["Fire", "Fighting"],
+		"Infernape": ["Fire", "Fighting"],
+		"Piplup": ["Water", null],
+		"Prinplup": ["Water", null],
+		"Empoleon": ["Water", "Steel"],
+		"Starly": ["Normal", "Flying"],
+		"Staravia": ["Normal", "Flying"],
+		"Staraptor": ["Normal", "Flying"],
+		"Bidoof": ["Normal", null],
+		"Bibarel": ["Normal", "Water"],
+		"Kricketot": ["Bug", null],
+		"Kricketune": ["Bug", null],
+		"Shinx": ["Electric", null],
+		"Luxio": ["Electric", null],
+		"Luxray": ["Electric", null],
+		"Budew": ["Grass", "Poison"],
+		"Roserade": ["Grass", "Poison"],
+		"Cranidos": ["Rock", null],
+		"Rampardos": ["Rock", null],
+		"Shieldon": ["Rock", "Steel"],
+		"Bastiodon": ["Rock", "Steel"],
+		"Burmy": ["Bug", null],
+		"Wormadam (P)": ["Bug", "Grass"],
+		"Mothim": ["Bug", "Flying"],
+		"Combee": ["Bug", "Flying"],
+		"Vespiquen": ["Bug", "Flying"],
+		"Pachirisu": ["Electric", null],
+		"Buizel": ["Water", null],
+		"Floatzel": ["Water", null],
+		"Cherubi": ["Grass", null],
+		"Cherrim": ["Grass", null],
+		"Shellos": ["Water", null],
+		"Gastrodon": ["Water", "Ground"],
+		"Ambipom": ["Normal", null],
+		"Drifloon": ["Ghost", "Flying"],
+		"Drifblim": ["Ghost", "Flying"],
+		"Buneary": ["Normal", null],
+		"Lopunny": ["Normal", null],
+		"Mismagius": ["Ghost", null],
+		"Honchkrow": ["Dark", "Flying"],
+		"Glameow": ["Normal", null],
+		"Purugly": ["Normal", null],
+		"Chingling": ["Psychic", null],
+		"Stunky": ["Poison", "Dark"],
+		"Skuntank": ["Poison", "Dark"],
+		"Bronzor": ["Steel", "Psychic"],
+		"Bronzong": ["Steel", "Psychic"],
+		"Bonsly": ["Rock", null],
+		"Mime Jr.": ["Psychic", null],
+		"Happiny": ["Normal", null],
+		"Chatot": ["Normal", "Flying"],
+		"Spiritomb": ["Ghost", "Dark"],
+		"Gible": ["Dragon", "Ground"],
+		"Gabite": ["Dragon", "Ground"],
+		"Garchomp": ["Dragon", "Ground"],
+		"Munchlax": ["Normal", null],
+		"Riolu": ["Fighting", null],
+		"Lucario": ["Fighting", "Steel"],
+		"Hippopotas": ["Ground", null],
+		"Hippowdon": ["Ground", null],
+		"Skorupi": ["Poison", "Bug"],
+		"Drapion": ["Poison", "Dark"],
+		"Croagunk": ["Poison", "Fighting"],
+		"Toxicroak": ["Poison", "Fighting"],
+		"Carnivine": ["Grass", null],
+		"Finneon": ["Water", null],
+		"Lumineon": ["Water", null],
+		"Mantyke": ["Water", "Flying"],
+		"Snover": ["Ice", "Grass"],
+		"Abomasnow": ["Ice", "Grass"],
+		"Weavile": ["Dark", "Ice"],
+		"Magnezone": ["Electric", "Steel"],
+		"Lickilicky": ["Normal", null],
+		"Rhyperior": ["Ground", "Rock"],
+		"Tangrowth": ["Grass", null],
+		"Electivire": ["Electric", null],
+		"Magmortar": ["Fire", null],
+		"Togekiss": ["Normal", "Flying"],
+		"Yanmega": ["Bug", "Flying"],
+		"Leafeon": ["Grass", null],
+		"Glaceon": ["Ice", null],
+		"Gliscor": ["Ground", "Flying"],
+		"Mamoswine": ["Ice", "Ground"],
+		"Porygon-Z": ["Normal", null],
+		"Gallade": ["Psychic", "Fighting"],
+		"Probopass": ["Rock", "Steel"],
+		"Dusknoir": ["Ghost", null],
+		"Froslass": ["Ice", "Ghost"],
+		"Rotom": ["Electric", "Ghost"],
+		"Uxie": ["Psychic", null],
+		"Mesprit": ["Psychic", null],
+		"Azelf": ["Psychic", null],
+		"Dialga": ["Steel", "Dragon"],
+		"Palkia": ["Water", "Dragon"],
+		"Heatran": ["Fire", "Steel"],
+		"Regigigas": ["Normal", null],
+		"Giratina": ["Ghost", "Dragon"],
+		"Cresselia": ["Psychic", null],
+		"Phione": ["Water", null],
+		"Manaphy": ["Water", null],
+		"Darkrai": ["Dark", null],
+		"Shaymin": ["Grass", null],
+		"Arceus": ["Normal", null],
+		"Victini": ["Psychic", "Fire"],
+		"Snivy": ["Grass", null],
+		"Servine": ["Grass", null],
+		"Serperior": ["Grass", null],
+		"Tepig": ["Fire", null],
+		"Pignite": ["Fire", "Fighting"],
+		"Emboar": ["Fire", "Fighting"],
+		"Oshawott": ["Water", null],
+		"Dewott": ["Water", null],
+		"Samurott": ["Water", null],
+		"Patrat": ["Normal", null],
+		"Watchog": ["Normal", null],
+		"Lillipup": ["Normal", null],
+		"Herdier": ["Normal", null],
+		"Stoutland": ["Normal", null],
+		"Purrloin": ["Dark", null],
+		"Liepard": ["Dark", null],
+		"Pansage": ["Grass", null],
+		"Simisage": ["Grass", null],
+		"Pansear": ["Fire", null],
+		"Simisear": ["Fire", null],
+		"Panpour": ["Water", null],
+		"Simipour": ["Water", null],
+		"Munna": ["Psychic", null],
+		"Musharna": ["Psychic", null],
+		"Pidove": ["Normal", "Flying"],
+		"Tranquill": ["Normal", "Flying"],
+		"Unfezant": ["Normal", "Flying"],
+		"Blitzle": ["Electric", null],
+		"Zebstrika": ["Electric", null],
+		"Roggenrola": ["Rock", null],
+		"Boldore": ["Rock", null],
+		"Gigalith": ["Rock", null],
+		"Woobat": ["Psychic", "Flying"],
+		"Swoobat": ["Psychic", "Flying"],
+		"Drilbur": ["Ground", null],
+		"Excadrill": ["Ground", "Steel"],
+		"Audino": ["Normal", null],
+		"Timburr": ["Fighting", null],
+		"Gurdurr": ["Fighting", null],
+		"Conkeldurr": ["Fighting", null],
+		"Tympole": ["Water", null],
+		"Palpitoad": ["Water", "Ground"],
+		"Seismitoad": ["Water", "Ground"],
+		"Throh": ["Fighting", null],
+		"Sawk": ["Fighting", null],
+		"Sewaddle": ["Bug", "Grass"],
+		"Swadloon": ["Bug", "Grass"],
+		"Leavanny": ["Bug", "Grass"],
+		"Venipede": ["Bug", "Poison"],
+		"Whirlipede": ["Bug", "Poison"],
+		"Scolipede": ["Bug", "Poison"],
+		"Cottonee": ["Grass", null],
+		"Whimsicott": ["Grass", null],
+		"Petilil": ["Grass", null],
+		"Lilligant": ["Grass", null],
+		"Basculin": ["Water", null],
+		"Sandile": ["Ground", "Dark"],
+		"Krokorok": ["Ground", "Dark"],
+		"Krookodile": ["Ground", "Dark"],
+		"Darumaka": ["Fire", null],
+		"Darmanitan": ["Fire", null],
+		"Maractus": ["Grass", null],
+		"Dwebble": ["Bug", "Rock"],
+		"Crustle": ["Bug", "Rock"],
+		"Scraggy": ["Dark", "Fighting"],
+		"Scrafty": ["Dark", "Fighting"],
+		"Sigilyph": ["Psychic", "Flying"],
+		"Yamask": ["Ghost", null],
+		"Cofagrigus": ["Ghost", null],
+		"Tirtouga": ["Water", "Rock"],
+		"Carracosta": ["Water", "Rock"],
+		"Archen": ["Rock", "Flying"],
+		"Archeops": ["Rock", "Flying"],
+		"Trubbish": ["Poison", null],
+		"Garbodor": ["Poison", null],
+		"Zorua": ["Dark", null],
+		"Zoroark": ["Dark", null],
+		"Minccino": ["Normal", null],
+		"Cinccino": ["Normal", null],
+		"Gothita": ["Psychic", null],
+		"Gothorita": ["Psychic", null],
+		"Gothitelle": ["Psychic", null],
+		"Solosis": ["Psychic", null],
+		"Duosion": ["Psychic", null],
+		"Reuniclus": ["Psychic", null],
+		"Ducklett": ["Water", "Flying"],
+		"Swanna": ["Water", "Flying"],
+		"Vanillite": ["Ice", null],
+		"Vanillish": ["Ice", null],
+		"Vanilluxe": ["Ice", null],
+		"Deerling": ["Normal", "Grass"],
+		"Sawsbuck": ["Normal", "Grass"],
+		"Emolga": ["Electric", "Flying"],
+		"Karrablast": ["Bug", null],
+		"Escavalier": ["Bug", "Steel"],
+		"Foongus": ["Grass", "Poison"],
+		"Amoonguss": ["Grass", "Poison"],
+		"Frillish": ["Water", "Ghost"],
+		"Jellicent": ["Water", "Ghost"],
+		"Alomomola": ["Water", null],
+		"Joltik": ["Bug", "Electric"],
+		"Galvantula": ["Bug", "Electric"],
+		"Ferroseed": ["Grass", "Steel"],
+		"Ferrothorn": ["Grass", "Steel"],
+		"Klink": ["Steel", null],
+		"Klang": ["Steel", null],
+		"Klinklang": ["Steel", null],
+		"Tynamo": ["Electric", null],
+		"Eelektrik": ["Electric", null],
+		"Eelektross": ["Electric", null],
+		"Elgyem": ["Psychic", null],
+		"Beheeyem": ["Psychic", null],
+		"Litwick": ["Ghost", "Fire"],
+		"Lampent": ["Ghost", "Fire"],
+		"Chandelure": ["Ghost", "Fire"],
+		"Axew": ["Dragon", null],
+		"Fraxure": ["Dragon", null],
+		"Haxorus": ["Dragon", null],
+		"Cubchoo": ["Ice", null],
+		"Beartic": ["Ice", null],
+		"Cryogonal": ["Ice", null],
+		"Shelmet": ["Bug", null],
+		"Accelgor": ["Bug", null],
+		"Stunfisk": ["Ground", "Electric"],
+		"Mienfoo": ["Fighting", null],
+		"Mienshao": ["Fighting", null],
+		"Druddigon": ["Dragon", null],
+		"Golett": ["Ground", "Ghost"],
+		"Golurk": ["Ground", "Ghost"],
+		"Pawniard": ["Dark", "Steel"],
+		"Bisharp": ["Dark", "Steel"],
+		"Bouffalant": ["Normal", null],
+		"Rufflet": ["Normal", "Flying"],
+		"Braviary": ["Normal", "Flying"],
+		"Vullaby": ["Dark", "Flying"],
+		"Mandibuzz": ["Dark", "Flying"],
+		"Heatmor": ["Fire", null],
+		"Durant": ["Bug", "Steel"],
+		"Deino": ["Dark", "Dragon"],
+		"Zweilous": ["Dark", "Dragon"],
+		"Hydreigon": ["Dark", "Dragon"],
+		"Larvesta": ["Bug", "Fire"],
+		"Volcarona": ["Bug", "Fire"],
+		"Cobalion": ["Steel", "Fighting"],
+		"Terrakion": ["Rock", "Fighting"],
+		"Virizion": ["Grass", "Fighting"],
+		"Tornadus": ["Flying", null],
+		"Thundurus": ["Electric", "Flying"],
+		"Reshiram": ["Dragon", "Fire"],
+		"Zekrom": ["Dragon", "Electric"],
+		"Landorus": ["Ground", "Flying"],
+		"Kyurem": ["Dragon", "Ice"],
+		"Keldeo": ["Water", "Fighting"],
+		"Meloetta (A)": ["Normal", "Psychic"],
+		"Genesect": ["Bug", "Steel"]
+	}
+}
