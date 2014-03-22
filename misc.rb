@@ -40,24 +40,6 @@ module PokeSky
     mul
   end
 
-  # Return a description of the attack multiplier.
-  def effect_desc(atk_mul)
-    case atk_mul
-    when 0
-      'not effective'
-    when 0.25
-      'hardly effective'
-    when 0.5
-      'not very effective'
-    when 1
-      'normally effective'
-    when 2
-      'super effective'
-    when 4
-      'ultra effective'
-    end
-  end
-
   # Calculate attack bonus, given a Pokemon's level.
   def attack_bonus(lv)
     (110 * 3 * lv.to_f + 250) / 100 + 5
