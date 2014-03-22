@@ -36,16 +36,7 @@ module PokeSky
     puts "#{plr.name}'s Battlers: #{battler_names}"
   end
 
-  # This should be refactored.
-  def create_battlers(plr)
-    plr.party.map do |pkmn|
-      BattlePokemon.new(pkmn.owner, pkmn.id, pkmn.name, pkmn.xp,
-                        pkmn.moves, pkmn.type)
-    end
-  end
-
   def console_start
-
     puts "Welcome to PokeSky!"
 
     plr = Player.new('Whac')
@@ -57,8 +48,8 @@ module PokeSky
     disp_party(plr)
     disp_party(npc)
 
-    plr.battlers = create_battlers(plr)
-    npc.battlers = create_battlers(npc)
+    plr.create_battlers!
+    npc.create_battlers!
 
     # These represent the players.
     offense = plr
@@ -105,6 +96,8 @@ module PokeSky
 
       if defense.battlers.length.zero?
         puts "#{defense.name} has been defeated! The winner is #{offense.name}!"
+        offense.reset_battlers!
+        defense.reset_battlers!
         break
       end
 
