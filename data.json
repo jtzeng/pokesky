@@ -13,6 +13,9 @@
 			144, 145, 146, 150, 151, 243, 244, 245, 249, 250, 251, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 490, 481, 492, 493
 		]
 	},
+	"types": [
+		"Bug", "Dark", "Dragon", "Electric", "Fighting", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Normal", "Poison", "Psychic", "Rock", "Steel", "Water"
+	],
 	"attacks": {
 		"Bug": [
 			"Tail Glow", "Leech Life", "String Shot", "Pin Missile", "Bug Tackle", "Beez Buzz", "Fury Cutter", "Bug Bite", "Silver Wind", "U-Turn", "Signal Beam", "X-Scissor", "Bug Buzz", "Megahorn"
@@ -82,9 +85,6 @@
 			"Splash", "Bubble", "Water Gun", "Aqua Jet", "Bubblebeam", "Water Pulse", "Brine", "Waterfall", "Scald", "Aqua Tail", "Crabhammer", "Surf", "Hydro Pump", "Hydro Cannon"
 		]
 	},
-	"types": [
-		"Bug", "Dark", "Dragon", "Electric", "Fighting", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Normal", "Poison", "Psychic", "Rock", "Steel", "Water"
-	],
 	"type_x": {
 		"Bug": [
 			1, 2, 1, 1, 0.5, 0.5, 0.5, 0.5, 2, 1, 1, 1, 0.5, 2, 1, 0.5, 1
