@@ -1,6 +1,7 @@
 require 'json'
 require './tests'
 require './entityloader'
+require './console'
 
 module PokeSky
   extend PokeSky
@@ -9,7 +10,11 @@ module PokeSky
 
   # What are we going to do?
   def main
-    test
+
+    # test
+
+    # Console.new
+    console_start
   end
 
 end

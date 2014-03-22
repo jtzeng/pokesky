@@ -6,11 +6,12 @@ module PokeSky
 
     MAX_PARTY = 6
 
-    attr :name, :party
+    attr_accessor :name, :party, :battlers
 
     def initialize(name, party=[])
       @name = name
       @party = party
+      @battlers = nil
     end
 
     # Return whether the player's party has available space.

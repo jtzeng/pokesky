@@ -17,7 +17,7 @@ module PokeSky
     XP_RATE = 500
     MOVES_SIZE = 4
 
-    attr :owner, :id, :name, :xp, :moves, :type
+    attr_accessor :owner, :id, :name, :xp, :moves, :type
 
     def initialize(owner, id, name, xp, moves, type)
       @owner = owner
@@ -49,7 +49,9 @@ module PokeSky
 
   class BattlePokemon < Pokemon
 
-    def initialize(owner, id, xp, moves)
+    attr_accessor :health
+
+    def initialize(owner, id, name, xp, moves, type)
       super
       @health = max_health
     end
