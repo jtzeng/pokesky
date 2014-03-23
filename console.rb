@@ -123,11 +123,14 @@ module PokeSky
   def console_start
     puts "Welcome to PokeSky!"
 
+    group = random_group
+    puts "The group is: #{WHITE}#{group.capitalize}#{RESET}."
+
     plr = Player.new('Whac')
-    random_party(plr)
+    random_party(plr, group)
 
     npc = Player.new('Hargrees')
-    random_party(npc)
+    random_party(npc, group)
 
     disp_party(plr)
     disp_party(npc)
@@ -152,7 +155,7 @@ module PokeSky
 
       print "#{offense.name}'s #{pkmn_color(attacker)} (#{attacker.health} HP) "
       puts "vs #{defense.name}'s #{pkmn_color(defender)} (#{defender.health} HP)"
-      puts "It's #{pkmn_color(attacker)}'s turn!"
+      # puts "It's #{pkmn_color(attacker)}'s turn!"
 
       forfeit = nil
       switch = nil
@@ -232,14 +235,20 @@ module PokeSky
         if defender.health <= 0
           puts "#{defense.name}'s #{pkmn_color(defender)} fainted!"
           defense.battlers.delete(defender)
-          disp_battlers(offense)
-          disp_battlers(defense)
+          # disp_battlers(offense)
+          # disp_battlers(defense)
+          fainted = true
         end
       end
 
       if defense.battlers.length.zero?
         puts "#{defense.name} has been defeated! The winner is #{offense.name}!"
         break
+      else
+        if fainted
+          puts "#{defense.name} sent out #{pkmn_color(defense.battlers[0])}!"
+          fainted = false
+        end
       end
 
       puts

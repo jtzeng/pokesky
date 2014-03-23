@@ -39,6 +39,16 @@ module PokeSky
       end
     end
 
+    @el.expr['movepools'].each do |k, v|
+      types = []
+      v.each do |mv|
+        if types.include?(move_type(mv))
+          puts "#{k}: #{mv} (#{move_type(mv)})"
+        end
+        types << move_type(mv)
+      end
+    end
+
     p Pokemon.xp_for_level(100)
     p Pokemon.level_for_xp(Pokemon.xp_for_level(100))
 
