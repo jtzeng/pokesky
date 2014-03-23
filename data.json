@@ -1294,7 +1294,7 @@
 		"Jirachi": [
 			"Doom Desire", "Super Psy Bolt", "Fire Blast", "Thunder", "Aerial Ace"
 		],
-		"Deoxys (N)": [
+		"Deoxys": [
 			"Psycho Boost", "Hyper Beam", "Superpower", "Zap Cannon", "Night Blast"
 		],
 		"Turtwig": [
@@ -2473,7 +2473,7 @@
 		"Groudon": ["Ground", null],
 		"Rayquaza": ["Dragon", "Flying"],
 		"Jirachi": ["Steel", "Psychic"],
-		"Deoxys (N)": ["Psychic", null],
+		"Deoxys": ["Psychic", null],
 		"Turtwig": ["Grass", null],
 		"Grotle": ["Grass", null],
 		"Torterra": ["Grass", "Ground"],
