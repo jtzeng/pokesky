@@ -147,7 +147,7 @@ module PokeSky
     # Start the battle loop.
     while true
 
-      sleep 1
+      sleep 2
 
       # These represent the Pokemon.
       attacker = offense.battlers[0]
@@ -169,7 +169,7 @@ module PokeSky
         valid = false
         while true
           puts "Commands: a [slot] (attack); s [slot] (switch); d (display)."
-          print "> "
+          print "#{BLUE}>#{RESET} "
 
           cmd = gets
           if !cmd
@@ -242,10 +242,13 @@ module PokeSky
       end
 
       if defense.battlers.length.zero?
+        disp_battlers(offense)
+        disp_battlers(defense)
         puts "#{defense.name} has been defeated! The winner is #{offense.name}!"
         break
       else
         if fainted
+          disp_battlers(defense)
           puts "#{defense.name} sent out #{pkmn_color(defense.battlers[0])}!"
           fainted = false
         end
