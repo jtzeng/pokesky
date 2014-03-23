@@ -51,13 +51,13 @@ module PokeSky
       DARKRED
     when 'Flying', 'Normal'
       WHITE
-    when 'Ghost'
+    when 'Ghost', 'Poison'
       PURPLE
     when 'Grass'
       DARKGREEN
     when 'Ice'
       CYAN
-    when 'Poison', 'Psychic'
+    when 'Psychic'
       MAGENTA
     when 'Water'
       BLUE
