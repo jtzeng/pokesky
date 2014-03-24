@@ -65,23 +65,34 @@ module PokeSky
     "#{color(pkmn.type.prim)}#{pkmn.name}#{RESET}"
   end
 
-  def disp_party(plr)
-    puts "#{plr.name}'s Party:"
-    plr.party.each do |pkmn|
+  def sdisp_generic(group)
+    buf = []
+    group.each_with_index do |pkmn, n|
       prim, sec = pkmn.type.prim, pkmn.type.sec
       moves = pkmn.moves.map { |s| move_color(s) }.join(', ')
 
-      s = sec ? ', ' << type_color(sec) : ''
-      puts "#{pkmn_color(pkmn)} (#{type_color(prim)}#{s}) - #{moves}"
+      name_c = pkmn_color(pkmn)
+      s = [prim, sec].compact.map { |t| type_color(t) }.join(', ')
+      buf << "[#{n}] #{name_c} %s(#{s}) - #{moves}"
     end
-    puts
+    buf
+  end
+
+  def disp_party(plr)
+    puts "#{plr.name}'s Party:"
+    sdisp_generic(plr.party).each do |line|
+      printf(line, '')
+      puts
+    end
   end
 
   def disp_battlers(plr, verbose=false)
     if verbose
       puts "#{plr.name}'s Battlers:"
-      plr.battlers.each_with_index do |pkmn, slot|
-        puts "[#{slot}]: #{pkmn_color(pkmn)} (HP: #{pkmn.health})"
+      sdisp_generic(plr.battlers).each_with_index do |line, n|
+        pkmn = plr.battlers[n]
+        printf(line, "(HP: #{pkmn.health}) ")
+        puts
       end
     else
       battler_names = plr.battlers.map { |b| pkmn_color(b) }.join(', ')
@@ -140,7 +151,9 @@ module PokeSky
     random_party(npc, group)
 
     disp_party(plr)
+    puts
     disp_party(npc)
+    puts
 
     plr.create_battlers!
     npc.create_battlers!
@@ -171,13 +184,13 @@ module PokeSky
       if offense == plr
         puts "Your #{pkmn_color(attacker)}'s moves:"
         attacker.moves.each_with_index do |m, slot|
-          puts "[#{slot}]: #{move_color(m)}"
+          puts "[#{slot}] #{move_color(m)}"
         end
 
         # Loop until a valid command is given.
         valid = false
         while true
-          puts "Commands: a [slot] (attack); s [slot] (switch); d (display)."
+          puts "Commands: a [n] (attack); s [n] (switch); d (disp); e (enemy)."
           print "#{BLUE}>#{RESET} "
 
           cmd = $stdin.gets
@@ -211,6 +224,10 @@ module PokeSky
 
           if cmd =~ /^d$/i
             disp_battlers(plr, true)
+          end
+
+          if cmd =~ /^e$/i
+            disp_battlers(npc, true)
           end
 
           break if valid
