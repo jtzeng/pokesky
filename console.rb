@@ -37,32 +37,19 @@ module PokeSky
 
   def color(type)
     case type
-    when 'Bug'
-      GREEN
-    when 'Dark', 'Steel'
-      BLACK
-    when 'Dragon'
-      DARKBLUE
-    when 'Electric', 'Ground'
-      YELLOW
-    when 'Fighting', 'Rock'
-      BROWN
-    when 'Fire'
-      DARKRED
-    when 'Flying', 'Normal'
-      WHITE
-    when 'Ghost', 'Poison'
-      PURPLE
-    when 'Grass'
-      DARKGREEN
-    when 'Ice'
-      CYAN
-    when 'Psychic'
-      MAGENTA
-    when 'Water'
-      BLUE
-    else
-      DARKCYAN
+    when 'Bug' then GREEN
+    when 'Dark', 'Steel' then BLACK
+    when 'Dragon' then DARKBLUE
+    when 'Electric', 'Ground' then YELLOW
+    when 'Fighting', 'Rock' then BROWN
+    when 'Fire' then DARKRED
+    when 'Flying', 'Normal' then WHITE
+    when 'Ghost', 'Poison' then PURPLE
+    when 'Grass' then DARKGREEN
+    when 'Ice' then CYAN
+    when 'Psychic' then MAGENTA
+    when 'Water' then BLUE
+    else DARKCYAN
     end
   end
 
@@ -81,7 +68,7 @@ module PokeSky
   def disp_party(plr)
     puts "#{plr.name}'s Party:"
     plr.party.each do |pkmn|
-      prim, sec = @el.expr['pokemon'][pkmn.name]
+      prim, sec = pkmn.type.prim, pkmn.type.sec
       moves = pkmn.moves.map { |s| move_color(s) }.join(', ')
 
       s = sec ? ', ' << type_color(sec) : ''
@@ -104,6 +91,11 @@ module PokeSky
 
   # Return a description of the attack multiplier.
   def effect_desc(atk_mul)
+    # Check for wonderguard.
+    if @modes.include?(:wonderguard) && atk_mul <= 1
+      return "#{BLACK}not effective#{RESET}"
+    end
+
     case atk_mul
     when 0
       "#{BLACK}not effective#{RESET}"
@@ -121,7 +113,22 @@ module PokeSky
   end
 
   def console_start
-    puts "Welcome to PokeSky!"
+    @modes ||= []
+    mode_table = {
+      '-d' => :delta,
+      '-w' => :wonderguard
+    }
+    ARGV.each do |arg|
+      if mode = mode_table[arg]
+        @modes << mode
+      end
+    end
+    @modes.uniq!
+
+    mode_str = 'Modes: ' << @modes.map { |s|
+      "#{WHITE}#{s.to_s.capitalize}#{RESET}"
+    }.join(', ')
+    puts "Welcome to PokeSky! #{mode_str}"
 
     group = random_group
     puts "The group is: #{WHITE}#{group.capitalize}#{RESET}."
@@ -157,6 +164,7 @@ module PokeSky
       puts "vs #{defense.name}'s #{pkmn_color(defender)} (#{defender.health} HP)"
       # puts "It's #{pkmn_color(attacker)}'s turn!"
 
+      # I'm pretty sure there's a better way to do this.
       forfeit = nil
       switch = nil
       move = nil
@@ -166,12 +174,13 @@ module PokeSky
           puts "[#{slot}]: #{move_color(m)}"
         end
 
+        # Loop until a valid command is given.
         valid = false
         while true
           puts "Commands: a [slot] (attack); s [slot] (switch); d (display)."
           print "#{BLUE}>#{RESET} "
 
-          cmd = gets
+          cmd = $stdin.gets
           if !cmd
             forfeit = true
             valid = true
@@ -210,6 +219,7 @@ module PokeSky
 
       break if forfeit
 
+      # TODO: Pokemon selection after one fainting.
       if switch
         old_name_c = pkmn_color(attacker)
         new_name_c = pkmn_color(offense.battlers[switch])

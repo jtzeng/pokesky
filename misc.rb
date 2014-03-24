@@ -71,6 +71,9 @@ module PokeSky
     # TOOD: Check levitate, fire absorb, water absorb, volt absorb,
     # sap sipper, etc.
 
+    # Handle wonderguard mode.
+    return 0 unless atk_mul > 1 if @modes.include?(:wonderguard)
+
     base_dmg.round
   end
 

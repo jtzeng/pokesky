@@ -18,10 +18,20 @@ module PokeSky
         moves[(Pokemon::MOVES_SIZE - 1)..-1].sample
     end
 
+    prim, sec = @el.expr['pokemon'][name][0..1]
+    # Handle delta mode.
+    if @modes.include?(:delta)
+      all_types = @el.expr['types'].dup
+      prim = all_types.sample
+      all_types.delete(prim)
+
+      # Add more chance of having no secondary type.
+      all_types += Array.new(5, nil)
+      sec = all_types.sample
+    end
     return Pokemon.new(plr.name, id, name,
                        Pokemon.xp_for_level(100), moves,
-                       Type.new(@el.expr['pokemon'][name][0],
-                                @el.expr['pokemon'][name][1]))
+                       Type.new(prim, sec))
   end
 
   # Generate a party of random Pokemon.
