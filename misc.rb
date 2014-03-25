@@ -32,11 +32,19 @@ module PokeSky
     @el.expr['types'].index(type)
   end
 
+  # Calculate the basic single type multiplier.
+  def type_multiplier(atk_type, def_type)
+    mul = @el.expr['type_x'][atk_type][type_id(def_type)]
+
+    # Handle inverse battles.
+    @modes.include?(:inverse) ? 1.0 / (mul.zero? ? 0.5 : mul) : mul
+  end
+
   # Calculate the attack multiplier of a move, given the attack type
   # and the two types of the defending Pokemon.
   def attack_multiplier(atk_type, def_prim, def_sec)
-    mul = @el.expr['type_x'][atk_type][type_id(def_prim)]
-    mul *= @el.expr['type_x'][atk_type][type_id(def_sec)] if def_sec
+    mul = type_multiplier(atk_type, def_prim)
+    mul *= type_multiplier(atk_type, def_sec) if def_sec
     mul
   end
 

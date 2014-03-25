@@ -127,6 +127,7 @@ module PokeSky
     @modes ||= []
     mode_table = {
       '-d' => :delta,
+      '-i' => :inverse,
       '-w' => :wonderguard
     }
     ARGV.each do |arg|
