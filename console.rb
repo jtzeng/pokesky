@@ -19,6 +19,9 @@ require './player'
 
 module PokeSky
 
+  SLEEP_TIME = 2
+  NPC_SWITCH_CHANCE = 6
+
   BLACK = "\033[30;1m"
   RED = "\033[31;1m"
   DARKRED = "\033[31m"
@@ -168,7 +171,7 @@ module PokeSky
     # Start the battle loop.
     while true
 
-      sleep 2
+      sleep SLEEP_TIME
 
       # These represent the Pokemon.
       attacker = offense.battlers[0]
@@ -232,6 +235,13 @@ module PokeSky
           end
 
           break if valid
+        end
+      else
+        # Add a chance of dumb NPC switching.
+        if rand(NPC_SWITCH_CHANCE).zero?
+          valid_switches = offense.battlers.dup
+          valid_switches.shift
+          switch = offense.battlers.index(valid_switches.sample)
         end
       end
 
