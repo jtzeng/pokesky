@@ -31,7 +31,7 @@ Indeed, it is quite colorful (and maybe even painful to look at for some).
 
 #### TODO
 
-* Add certain Pokemon abilities (i.e. Levitate)
+* ~~Add certain Pokemon abilities (i.e. Levitate)~~
 * Add the choice of Pokemon switching upon fainting
 * Improve the interface
 * Don't use JSON

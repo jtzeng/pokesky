@@ -3,6 +3,14 @@ require './entityloader'
 
 module PokeSky
 
+  IMMUNITY_ABILITIES = {
+    'Levitate' => 'Ground',
+    'Water Absorb' => 'Water',
+    'Fire Absorb' => 'Fire',
+    'Volt Absorb' => 'Electric',
+    'Sap Sipper' => 'Grass'
+  }
+
   # Return the Pokemon game, given an ID.
   # TODO: The performance of Hash#keys *might* be bad. Check doc sometime.
   def name_for_id(id)
@@ -58,6 +66,17 @@ module PokeSky
     (70 * 3 * lv.to_f / 2 + 250) / 100 + 5
   end
 
+  # Check whether the defending Pokemon has an ability that will
+  # make it immune to the attack.
+  def immune_from_ability?(move, defender)
+    IMMUNITY_ABILITIES.each do |ability, type|
+      in_grp = @el.expr['abilities'][ability].include?(defender.id)
+      mv_has_type = type == move_type(move)
+      return true if in_grp && mv_has_type
+    end
+    false
+  end
+
   # Calculate the damage for a given move and attacking and defending Pokemon.
   def calculate_hit(move, attacker, defender)
     type = move_type(move)
@@ -78,6 +97,7 @@ module PokeSky
 
     # TOOD: Check levitate, fire absorb, water absorb, volt absorb,
     # sap sipper, etc.
+    return 0 if immune_from_ability?(move, defender)
 
     # Handle wonderguard mode.
     return 0 unless atk_mul > 1 if @modes.include?(:wonderguard)

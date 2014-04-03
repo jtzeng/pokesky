@@ -104,11 +104,14 @@ module PokeSky
   end
 
   # Return a description of the attack multiplier.
-  def effect_desc(atk_mul)
+  def effect_desc(atk_mul, immune=false)
     # Check for wonderguard.
     if @modes.include?(:wonderguard) && atk_mul <= 1
       return "#{BLACK}not effective#{RESET}"
     end
+
+    # Check for immunity abilities.
+    return "#{BLACK}not effective#{RESET}" if immune
 
     case atk_mul
     when 0
@@ -266,7 +269,8 @@ module PokeSky
         puts "#{name_c}'s #{mv_c} deals #{hit} damage to #{def_name_c}!"
         effect = effect_desc(attack_multiplier(move_type(move),
                                                defender.type.prim,
-                                               defender.type.sec))
+                                               defender.type.sec),
+                             immune_from_ability?(move, defender))
         puts "It's #{effect}."
 
         defender.health -= hit
