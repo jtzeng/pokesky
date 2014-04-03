@@ -7,7 +7,6 @@ module PokeSky
     @el.expr['special_pokemon'].keys.sample
   end
 
-  # Generate a random Pokemon.
   def random_pokemon(plr, group)
     id = @el.expr['special_pokemon'][group].sample
     name = name_for_id(id)
@@ -34,7 +33,6 @@ module PokeSky
                        Type.new(prim, sec))
   end
 
-  # Generate a party of random Pokemon.
   def random_party(plr, group)
     Player::MAX_PARTY.times do |n|
       plr.party << random_pokemon(plr, group)

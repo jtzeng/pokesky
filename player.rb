@@ -16,7 +16,6 @@ module PokeSky
       @battlers = nil
     end
 
-    # Return whether the player's party has available space.
     def has_party_space?
       return party.length < MAX_PARTY
     end
@@ -29,7 +28,6 @@ module PokeSky
       end
     end
 
-    # Reset the battlers.
     def reset_battlers!
       @battlers = nil
     end
