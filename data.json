@@ -1,10 +1,13 @@
 {
 	"special_pokemon": {
 		"whac": [
-			6, 9, 31, 34, 62, 65, 68, 91, 94, 99, 121, 130, 135, 141, 142, 149, 151, 169, 186, 208, 214, 230, 248, 251, 330, 334, 348, 350, 354, 373, 395, 398, 407, 426, 445, 454, 462, 466, 467, 468, 469, 474, 477, 478, 482, 485, 490, 494, 530, 553, 601, 609, 612, 635, 637
+			3, 6, 9, 31, 34, 62, 65, 68, 91, 94, 99, 121, 130, 135, 141, 142, 149, 151, 169, 186, 208, 214, 230, 248, 251, 330, 334, 348, 350, 354, 373, 395, 398, 407, 426, 445, 454, 462, 466, 467, 468, 469, 474, 477, 478, 482, 485, 490, 494, 530, 553, 601, 609, 612, 635, 637
 		],
 		"powerful": [
-			3, 6, 9, 12, 15, 18, 22, 24, 26, 28, 31, 34, 38, 45, 49, 51, 55, 57, 59, 62, 65, 68, 71, 73, 76, 80, 82, 91, 94, 99, 101, 103, 110, 121, 127, 130, 131, 134, 135, 136, 139, 141, 142, 143, 149, 151, 154, 157, 160, 169, 178, 184, 186, 189, 195, 199, 202, 205, 208, 212, 214, 217, 219, 226, 227, 229, 230, 232, 242, 248, 251, 254, 257, 260, 267, 269, 272, 275, 279, 282, 286, 289, 291, 302, 306, 319, 323, 324, 330, 332, 334, 344, 346, 348, 350, 354, 357, 362, 373, 376, 385, 389, 392, 395, 398, 405, 407, 409, 411, 414, 423, 424, 426, 429, 430, 437, 442, 445, 448, 450, 452, 454, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 490, 492, 494, 497, 500, 503, 508, 512, 514, 516, 521, 523, 526, 530, 534, 537, 542, 545, 547, 553, 555, 560, 563, 567, 569, 571, 579, 584, 589, 591, 593, 596, 598, 601, 604, 609, 612, 615, 617, 620, 621, 623, 625, 628, 631, 632, 635, 637
+			3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 85, 87, 89, 91, 94, 97, 99, 101, 103, 105, 106, 107, 110, 119, 121, 122, 127, 130, 131, 134, 135, 136, 139, 141, 142, 143, 144, 145, 146, 149, 151, 154, 157, 160, 162, 164, 166, 168, 169, 171, 178, 181, 182, 184, 186, 189, 192, 195, 196, 197, 199, 202, 205, 208, 210, 212, 214, 217, 219, 224, 226, 227, 229, 230, 232, 237, 242, 243, 244, 245, 248, 251, 254, 257, 260, 262, 264, 267, 269, 272, 275, 277, 279, 282, 286, 289, 291, 292, 295, 297, 301, 302, 306, 310, 317, 319, 321, 323, 324, 326, 330, 332, 334, 340, 342, 344, 345, 346, 348, 350, 354, 357, 365, 362, 373, 376, 377, 378, 379, 385, 389, 392, 395, 398, 405, 407, 409, 411, 414, 423, 424, 426, 429, 430, 435, 437, 442, 445, 448, 450, 452, 454, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 480, 481, 482, 490, 492, 494, 497, 500, 503, 508, 512, 514, 516, 521, 523, 526, 530, 534, 537, 542, 545, 547, 549, 553, 555, 558, 560, 563, 565, 567, 569, 571, 576, 579, 581, 584, 589, 591, 593, 596, 598, 601, 604, 609, 612, 614, 615, 617, 620, 621, 623, 625, 628, 630, 631, 632, 635, 637, 638, 639, 640
+		],
+       	"air": [
+		    6, 12, 15, 18, 22, 94, 110, 121, 130, 142, 144, 145, 146, 149, 150, 151, 164, 166, 169, 178, 189, 201, 212, 226, 227, 249, 250, 251, 267, 269, 277, 279, 284, 291, 292, 330, 334, 337, 338, 344, 354, 357, 358, 373, 380, 381, 384, 385, 386, 398, 414, 416, 426, 429, 430, 437, 445, 455, 462, 468, 469, 472, 474, 476, 477, 478, 479, 480, 481, 482, 487, 488, 490, 491, 493, 494, 521, 528, 561, 567, 579, 581, 587, 593, 604, 609, 615, 621, 628, 630, 635, 637, 641, 642, 645
 		],
 		"starter": [
 			1, 4, 7, 25, 152, 155, 158, 252, 255, 258, 387, 390, 393, 495, 498, 501
@@ -298,7 +301,7 @@
 			"String Shot", "Vine Whip", "Absorb", "Poison Gas", "Tackle"
 		],
 		"Parasect": [
-			"Bug Buzz", "Grass Knot", "Giga Drain", "Venom Bolt", "Mega Punch"
+			"Bug Buzz", "Grass Knot", "Night Blast", "Venom Bolt", "Mega Punch"
 		],
 		"Venonat": [
 			"Bug Tackle", "Beez Buzz", "Leech Seed", "Nasty Gas", "Slash"
@@ -385,7 +388,7 @@
 			"Rock Blast", "Mud Bomb", "Body Slam", "Drain Punch", "Lava Cyclone"
 		],
 		"Golem": [
-			"Stone Edge", "Desert Wave", "Last Resort", "Superpower", "Heat Wave"
+			"Stone Edge", "Earthquake", "Explosion", "Superpower", "Heat Wave"
 		],
 		"Ponyta": [
 			"Flame Wheel", "Tackle", "Mud Bomb", "Bite", "Ember"
@@ -424,7 +427,7 @@
 			"Acid Bomb", "Mud Bomb", "Thundershock", "Ember", "Shadow Sneak"
 		],
 		"Muk": [
-			"Sludge Bomb", "Earth Bomb", "Thunderbolt", "Lava Cyclone", "Shadow Ball"
+			"Sludge Bomb", "Earth Bomb", "Thunderbolt", "Fire Blast", "Shadow Ball"
 		],
 		"Shellder": [
 			"Icicle Drop", "Water Gun", "Bite", "Tackle", "Bug Bite"
@@ -475,7 +478,7 @@
 			"Earthquake", "Double Edge", "Rock Slide", "Flamethrower", "Superpower"
 		],
 		"Hitmonlee": [
-			"Superpower", "Stone Edge", "Mega Kick", "Drill Liner", "Gyro Ball"
+			"Close Combat", "Stone Edge", "Mega Kick", "Earthquake", "Sucker Punch"
 		],
 		"Hitmonchan": [
 			"Dynamicpunch", "Ice Punch", "Sucker Punch", "Thunderpunch", "Shadow Punch"
@@ -514,7 +517,7 @@
 			"Bubblebeam", "Ice Fang", "Signal Beam", "Tackle", "Psybeam"
 		],
 		"Seaking": [
-			"Brine", "Frost Breath", "Bug Buzz", "Swift", "Drill Peck"
+			"Surf", "Frost Breath", "Bug Buzz", "Swift", "Drill Peck"
 		],
 		"Staryu": [
 			"Bubblebeam", "Icicle Drop", "Shock Wave", "Confusion", "Swift"
@@ -643,7 +646,7 @@
 			"Tackle", "Pound", "Bite", "Sand Ball", "Spinning Tail"
 		],
 		"Furret": [
-			"Slam", "Body Slam", "Crunch", "Sand Tomb", "Iron Tail"
+			"Hex", "Body Slam", "Crunch", "Sand Tomb", "Iron Tail"
 		],
 		"Hoothoot": [
 			"Tackle", "Wing Attack", "Steel Wing", "Payback", "Shadow Sneak"
@@ -661,7 +664,7 @@
 			"Bug Tackle", "Razor Leaf", "Bite", "Peck", "Quick Attack"
 		],
 		"Ariados": [
-			"Signal Beam", "Seed Bomb", "Crunch", "Drill Peck", "Spike Cannon"
+			"Bug Bite", "Seed Bomb", "Crunch", "Drill Peck", "Rock Slide"
 		],
 		"Crobat": [
 			"Sludge Wave", "Aeroblast", "Bug Buzz", "Leaf Blade", "Dark Pulse"
@@ -670,7 +673,7 @@
 			"Electrostatics", "Water Gun", "Tackle", "Bite", "Bug Bite"
 		],
 		"Lanturn": [
-			"Thunder", "Surf", "Signal Beam", "Crunch", "Skull Bash"
+			"Thunder", "Surf", "Signal Beam", "Crunch", "Shadow Blast"
 		],
 		"Pichu": [
 			"Thundershock", "Pound", "Quick Attack", "Mud Slap", "Bite"
@@ -700,10 +703,10 @@
 			"Discharge", "Fury Swipes", "Mud Bomb", "Brick Break", "Crunch"
 		],
 		"Ampharos": [
-			"Thunder", "Take Down", "Earth Power", "Aura Sphere", "Flamethrower"
+			"Thunder", "Dragon Pulse", "Earth Power", "Aura Sphere", "Flamethrower"
 		],
 		"Bellossom": [
-			"Solarbeam", "U-Turn", "Double Edge", "Dig", "Flamethrower"
+			"Solarbeam", "U-Turn", "Flash Cannon", "Dig", "Flamethrower"
 		],
 		"Marill": [
 			"Water Pulse", "Icicle Drop", "Tackle", "Water Gun", "Iron Tail"
@@ -733,7 +736,7 @@
 			"Vine Whip", "Mud Slap", "Pound", "Rollout", "Quick Attack"
 		],
 		"Sunflora": [
-			"Seed Bomb", "Desert Wave", "Surf", "Rock Slide", "Quick Attack"
+			"Seed Bomb", "Desert Wave", "Surf", "Rock Slide", "Dark Pulse"
 		],
 		"Yanma": [
 			"Bug Bite", "Aeroblast", "Ancientpower", "Energy Ball", "Bite"
@@ -868,7 +871,7 @@
 			"Mach Punch", "Sucker Punch", "Fire Punch", "Ice Punch", "Shadow Punch"
 		],
 		"Hitmontop": [
-			"Superpower", "Sucker Punch", "Head Smash", "Gyro Ball", "Shadow Ball"
+			"Close Combat", "Sucker Punch", "Head Smash", "Gyro Ball", "Shadow Claw"
 		],
 		"Smoochum": [
 			"Confusion", "Powder Snow", "Bubble", "Quick Attack", "Rollout"
@@ -1033,7 +1036,7 @@
 			"Solarbeam", "Bug Buzz", "Shadow Ball", "Air Slash", "Thunder"
 		],
 		"Shedinja": [
-			"Solarbeam", "Bug Buzz", "Shadow Ball", "Air Slash", "Dark Pulse"
+			"Solarbeam", "Bug Buzz", "Shadow Ball", "Aura Sphere", "Dark Pulse"
 		],
 		"Whismur": [
 			"Pound", "Smog", "Astonish", "Rock Crush", "Payback"
@@ -1042,7 +1045,7 @@
 			"Pound", "Mud Shot", "Astonish", "Smog", "Rock Throw"
 		],
 		"Exploud": [
-			"Hyper Beam", "Outrage", "Shadow Punch", "Knock Down", "Sucker Punch"
+			"Hyper Beam", "Outrage", "Shadow Punch", "Dynamicpunch", "Sucker Punch"
 		],
 		"Makuhita": [
 			"Rock Smash", "Rock Crush", "Body Slam", "Payback", "Mud Slap"
@@ -1060,7 +1063,7 @@
 			"Tackle", "Faint Attack", "Sneak Attack", "Calm Mind", "Rollout"
 		],
 		"Delcatty": [
-			"Return", "Faint Attack", "Thunder", "Rollout", "Icy Wind"
+			"Return", "Dark Pulse", "Thunder", "Rollout", "Icy Wind"
 		],
 		"Sableye": [
 			"Night Slash", "Astonish", "Fury Swipes", "Confusion", "Fury Cutter"
@@ -1108,7 +1111,7 @@
 			"Poison Sting", "Water Pulse", "Shadow Ball", "Tackle", "Rock Throw"
 		],
 		"Swalot": [
-			"Sludge Bomb", "Shadow Ball", "Giga Drain", "Ice Beam", "Take Down"
+			"Sludge Wave", "Shadow Ball", "Giga Drain", "Ice Beam", "Take Down"
 		],
 		"Carvanha": [
 			"Brine", "Tackle", "Crunch", "Fury Cutter", "Icy Wind"
@@ -1120,7 +1123,7 @@
 			"Surf", "Tackle", "Rollout", "Astonish", "Icy Wind"
 		],
 		"Wailord": [
-			"Hydro Pump", "Rollout", "Astonish", "Take Down", "Earthquake"
+			"Hydro Pump", "Blizzard", "Shadow Ball", "Take Down", "Earthquake"
 		],
 		"Numel": [
 			"Ember", "Smog", "Tackle", "Bite", "Confusion"
@@ -1135,7 +1138,7 @@
 			"Psywave", "Tackle", "Confuse Ray", "Trickery", "Shock Wave"
 		],
 		"Grumpig": [
-			"Psychic", "Shock Wave", "Confuse Ray", "Focus Punch", "Body Slam"
+			"Psychic", "Shock Wave", "Hex", "Aura Sphere", "Body Slam"
 		],
 		"Spinda": [
 			"Thrash", "Faint Attack", "Rock Tomb", "Hypnosis", "Psybeam"
@@ -1177,7 +1180,7 @@
 			"Water Gun", "Mud Slap", "Future Sight", "Ice Beam", "Tackle"
 		],
 		"Whiscash": [
-			"Surf", "Mud Slap", "Future Sight", "Rock Tomb", "Ice Beam"
+			"Surf", "Earth Power", "Future Sight", "Rock Tomb", "Ice Beam"
 		],
 		"Corphish": [
 			"Crabhammer", "Tackle", "Bite", "Hail", "Fury Cutter"
@@ -1852,13 +1855,13 @@
 			"Brine", "Ancientpower", "Bite", "Dig", "Ice Fang"
 		],
 		"Carracosta": [
-			"Rock Slide", "Hydro Pump", "Crunch", "Drill Liner", "Ice Beam"
+			"Rock Slide", "Hydro Pump", "Crunch", "Earth Power", "Ice Beam"
 		],
 		"Archen": [
 			"Aerial Ace", "Ancientpower", "Bite", "Dig", "Dragonbreath"
 		],
 		"Archeops": [
-			"Rock Slide", "Brave Bird", "Crunch", "Drill Liner", "Dragon Claw"
+			"Head Smash", "Brave Bird", "Crunch", "Earthquake", "Dragon Claw"
 		],
 		"Trubbish": [
 			"Sludge", "Swift", "Payback", "Mud Slap", "Rollout"
@@ -1885,7 +1888,7 @@
 			"Psyshock", "Faint Attack", "Rock Tomb", "Shadow Sneak", "Charge Beam"
 		],
 		"Gothitelle": [
-			"Psychic", "Sucker Punch", "Shadow Pulse", "Rock Slide", "Discharge"
+			"Psychic", "Night Blast", "Shadow Pulse", "Power Gem", "Discharge"
 		],
 		"Solosis": [
 			"Psycho Cut", "Gear Saucer", "Payback", "Rock Blast", "Shadow Sneak"

@@ -157,6 +157,8 @@ module PokeSky
     npc = Player.new('Hargrees')
     random_party(npc, group)
 
+    puts "It's a battle between #{plr.name} and #{npc.name}! Let's go!"
+
     disp_party(plr)
     puts
     disp_party(npc)
@@ -168,8 +170,6 @@ module PokeSky
     # These represent the players.
     offense = plr
     defense = npc
-
-    puts "It's a battle between #{offense.name} and #{defense.name}! Let's go!"
 
     # Start the battle loop.
     while true
@@ -189,7 +189,7 @@ module PokeSky
       switch = nil
       move = nil
       if offense == plr
-        puts "Your #{pkmn_color(attacker)}'s moves:"
+        # puts "Your #{pkmn_color(attacker)}'s moves:"
         attacker.moves.each_with_index do |m, slot|
           puts "[#{slot}] #{move_color(m)}"
         end
