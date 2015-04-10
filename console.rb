@@ -12,10 +12,13 @@
 # Potential benefits:
 # - Might suit the db sys better.
 
+require 'rainbow'
+
 require './pokemon'
 require './generator'
 require './entityloader'
 require './player'
+require './misc'
 
 module PokeSky
 
@@ -38,44 +41,53 @@ module PokeSky
   WHITE = "\033[37;1m"
   RESET = "\033[0m"
 
-  def color(type)
-    case type
-    when 'Bug' then GREEN
-    when 'Dark', 'Steel' then BLACK
-    when 'Dragon' then DARKBLUE
-    when 'Electric', 'Ground' then YELLOW
-    when 'Fighting', 'Rock' then BROWN
-    when 'Fire' then DARKRED
-    when 'Flying', 'Normal' then WHITE
-    when 'Ghost', 'Poison' then PURPLE
-    when 'Grass' then DARKGREEN
-    when 'Ice' then CYAN
-    when 'Psychic' then MAGENTA
-    when 'Water' then BLUE
-    else DARKCYAN
-    end
+  def color(s, col)
+    # case type
+    # when 'Bug' then GREEN
+    # when 'Dark', 'Steel' then BLACK
+    # when 'Dragon' then DARKBLUE
+    # when 'Electric', 'Ground' then YELLOW
+    # when 'Fighting', 'Rock' then BROWN
+    # when 'Fire' then DARKRED
+    # when 'Flying', 'Normal' then WHITE
+    # when 'Ghost', 'Poison' then PURPLE
+    # when 'Grass' then DARKGREEN
+    # when 'Ice' then CYAN
+    # when 'Psychic' then MAGENTA
+    # when 'Water' then BLUE
+    # else DARKCYAN
+    # end
+    Rainbow(s).color(col)
   end
 
-  def move_color(move)
-    "#{color(move_type(move))}#{move}#{RESET}"
+  # ayy lmao
+  def type_col(type)
+    @el.expr['type_colors'][type_id(type)]
   end
 
-  def type_color(type)
-    "#{color(type)}#{type}#{RESET}"
+  def type_colored(type)
+    # "#{color(type)}#{type}#{RESET}"
+    color(type, type_col(type))
   end
 
-  def pkmn_color(pkmn)
-    "#{color(pkmn.type.prim)}#{pkmn.name}#{RESET}"
+  def move_colored(move)
+    # "#{color(move_type(move))}#{move}#{RESET}"
+    color(move, type_col(move_type(move)))
+  end
+
+  def pkmn_colored(pkmn)
+    # "#{color(pkmn.type.prim)}#{pkmn.name}#{RESET}"
+    color(pkmn.name, type_col(pkmn.type.prim))
   end
 
   def sdisp_generic(group)
     buf = []
     group.each_with_index do |pkmn, n|
       prim, sec = pkmn.type.prim, pkmn.type.sec
-      moves = pkmn.moves.map { |s| move_color(s) }.join(', ')
+      moves = pkmn.moves.map { |s| move_colored(s) }.join(', ')
 
-      name_c = pkmn_color(pkmn)
-      s = [prim, sec].compact.map { |t| type_color(t) }.join(', ')
+      name_c = pkmn_colored(pkmn)
+      s = [prim, sec].compact.map { |t| type_colored(t) }.join(', ')
       buf << "[#{n}] #{name_c} %s(#{s}) - #{moves}"
     end
     buf
@@ -98,7 +110,7 @@ module PokeSky
         puts
       end
     else
-      battler_names = plr.battlers.map { |b| pkmn_color(b) }.join(', ')
+      battler_names = plr.battlers.map { |b| pkmn_colored(b) }.join(', ')
       puts "#{plr.name}'s Battlers: #{battler_names}"
     end
   end
@@ -148,7 +160,7 @@ module PokeSky
     }.join(', ')
     puts "Welcome to PokeSky! #{mode_str}"
 
-    group = random_group
+    group = 'powerful' # random_group
     puts "The group is: #{WHITE}#{group.capitalize}#{RESET}."
 
     plr = Player.new('Whac')
@@ -180,18 +192,18 @@ module PokeSky
       attacker = offense.battlers[0]
       defender = defense.battlers[0]
 
-      print "#{offense.name}'s #{pkmn_color(attacker)} (#{attacker.health} HP) "
-      puts "vs #{defense.name}'s #{pkmn_color(defender)} (#{defender.health} HP)"
-      # puts "It's #{pkmn_color(attacker)}'s turn!"
+      print "#{offense.name}'s #{pkmn_colored(attacker)} (#{attacker.health} HP) "
+      puts "vs #{defense.name}'s #{pkmn_colored(defender)} (#{defender.health} HP)"
+      # puts "It's #{pkmn_colored(attacker)}'s turn!"
 
       # I'm pretty sure there's a better way to do this.
       forfeit = nil
       switch = nil
       move = nil
       if offense == plr
-        # puts "Your #{pkmn_color(attacker)}'s moves:"
+        # puts "Your #{pkmn_colored(attacker)}'s moves:"
         attacker.moves.each_with_index do |m, slot|
-          puts "[#{slot}] #{move_color(m)}"
+          puts "[#{slot}] #{move_colored(m)}"
         end
 
         # Loop until a valid command is given.
@@ -252,8 +264,8 @@ module PokeSky
 
       # TODO: Pokemon selection after one fainting.
       if switch
-        old_name_c = pkmn_color(attacker)
-        new_name_c = pkmn_color(offense.battlers[switch])
+        old_name_c = pkmn_colored(attacker)
+        new_name_c = pkmn_colored(offense.battlers[switch])
         puts "#{old_name_c}, return! Go, #{new_name_c}!"
 
         curr_id = offense.battlers.index(attacker)
@@ -263,9 +275,9 @@ module PokeSky
         move ||= attacker.moves.sample
         hit = calculate_hit(move, attacker, defender)
 
-        name_c = pkmn_color(attacker)
-        mv_c = move_color(move)
-        def_name_c = pkmn_color(defender)
+        name_c = pkmn_colored(attacker)
+        mv_c = move_colored(move)
+        def_name_c = pkmn_colored(defender)
         puts "#{name_c}'s #{mv_c} deals #{hit} damage to #{def_name_c}!"
         effect = effect_desc(attack_multiplier(move_type(move),
                                                defender.type.prim,
@@ -275,7 +287,7 @@ module PokeSky
 
         defender.health -= hit
         if defender.health <= 0
-          puts "#{defense.name}'s #{pkmn_color(defender)} fainted!"
+          puts "#{defense.name}'s #{pkmn_colored(defender)} fainted!"
           defense.battlers.delete(defender)
           # disp_battlers(offense)
           # disp_battlers(defense)
@@ -291,7 +303,7 @@ module PokeSky
       else
         if fainted
           disp_battlers(defense)
-          puts "#{defense.name} sent out #{pkmn_color(defense.battlers[0])}!"
+          puts "#{defense.name} sent out #{pkmn_colored(defense.battlers[0])}!"
           fainted = false
         end
       end

@@ -23,7 +23,7 @@ module PokeSky
       if attacks.include?(move)
         idx = @el.expr['attacks'][type].index(move)
         idx /= 2.0 if type == 'Normal'
-        return ((110 * Math.log10(idx.to_f / 2 + 1)) + 1).ceil # 170
+        return ((120 * Math.log10((idx + 1).to_f / 2 + 1)) + 1).ceil # 170
       end
     end
   end
@@ -63,7 +63,7 @@ module PokeSky
 
   # Calculate defense bonus, given a Pokemon's level.
   def defense_bonus(lv)
-    (70 * 3 * lv.to_f / 2 + 250) / 100 + 5
+    (80 * 3 * lv.to_f / 2 + 250) / 100 + 5
   end
 
   # Check whether the defending Pokemon has an ability that will
@@ -90,10 +90,13 @@ module PokeSky
     atk_bonus = attack_bonus(attacker.level)
     def_bonus = defense_bonus(defender.level)
 
-    r = rand(85...100)
-    base_dmg = (((attacker.level * 2 / 5.0 + 2) *
-                 base_pwr * atk_bonus / 50 / def_bonus + 2) *
-                cr * r / 100 * stab * atk_mul)
+    r = rand(85...100) / 100.0
+    mod = stab * atk_mul * cr * r
+    # base_dmg = (((attacker.level * 2 / 5.0 + 2) *
+    #              base_pwr * atk_bonus / 50 / def_bonus + 2) *
+    #             cr * r / 100 * stab * atk_mul)
+    base_dmg = ((2 * attacker.level + 10) / 250.0 *
+                (atk_bonus / def_bonus) * base_pwr + 2) * mod
 
     # TOOD: Check levitate, fire absorb, water absorb, volt absorb,
     # sap sipper, etc.
