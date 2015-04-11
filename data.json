@@ -1,10 +1,10 @@
 {
 	"special_pokemon": {
 		"whac": [
-			3, 6, 9, 31, 34, 62, 65, 68, 91, 94, 99, 121, 130, 135, 141, 142, 149, 151, 169, 186, 208, 214, 230, 248, 251, 330, 334, 348, 350, 354, 373, 395, 398, 407, 426, 445, 454, 462, 466, 467, 468, 469, 474, 477, 478, 482, 485, 490, 494, 530, 553, 601, 609, 612, 635, 637
+			3, 6, 9, 31, 34, 62, 65, 68, 91, 94, 99, 121, 130, 135, 141, 142, 149, 151, 169, 186, 208, 214, 230, 248, 251, 330, 334, 348, 350, 354, 373, 395, 398, 407, 426, 445, 454, 462, 466, 467, 468, 469, 474, 477, 478, 482, 485, 490, 494, 530, 553, 601, 609, 612, 635, 637, 649, 652, 655, 658, 663, 671, 681, 687, 691, 697, 706, 711, 715, 719, 720, 721
 		],
 		"powerful": [
-			3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 85, 87, 89, 91, 94, 97, 99, 101, 103, 105, 106, 107, 110, 119, 121, 122, 127, 130, 131, 134, 135, 136, 139, 141, 142, 143, 144, 145, 146, 149, 151, 154, 157, 160, 162, 164, 166, 168, 169, 171, 178, 181, 182, 184, 186, 189, 192, 195, 196, 197, 199, 202, 205, 208, 210, 212, 214, 217, 219, 224, 226, 227, 229, 230, 232, 237, 242, 243, 244, 245, 248, 251, 254, 257, 260, 262, 264, 267, 269, 272, 275, 277, 279, 282, 286, 289, 291, 292, 295, 297, 301, 302, 306, 310, 317, 319, 321, 323, 324, 326, 330, 332, 334, 340, 342, 344, 345, 346, 348, 350, 354, 357, 365, 362, 373, 376, 377, 378, 379, 385, 389, 392, 395, 398, 405, 407, 409, 411, 414, 423, 424, 426, 429, 430, 435, 437, 442, 445, 448, 450, 452, 454, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 480, 481, 482, 490, 492, 494, 497, 500, 503, 508, 512, 514, 516, 521, 523, 526, 530, 534, 537, 542, 545, 547, 549, 553, 555, 558, 560, 563, 565, 567, 569, 571, 576, 579, 581, 584, 589, 591, 593, 596, 598, 601, 604, 609, 612, 614, 615, 617, 620, 621, 623, 625, 628, 630, 631, 632, 635, 637, 638, 639, 640
+			3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 83, 85, 87, 89, 91, 94, 97, 99, 101, 103, 105, 106, 107, 110, 115, 119, 121, 122, 124, 127, 128, 130, 131, 132, 134, 135, 136, 139, 141, 142, 143, 144, 145, 146, 149, 150, 151, 154, 157, 160, 162, 164, 166, 168, 169, 171, 178, 181, 182, 184, 185, 186, 189, 192, 195, 196, 197, 199, 201, 202, 203, 205, 206, 208, 210, 211, 212, 213, 214, 217, 219, 222, 224, 225, 226, 227, 229, 230, 232, 234, 235, 237, 241, 242, 243, 244, 245, 248, 249, 250, 251, 254, 257, 260, 262, 264, 267, 269, 272, 275, 277, 279, 282, 284, 286, 289, 291, 292, 295, 297, 301, 302, 303, 306, 308, 310, 311, 312, 313, 314, 317, 319, 321, 323, 324, 326, 327, 330, 332, 334, 335, 336, 337, 338, 340, 342, 344, 346, 348, 350, 351, 352, 354, 357, 358, 359, 362, 365, 367, 368, 369, 370, 373, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 389, 392, 395, 398, 400, 402, 405, 407, 409, 411, 413, 414, 416, 417, 419, 421, 423, 424, 426, 428, 429, 430, 432, 435, 437, 441, 442, 445, 448, 450, 452, 454, 455, 457, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 497, 500, 503, 505, 508, 510, 512, 514, 516, 518, 521, 523, 526, 528, 530, 531, 534, 537, 538, 539, 542, 545, 547, 549, 550, 553, 555, 556, 558, 560, 561, 563, 565, 567, 569, 571, 573, 576, 579, 581, 584, 586, 587, 589, 591, 593, 594, 596, 598, 601, 604, 606, 609, 612, 614, 615, 617, 618, 620, 621, 623, 625, 626, 628, 630, 631, 632, 635, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 652, 655, 658, 660, 663, 666, 668, 671, 673, 675, 676, 678, 681, 683, 685, 687, 689, 691, 693, 695, 697, 699, 700, 701, 702, 703, 706, 707, 709, 711, 713, 715, 716, 717, 718, 719, 720, 721
 		],
 		"air": [
 			6, 12, 15, 18, 22, 94, 110, 121, 130, 142, 144, 145, 146, 149, 150, 151, 164, 166, 169, 178, 189, 201, 212, 226, 227, 249, 250, 251, 267, 269, 277, 279, 284, 291, 292, 330, 334, 337, 338, 344, 354, 357, 358, 373, 380, 381, 384, 385, 386, 398, 414, 416, 426, 429, 430, 437, 445, 455, 462, 468, 469, 472, 474, 476, 477, 478, 479, 480, 481, 482, 487, 488, 490, 491, 493, 494, 521, 528, 561, 567, 579, 581, 587, 593, 604, 609, 615, 621, 628, 630, 635, 637, 641, 642, 645
@@ -37,10 +37,10 @@
 		]
 	},
 	"types": [
-		"Bug", "Dark", "Dragon", "Electric", "Fighting", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Normal", "Poison", "Psychic", "Rock", "Steel", "Water"
+		"Bug", "Dark", "Dragon", "Electric", "Fairy", "Fighting", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Normal", "Poison", "Psychic", "Rock", "Steel", "Water"
 	],
 	"type_colors": [
-		"#6D7815", "#49392F", "#4924A1", "#A1871F", "#7D1F1A", "#9C531F", "#6D5E9C", "#493963", "#4E8234", "#927D44", "#638D8D", "#6D6D4E", "#682A68", "#A13959", "#786824", "#787887", "#445E9C"
+		"#6D7815", "#49392F", "#4924A1", "#A1871F", "#9B6470", "#7D1F1A", "#9C531F", "#6D5E9C", "#493963", "#4E8234", "#927D44", "#638D8D", "#6D6D4E", "#682A68", "#A13959", "#786824", "#676776", "#445E9C"
 	],
 	"attacks": {
 		"Bug": [
@@ -59,12 +59,16 @@
 			"Thunder Wave", "Static Shock", "Electrostatics", "Thundershock", "Charge Beam", "Shock Wave", "Thunder Fang", "Thunderpunch", "Discharge", "Wild Charge", "Thunderbolt", "Thunder", "Zap Cannon", "Lightning Strike"
 		],
 
+		"Fairy": [
+			"Charm", "Cute Eyes", "Sweet Kiss", "Cute Beam", "Pixilate", "Fairy Wind", "Disarming Voice", "Fairy Dance", "Draining Kiss", "Starlight", "Dazzling Gleam", "Light Wave", "Play Rough", "Moonblast"
+		],
+
 		"Fighting": [
 			"Low Kick", "Rock Smash", "Seismic Toss", "Mach Punch", "Brick Break", "Drain Punch", "Cross Chop", "Hammer Arm", "Aura Sphere", "Close Combat", "Superpower", "Dynamicpunch", "Focus Blast", "Focus Punch"
 		],
 
 		"Fire": [
-			"Smoke", "Ember", "Flame Wheel", "Fire Fang", "Fire Punch", "Incinerate", "Flamethrower", "Heat Wave", "Fire Blast", "Lava Cyclone", "Flare Blitz", "Eruption", "Overheat", "White Flame"
+			"Smoke", "Ember", "Flame Wheel", "Fire Fang", "Fire Punch", "Incinerate", "Flamethrower", "Heat Wave", "Fire Blast", "Lava Cyclone", "Eruption", "Flare Blitz", "Overheat", "White Flame"
 		],
 
 		"Flying": [
@@ -100,7 +104,7 @@
 		],
 
 		"Rock": [
-			"Rock Polish", "Rock Crush", "Sharp Rocks", "Rollout", "Rock Throw", "Rock Blast", "Knock Down", "Rock Tomb", "Ancientpower", "Rock Slide", "Power Gem", "Stone Edge", "Rock Wrecker", "Head Smash"
+			"Rock Polish", "Rock Crush", "Sharp Rocks", "Rollout", "Rock Throw", "Rock Blast", "Knock Down", "Rock Tomb", "Ancientpower", "Rock Slide", "Power Gem", "Stone Edge", "Diamond Storm", "Head Smash"
 		],
 
 		"Steel": [
@@ -113,55 +117,58 @@
 	},
 	"type_x": {
 		"Bug": [
-			1, 2, 1, 1, 0.5, 0.5, 0.5, 0.5, 2, 1, 1, 1, 0.5, 2, 1, 0.5, 1
+			1, 2, 1, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 2, 1, 1, 1, 0.5, 2, 1, 0.5, 1
 		],
 		"Dark": [
-			1, 0.5, 1, 1, 0.5, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 0.5, 1
+			1, 0.5, 1, 1, 0.5, 0.5, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1
 		],
 		"Dragon": [
-			1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 1
+			1, 1, 2, 1, 0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 1
 		],
 		"Electric": [
-			1, 1, 0.5, 0.5, 1, 1, 2, 1, 0.5, 0, 1, 1, 1, 1, 1, 1, 2
+			1, 1, 0.5, 0.5, 1, 1, 1, 2, 1, 0.5, 0, 1, 1, 1, 1, 1, 1, 2
+		],
+		"Fairy": [
+			1, 2, 2, 1, 1, 2, 0.5, 1, 1, 1, 1, 1, 1, 0.5, 1, 1, 0.5, 1
 		],
 		"Fighting": [
-			0.5, 2, 1, 1, 1, 1, 0.5, 0, 1, 1, 2, 2, 0.5, 0.5, 2, 2, 1
+			0.5, 2, 1, 1, 0.5, 1, 1, 0.5, 0, 1, 1, 2, 2, 0.5, 0.5, 2, 2, 1
 		],
 		"Fire": [
-			2, 1, 0.5, 1, 1, 0.5, 1, 1, 2, 1, 2, 1, 1, 1, 0.5, 2, 0.5
+			2, 1, 0.5, 1, 1, 1, 0.5, 1, 1, 2, 1, 2, 1, 1, 1, 0.5, 2, 0.5
 		],
 		"Flying": [
-			2, 1, 1, 0.5, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0.5, 0.5, 1
+			2, 1, 1, 0.5, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0.5, 0.5, 1
 		],
 		"Ghost": [
-			1, 0.5, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1, 2, 1, 0.5, 1
+			1, 0.5, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1, 2, 1, 1, 1
 		],
 		"Grass": [
-			0.5, 1, 0.5, 1, 1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 0.5, 1, 2, 0.5, 2
+			0.5, 1, 0.5, 1, 1, 1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 0.5, 1, 2, 0.5, 2
 		],
 		"Ground": [
-			0.5, 1, 1, 2, 1, 2, 0, 1, 0.5, 1, 1, 1, 2, 1, 2, 2, 1
+			0.5, 1, 1, 2, 1, 1, 2, 0, 1, 0.5, 1, 1, 1, 2, 1, 2, 2, 1
 		],
 		"Ice": [
-			1, 1, 2, 1, 1, 0.5, 2, 1, 2, 2, 0.5, 1, 1, 1, 1, 0.5, 0.5
+			1, 1, 2, 1, 1, 1, 0.5, 2, 1, 2, 2, 0.5, 1, 1, 1, 1, 0.5, 0.5
 		],
 		"Normal": [
-			1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 1
+			1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 1
 		],
 		"Poison": [
-			1, 1, 1, 1, 1, 1, 1, 0.5, 2, 0.5, 1, 1, 0.5, 1, 0.5, 0, 1
+			1, 1, 1, 1, 2, 1, 1, 1, 0.5, 2, 0.5, 1, 1, 0.5, 1, 0.5, 0, 1
 		],
 		"Psychic": [
-			1, 0, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 0.5, 1, 0.5, 1
+			1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 0.5, 1, 0.5, 1
 		],
 		"Rock": [
-			2, 1, 1, 1, 0.5, 2, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 0.5, 1
+			2, 1, 1, 1, 1, 0.5, 2, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 0.5, 1
 		],
 		"Steel": [
-			1, 1, 1, 0.5, 1, 0.5, 1, 1, 1, 1, 2, 1, 1, 1, 2, 0.5, 0.5
+			1, 1, 1, 0.5, 2, 1, 0.5, 1, 1, 1, 1, 2, 1, 1, 1, 2, 0.5, 0.5
 		],
 		"Water": [
-			1, 1, 0.5, 1, 1, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 2, 1, 0.5
+			1, 1, 0.5, 1, 1, 1, 2, 1, 1, 0.5, 2, 1, 1, 1, 1, 2, 1, 0.5
 		]
 	},
 	"movepools": {
@@ -268,10 +275,10 @@
 			"Earth Power", "Sludge Wave", "Blizzard", "Thunder", "Fire Blast"
 		],
 		"Clefairy": [
-			"Pound", "Tackle", "Flame Wheel", "Charge Beam", "Bite"
+			"Pound", "Draining Kiss", "Flame Wheel", "Charge Beam", "Bite"
 		],
 		"Clefable": [
-			"Giga Impact", "Return", "Shadow Ball", "Brick Break", "Thunderbolt"
+			"Moonblast", "Return", "Shadow Ball", "Brick Break", "Thunderbolt"
 		],
 		"Vulpix": [
 			"Ember", "Absorb", "Sand Ball", "Pin Missile", "Slash"
@@ -280,10 +287,10 @@
 			"Heat Wave", "Giga Drain", "Earth Power", "X-Scissor", "Slam"
 		],
 		"Jigglypuff": [
-			"Pound", "Static Shock", "Icicle Drop", "Rock Smash", "Flame Wheel"
+			"Pixilate", "Static Shock", "Icicle Drop", "Rock Smash", "Flame Wheel"
 		],
 		"Wigglytuff": [
-			"Thrash", "Thunderbolt", "Ice Fang", "Cross Chop", "Lava Cyclone"
+			"Moonblast", "Thunderbolt", "Ice Fang", "Cross Chop", "Lava Cyclone"
 		],
 		"Zubat": [
 			"Leech Life", "Wing Attack", "Smog", "Mega Leaf", "Trickery"
@@ -298,7 +305,7 @@
 			"Silver Wind", "Mega Leaf", "Poison Tail", "Retaliation", "Crunch"
 		],
 		"Vileplume": [
-			"Signal Beam", "Solarbeam", "Sludge Bomb", "Mega Kick", "Dark Pulse"
+			"Signal Beam", "Solarbeam", "Sludge Bomb", "Dazzling Gleam", "Dark Pulse"
 		],
 		"Paras": [
 			"String Shot", "Vine Whip", "Absorb", "Poison Gas", "Tackle"
@@ -349,7 +356,7 @@
 			"Surf", "Ice Beam", "Psychic", "Drill Liner", "Skull Bash"
 		],
 		"Poliwrath": [
-			"Hydro Cannon", "Ice Burn", "Earth Power", "Dynamicpunch", "Hyper Beam"
+			"Hydro Cannon", "Ice Burn", "Earth Power", "Dynamicpunch", "Play Rough"
 		],
 		"Abra": [
 			"Confusion", "Tackle", "Electrostatics", "Absorb", "Low Kick"
@@ -358,7 +365,7 @@
 			"Extrasensory", "Slash", "Shock Wave", "Energy Ball", "Hammer Arm"
 		],
 		"Alakazam": [
-			"Psycho Boost", "Hyper Beam", "Thunderbolt", "Focus Blast", "Leaf Storm"
+			"Psycho Boost", "Moonblast", "Thunderbolt", "Focus Blast", "Leaf Storm"
 		],
 		"Machop": [
 			"Low Kick", "Tackle", "Rock Throw", "Sand Tomb", "Flame Wheel"
@@ -367,7 +374,7 @@
 			"Cross Chop", "Slam", "Rock Tomb", "Desert Wave", "Flamethrower"
 		],
 		"Machamp": [
-			"Focus Punch", "Double Edge", "Rock Wrecker", "Earth Power", "Flare Blitz"
+			"Dynamicpunch", "Crunch", "Head Smash", "Earthquake", "Flare Blitz"
 		],
 		"Bellsprout": [
 			"Leech Life", "Absorb", "Poison Sting", "Tackle", "Bite"
@@ -382,7 +389,7 @@
 			"Aqua Jet", "Poison Sting", "Icy Wind", "Confuse Ray", "Screech"
 		],
 		"Tentacruel": [
-			"Hydro Pump", "Sludge Wave", "Frost Breath", "Hex", "Tackle"
+			"Hydro Pump", "Sludge Wave", "Frost Breath", "Hex", "Light Wave"
 		],
 		"Geodude": [
 			"Rollout", "Sand Ball", "Tackle", "Seismic Toss", "Flame Wheel"
@@ -397,7 +404,7 @@
 			"Flame Wheel", "Tackle", "Mud Bomb", "Bite", "Ember"
 		],
 		"Rapidash": [
-			"Flare Blitz", "Return", "Drill Liner", "Crunch", "Lava Cyclone"
+			"Flare Blitz", "Return", "Drill Liner", "Crunch", "Fly"
 		],
 		"Slowpoke": [
 			"Water Gun", "Tackle", "Confusion", "Powder Snow", "Shadow Sneak"
@@ -412,7 +419,7 @@
 			"Charge Beam", "Iron Head", "Body Slam", "Power Gem", "Flash Cannon"
 		],
 		"Farfetchd": [
-			"Gust", "Tackle", "Fury Cutter", "Astonish", "Dark Rage"
+			"Aeroblast", "Return", "Bug Buzz", "Shadow Ball", "Night Slash"
 		],
 		"Doduo": [
 			"Gust", "Tackle", "Fury Cutter", "Astonish", "Dark Rage"
@@ -445,7 +452,7 @@
 			"Shadow Claw", "Poison Jab", "Dark Pulse", "Thundershock", "Flamethrower"
 		],
 		"Gengar": [
-			"Shadow Ball", "Dark Pulse", "Focus Blast", "Super Psy Bolt", "Thunderbolt"
+			"Shadow Ball", "Sludge Wave", "Focus Blast", "Moonblast", "Thunderbolt"
 		],
 		"Onix": [
 			"Rock Tomb", "Mud Bomb", "Iron Tail", "Rock Throw", "Tackle"
@@ -460,7 +467,7 @@
 			"Water Gun", "Tackle", "Crabhammer", "Powder Snow", "Shadow Sneak"
 		],
 		"Kingler": [
-			"Crabhammer", "Fury Swipes", "Ice Beam", "Shadow Claw", "Dragon Claw"
+			"Crabhammer", "Stone Edge", "Ice Beam", "Shadow Claw", "Dragon Claw"
 		],
 		"Voltorb": [
 			"Charge Beam", "Gyro Ball", "Tackle", "Swift", "Rollout"
@@ -508,7 +515,7 @@
 			"Giga Drain", "Vine Whip", "Slam", "Acid Bomb", "Bug Bite"
 		],
 		"Kangaskhan": [
-			"Giga Impact", "Brick Break", "Bite", "Rock Tomb", "Shadow Claw"
+			"Giga Impact", "Brick Break", "Crunch", "Rock Tomb", "Shadow Claw"
 		],
 		"Horsea": [
 			"Water Pulse", "Powder Snow", "Dragon Rage", "Beez Buzz", "Tackle"
@@ -526,7 +533,7 @@
 			"Bubblebeam", "Icicle Drop", "Shock Wave", "Confusion", "Swift"
 		],
 		"Starmie": [
-			"Hydro Pump", "Ice Beam", "Thunderbolt", "Psyshock", "Swift"
+			"Hydro Pump", "Ice Beam", "Thunderbolt", "Psyshock", "Dazzling Gleam"
 		],
 		"Mr. Mime": [
 			"Psycho Cut", "Hex", "Thunderpunch", "Ice Punch", "Fire Punch", "Pursuit"
@@ -535,7 +542,7 @@
 			"Bug Tackle", "Air Slash", "Slash", "Steel Wing", "Silver Wind"
 		],
 		"Jynx": [
-			"Luster Purge", "Icy Wind", "Lick", "Grass Knot", "Tackle"
+			"Luster Purge", "Blizzard", "Shadow Ball", "Grass Knot", "Surf"
 		],
 		"Electabuzz": [
 			"Thunderbolt", "Swift", "Brick Break", "Psyshock", "Brick Break"
@@ -589,10 +596,10 @@
 			"Waterfall", "Rock Blast", "Ice Beam", "Drill Liner", "Slash"
 		],
 		"Aerodactyl": [
-			"Stone Edge", "Brave Bird", "Ice Fang", "Fire Fang", "Thunder Fang"
+			"Stone Edge", "Brave Bird", "Ice Fang", "Earthquake", "Aqua Tail"
 		],
 		"Snorlax": [
-			"Body Slam", "Close Combat", "Ice Punch", "Fire Punch", "Thunderpunch"
+			"Body Slam", "Close Combat", "Blizzard", "Fire Blast", "Thunder"
 		],
 		"Articuno": [
 			"Freeze Shock", "Sky Attack", "Hydro Cannon", "Outrage", "Bug Buzz"
@@ -610,13 +617,13 @@
 			"Dragon Pulse", "Fly", "Frost Breath", "Discharge", "Heat Wave"
 		],
 		"Dragonite": [
-			"Draco Meteor", "Hurricane", "Ice Burn", "Zap Cannon", "White Flame"
+			"Draco Meteor", "Hurricane", "Earthquake", "Superpower", "White Flame"
 		],
 		"Mewtwo": [
-			"Psycho Boost", "Focus Blast", "Lightning Strike", "Freeze Shock", "Fire Blast"
+			"Psycho Boost", "Focus Blast", "Lightning Strike", "Earthquake", "Stone Edge"
 		],
 		"Mew": [
-			"Psycho Boost", "Focus Blast", "Ice Burn", "Shadow Force", "Fire Blast"
+			"Psycho Boost", "Focus Blast", "Moonblast", "Shadow Force", "Fire Blast"
 		],
 		"Chikorita": [
 			"Vine Whip", "Tackle", "Dig", "Bite", "Bug Bite"
@@ -682,16 +689,16 @@
 			"Thundershock", "Pound", "Quick Attack", "Mud Slap", "Bite"
 		],
 		"Cleffa": [
-			"Pound", "Tackle", "Psybeam", "Rollout", "Rock Smash"
+			"Pound", "Disarming Voice", "Psybeam", "Rollout", "Rock Smash"
 		],
 		"Igglybuff": [
-			"Pound", "Tackle", "Psybeam", "Rollout", "Rock Smash"
+			"Pound", "Disarming Voice", "Psybeam", "Rollout", "Rock Smash"
 		],
 		"Togepi": [
-			"Pound", "Tackle", "Psybeam", "Rollout", "Bite"
+			"Pound", "Disarming Voice", "Psybeam", "Rollout", "Bite"
 		],
 		"Togetic": [
-			"Fly", "Return", "Steel Wing", "Shadow Pulse", "Water Pulse"
+			"Fly", "Return", "Starlight", "Shadow Pulse", "Water Pulse"
 		],
 		"Natu": [
 			"Psybeam", "Confusion", "Wing Attack", "Bug Bite", "Ember"
@@ -709,19 +716,19 @@
 			"Thunder", "Dragon Pulse", "Earth Power", "Aura Sphere", "Flamethrower"
 		],
 		"Bellossom": [
-			"Solarbeam", "U-Turn", "Flash Cannon", "Dig", "Flamethrower"
+			"Solarbeam", "U-Turn", "Flash Cannon", "Dazzling Gleam", "Flamethrower"
 		],
 		"Marill": [
-			"Water Pulse", "Icicle Drop", "Tackle", "Water Gun", "Iron Tail"
+			"Water Pulse", "Icicle Drop", "Tackle", "Draining Kiss", "Iron Tail"
 		],
 		"Azumarill": [
-			"Hydro Pump", "Ice Beam", "Swift", "Psyshock", "Iron Tail"
+			"Waterfall", "Ice Beam", "Play Rough", "Superpower", "Iron Tail"
 		],
 		"Sudowoodo": [
 			"Stone Edge", "Earth Power", "Solarbeam", "Return", "Crunch"
 		],
 		"Politoed": [
-			"Hydro Pump", "Blizzard", "Focus Blast", "Psychic", "Earth Power"
+			"Hydro Pump", "Blizzard", "Focus Blast", "Play Rough", "Earth Power"
 		],
 		"Hoppip": [
 			"Razor Leaf", "Aerial Ace", "Mud Slap", "Pound", "Bite"
@@ -751,10 +758,10 @@
 			"Surf", "Dig", "Ice Beam", "Dragon Tail", "Iron Tail"
 		],
 		"Espeon": [
-			"Psychic", "Focus Blast", "Shadow Ball", "Energy Ball", "Thunderbolt"
+			"Psychic", "Focus Blast", "Moonblast", "Energy Ball", "Thunderbolt"
 		],
 		"Umbreon": [
-			"Dark Pulse", "Psychic", "Shadow Ball", "Thunderbolt", "Bug Buzz"
+			"Dark Pulse", "Moonblast", "Shadow Ball", "Thunderbolt", "Bug Buzz"
 		],
 		"Murkrow": [
 			"Night Slash", "Air Slash", "Slash", "Swift", "Confusion"
@@ -787,13 +794,13 @@
 			"Mud Bomb", "Air Slash", "Night Slash", "Slash", "Rock Throw"
 		],
 		"Steelix": [
-			"Gyro Ball", "Earthquake", "Rock Wrecker", "Lava Cyclone", "Superpower"
+			"Gyro Ball", "Earthquake", "Head Smash", "Lava Cyclone", "Superpower"
 		],
 		"Snubbull": [
-			"Bite", "Ice Fang", "Thunder Fang", "Fire Fang", "Mach Punch"
+			"Bite", "Ice Fang", "Thunder Fang", "Fire Fang", "Fairy Dance"
 		],
 		"Granbull": [
-			"Crunch", "Ice Punch", "Thunderpunch", "Fire Punch", "Drain Punch"
+			"Crunch", "Ice Punch", "Thunderpunch", "Fire Punch", "Play Rough"
 		],
 		"Qwilfish": [
 			"Scald", "Avalanche", "Venom Shock", "Energy Ball", "Crunch"
@@ -805,7 +812,7 @@
 			"Stone Edge", "Bug Bite", "Giga Drain", "Bite", "Mud Shot"
 		],
 		"Heracross": [
-			"Close Combat", "Megahorn", "Earthquake", "Rock Wrecker", "Leaf Storm"
+			"Close Combat", "Megahorn", "Earthquake", "Head Smash", "Leaf Storm"
 		],
 		"Sneasel": [
 			"Pursuit", "Ice Punch", "Night Slash", "Mach Punch", "Bullet Punch"
@@ -907,7 +914,7 @@
 			"Rock Slide", "Dig", "Crunch", "Iron Head", "Shadow Punch"
 		],
 		"Tyranitar": [
-			"Rock Wrecker", "Dark Pulse", "Superpower", "Fire Blast", "Earthquake"
+			"Diamond Storm", "Night Blast", "Superpower", "Fire Blast", "Earthquake"
 		],
 		"Lugia": [
 			"Sky Attack", "Psychic", "Dragon Pulse", "Hydro Pump", "Ice Beam"
@@ -964,13 +971,13 @@
 			"Bug Tackle", "Quick Attack", "Giga Drain", "Venom Shock", "Sludge Bomb"
 		],
 		"Beautifly": [
-			"Bug Buzz", "Take Down", "Leaf Storm", "Sludge Wave", "Brave Bird"
+			"Bug Buzz", "Light Wave", "Leaf Storm", "Sludge Wave", "Brave Bird"
 		],
 		"Cascoon": [
 			"Bug Tackle", "Quick Attack", "Giga Drain", "Venom Shock", "Aerial Ace"
 		],
 		"Dustox": [
-			"Bug Buzz", "Take Down", "Leaf Storm", "Sludge Wave", "Brave Bird"
+			"Bug Buzz", "Light Wave", "Leaf Storm", "Sludge Wave", "Brave Bird"
 		],
 		"Lotad": [
 			"Water Gun", "Razor Leaf", "Tackle", "Pound", "Mud Shot"
@@ -1003,13 +1010,13 @@
 			"Surf", "Hurricane", "Last Resort", "Crunch", "Blizzard"
 		],
 		"Ralts": [
-			"Psywave", "Psybeam", "Seismic Toss", "Ember", "Mega Leaf"
+			"Psywave", "Cute Beam", "Seismic Toss", "Ember", "Mega Leaf"
 		],
 		"Kirlia": [
-			"Psyshock", "Shadow Ball", "Drain Punch", "Flamethrower", "Giga Drain"
+			"Psyshock", "Shadow Ball", "Starlight", "Flamethrower", "Giga Drain"
 		],
 		"Gardevoir": [
-			"Super Psy Bolt", "Shadow Ball", "Superpower", "Fire Blast", "Energy Ball"
+			"Super Psy Bolt", "Shadow Ball", "Superpower", "Moonblast", "Energy Ball"
 		],
 		"Surskit": [
 			"Water Gun", "Beez Buzz", "Razor Leaf", "Aurora Beam", "Venom Shock"
@@ -1066,13 +1073,13 @@
 			"Tackle", "Faint Attack", "Sneak Attack", "Calm Mind", "Rollout"
 		],
 		"Delcatty": [
-			"Return", "Dark Pulse", "Thunder", "Rollout", "Icy Wind"
+			"Return", "Dark Pulse", "Thunder", "Light Wave", "Ice Beam"
 		],
 		"Sableye": [
 			"Night Slash", "Astonish", "Fury Swipes", "Confusion", "Fury Cutter"
 		],
 		"Mawile": [
-			"Iron Head", "Tackle", "Crunch", "Earthquake", "Thunderpunch"
+			"Iron Head", "Play Rough", "Crunch", "Earthquake", "Thunderpunch"
 		],
 		"Aron": [
 			"Iron Head", "Bite", "Tackle", "Rollout", "Dig"
@@ -1162,10 +1169,10 @@
 			"Grass Knot", "Night Blast", "Bug Buzz", "Focus Punch", "Ice Beam"
 		],
 		"Swablu": [
-			"Peck", "Tackle", "Ice Beam", "Steel Wing", "Assurance"
+			"Peck", "Starlight", "Ice Beam", "Steel Wing", "Assurance"
 		],
 		"Altaria": [
-			"Outrage", "Brave Bird", "Hyper Beam", "Surf", "Ice Beam"
+			"Outrage", "Brave Bird", "Moonblast", "Surf", "Ice Beam"
 		],
 		"Zangoose": [
 			"Slash", "Ice Punch", "Fire Punch", "Thunderpunch", "Fury Cutter"
@@ -1219,13 +1226,13 @@
 			"Water Gun", "Ember", "Giga Drain", "Mud Bomb", "Astonish"
 		],
 		"Kecleon": [
-			"Tackle", "Astonish", "Psybeam", "Faint Attack", "Ancientpower"
+			"Hyper Beam", "Shadow Ball", "Psyshock", "Faint Attack", "Ancientpower"
 		],
 		"Shuppet": [
 			"Faint Attack", "Shadow Ball", "Psybeam", "Poison Gas", "Flare Blitz"
 		],
 		"Banette": [
-			"Shadow Ball", "Super Psy Bolt", "Faint Attack", "Aura Sphere", "Mirror Shot"
+			"Shadow Ball", "Super Psy Bolt", "Dazzling Gleam", "Aura Sphere", "Mirror Shot"
 		],
 		"Duskull": [
 			"Confuse Ray", "Faint Attack", "Icy Wind", "Quick Attack", "Dark Rage"
@@ -1240,7 +1247,7 @@
 			"Psychic", "Shadow Ball", "Return", "Shock Wave", "Rollout"
 		],
 		"Absol": [
-			"Night Blast", "Shadow Ball", "Psychic", "Fury Cutter", "Icy Wind"
+			"Night Blast", "Play Rough", "Psychic", "Fury Cutter", "Icy Wind"
 		],
 		"Wynaut": [
 			"Confusion", "Tackle", "Astonish", "Trickery", "Mud Slap"
@@ -1249,7 +1256,7 @@
 			"Powder Snow", "Tackle", "Bite", "Smog", "Shadow Ball"
 		],
 		"Glalie": [
-			"Blizzard", "Headbutt", "Crunch", "Shadow Ball", "Smog"
+			"Blizzard", "Double Edge", "Crunch", "Shadow Ball", "Sludge Bomb"
 		],
 		"Spheal": [
 			"Powder Snow", "Tackle", "Water Gun", "Iron Defense", "Rollout"
@@ -1282,7 +1289,7 @@
 			"Dragon Claw", "Headbutt", "Bite", "Ember", "Rock Tomb"
 		],
 		"Salamence": [
-			"Outrage", "Earthquake", "Fire Blast", "Fly", "Poison Jab"
+			"Outrage", "Earthquake", "Fire Blast", "Fly", "Hydro Pump"
 		],
 		"Beldum": [
 			"Iron Defense", "Mind Bend", "Tackle", "Rock Crush", "Sandstorm"
@@ -1318,7 +1325,7 @@
 			"Outrage", "Earthquake", "Overheat", "Waterfall", "Hyper Beam"
 		],
 		"Jirachi": [
-			"Doom Desire", "Super Psy Bolt", "Fire Blast", "Thunder", "Aerial Ace"
+			"Doom Desire", "Super Psy Bolt", "Fire Blast", "Thunder", "Play Rough"
 		],
 		"Deoxys": [
 			"Psycho Boost", "Hyper Beam", "Superpower", "Zap Cannon", "Night Blast"
@@ -1453,7 +1460,7 @@
 			"Shadow Ball", "Dark Pulse", "Super Psy Bolt", "Double Edge", "Energy Ball"
 		],
 		"Honchkrow": [
-			"Dark Pulse", "Sucker Punch", "Mega Punch", "Psychic", "Shadow Ball"
+			"Dark Pulse", "Aeroblast", "Mega Punch", "Psychic", "Shadow Ball"
 		],
 		"Glameow": [
 			"Scratch", "Bite", "Ice Fang", "Fire Fang", "Thunder Fang"
@@ -1507,7 +1514,7 @@
 			"Spinning Tail", "Hammer Arm", "Sucker Punch", "Magnitude", "Rock Blast"
 		],
 		"Lucario": [
-			"Doom Desire", "Focus Punch", "Night Blast", "Earthquake", "Rock Wrecker"
+			"Doom Desire", "Aura Sphere", "Night Blast", "Earthquake", "Diamond Storm"
 		],
 		"Hippopotas": [
 			"Dig", "Brick Break", "Rock Throw", "Bite", "Shadow Pulse"
@@ -1594,7 +1601,7 @@
 			"Thunderbolt", "Earth Power", "Power Gem", "Flash Cannon", "Surf"
 		],
 		"Dusknoir": [
-			"Shadow Blast", "Overheat", "Earthquake", "Rock Wrecker", "Dynamicpunch"
+			"Shadow Blast", "Overheat", "Earthquake", "Power Gem", "Dynamicpunch"
 		],
 		"Froslass": [
 			"Blizzard", "Shadow Ball", "Crunch", "Aqua Tail", "Iron Tail"
@@ -1603,13 +1610,13 @@
 			"Thunder", "Shadow Force", "Ice Beam", "Earth Power", "Hydro Pump"
 		],
 		"Uxie": [
-			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+			"Psycho Boost", "Moonblast", "Earth Power", "Freeze Shock", "Focus Blast"
 		],
 		"Mesprit": [
-			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+			"Psycho Boost", "Moonblast", "Earth Power", "Freeze Shock", "Focus Blast"
 		],
 		"Azelf": [
-			"Psycho Boost", "Shadow Blast", "Earth Power", "Freeze Shock", "Focus Blast"
+			"Psycho Boost", "Moonblast", "Earth Power", "Freeze Shock", "Focus Blast"
 		],
 		"Dialga": [
 			"Draco Meteor", "White Flame", "Lightning Strike", "Doom Desire", "Focus Punch"
@@ -1627,7 +1634,7 @@
 			"Shadow Force", "Draco Meteor", "Focus Punch", "Lightning Strike", "Earthquake"
 		],
 		"Cresselia": [
-			"Psycho Boost", "Focus Blast", "Freeze Shock", "Shadow Blast", "White Flame"
+			"Psycho Boost", "Focus Blast", "Freeze Shock", "Shadow Blast", "Moonblast"
 		],
 		"Phione": [
 			"Surf", "Ice Beam", "Focus Blast", "U-Turn", "Stone Edge"
@@ -1756,7 +1763,7 @@
 			"Earth Power", "Double Edge", "Rock Slide", "Iron Head", "Cross Chop"
 		],
 		"Audino": [
-			"Tackle", "Swift", "Confusion", "Rock Throw", "Low Kick"
+			"Double Edge", "Dazzling Gleam", "Psychic", "Stone Edge", "Superpower"
 		],
 		"Timburr": [
 			"Seismic Toss", "Brick Break", "Sand Tomb", "Rock Blast", "Slash"
@@ -1804,7 +1811,7 @@
 			"Razor Leaf", "Gust", "Silver Wind", "Swift", "Powder Snow"
 		],
 		"Whimsicott": [
-			"Solarbeam", "Air Slash", "X-Scissor", "Shadow Ball", "Avalanche"
+			"Solarbeam", "Air Slash", "X-Scissor", "Shadow Ball", "Light Wave"
 		],
 		"Petilil": [
 			"Razor Leaf", "Gust", "Silver Wind", "Swift", "Powder Snow"
@@ -2005,7 +2012,7 @@
 			"Ice Fang", "Dig", "Headbutt", "Metal Claw", "Bubblebeam"
 		],
 		"Beartic": [
-			"Blizzard", "Earth Power", "Double Edge", "Iron Tail", "Aqua Tail"
+			"Blizzard", "Earth Power", "Play Rough", "Iron Tail", "Aqua Tail"
 		],
 		"Cryogonal": [
 			"Night Slash", "Ice Beam", "Solarbeam", "Poison Jab", "Explosion"
@@ -2111,6 +2118,222 @@
 		],
 		"Genesect": [
 			"Bug Buzz", "Zap Cannon", "Blizzard", "Fire Blast", "Psychic"
+		],
+		"Chespin": [
+			"", "", "", "", ""
+		],
+		"Quilladin": [
+			"", "", "", "", ""
+		],
+		"Chesnaught": [
+			"Leaf Storm", "Superpower", "Dig", "Poison Jab", "Stone Edge"
+		],
+		"Fennekin": [
+			"", "", "", "", ""
+		],
+		"Braixen": [
+			"", "", "", "", ""
+		],
+		"Delphox": [
+			"Fire Blast", "Psychic", "Grass Knot", "Shadow Ball", "Solarbeam"
+		],
+		"Froakie": [
+			"", "", "", "", ""
+		],
+		"Frogadier": [
+			"", "", "", "", ""
+		],
+		"Greninja": [
+			"Hydro Pump", "Ice Beam", "Dark Pulse", "Gunk Shot", "Grass Knot"
+		],
+		"Bunnelby": [
+			"", "", "", "", ""
+		],
+		"Diggersby": [
+			"Earthquake", "Return", "Wild Charge", "U-Turn", "Dynamicpunch"
+		],
+		"Fletchling": [
+			"", "", "", "", ""
+		],
+		"Fletchinder": [
+			"", "", "", "", ""
+		],
+		"Talonflame": [
+			"Brave Bird", "Flare Blitz", "U-Turn", "Stone Edge", "Steel Wing"
+		],
+		"Scatterbug": [
+			"", "", "", "", ""
+		],
+		"Spewpa": [
+			"", "", "", "", ""
+		],
+		"Vivillon": [
+			"Hurricane", "Bug Buzz", "Light Wave", "Psychic", "Earth Power"
+		],
+		"Litleo": [
+			"", "", "", "", ""
+		],
+		"Pyroar": [
+			"Overheat", "Dig", "Crunch", "Wild Charge", "Delta Strike"
+		],
+		"Flabebe": [
+			"", "", "", "", ""
+		],
+		"Floette": [
+			"", "", "", "", ""
+		],
+		"Florges": [
+			"Moonblast", "Energy Ball", "Psychic", "Surf", "Shadow Ball"
+		],
+		"Skiddo": [
+			"", "", "", "", ""
+		],
+		"Gogoat": [
+			"Earthquake", "Seed Bomb", "Brick Break", "Rock Slide", "Return"
+		],
+		"Pancham": [
+			"", "", "", "", ""
+		],
+		"Pangoro": [
+			"Hammer Arm", "Sucker Punch", "Gunk Shot", "Surf", "Aeroblast"
+		],
+		"Furfrou": [
+			"Return", "Wild Charge", "Dig", "Crunch", "U-Turn"
+		],
+		"Espurr": [
+			"", "", "", "", ""
+		],
+		"Meowstic": [
+			"Psychic", "Light Wave", "Thunderbolt", "Energy Ball", "Sucker Punch"
+		],
+		"Honedge": [
+			"", "", "", "", ""
+		],
+		"Doublade": [
+			"", "", "", "", ""
+		],
+		"Aegislash": [
+			"Shadow Blast", "Flash Cannon", "Focus Punch", "Night Slash", "Scald"
+		],
+		"Spritzee": [
+			"", "", "", "", ""
+		],
+		"Aromatisse": [
+			"Moonblast", "Thunderbolt", "Shadow Ball", "Psychic", "Energy Ball"
+		],
+		"Swirlix": [
+			"", "", "", "", ""
+		],
+		"Slurpuff": [
+			"Play Rough", "Return", "Flamethrower", "Surf", "Energy Ball"
+		],
+		"Inkay": [
+			"", "", "", "", ""
+		],
+		"Malamar": [
+			"Superpower", "Psycho Boost", "Night Blast", "Play Rough", "Flamethrower"
+		],
+		"Binacle": [
+			"", "", "", "", ""
+		],
+		"Barbaracle": [
+			"Stone Edge", "Surf", "Dynamicpunch", "Aerial Ace", "Earthquake"
+		],
+		"Skrelp": [
+			"", "", "", "", ""
+		],
+		"Dragalge": [
+			"Draco Meteor", "Sludge Wave", "Surf", "Focus Blast", "Thunder"
+		],
+		"Clauncher": [
+			"", "", "", "", ""
+		],
+		"Clawitzer": [
+			"Scald", "Dark Pulse", "Ice Beam", "Aura Sphere", "Flash Cannon"
+		],
+		"Helioptile": [
+			"", "", "", "", ""
+		],
+		"Heliolisk": [
+			"Thunder", "Surf", "Grass Knot", "Ice Beam", "Return"
+		],
+		"Tyrunt": [
+			"", "", "", "", ""
+		],
+		"Tyrantrum": [
+			"Stone Edge", "Outrage", "Earthquake", "Ice Fang", "Fire Fang"
+		],
+		"Amaura": [
+			"", "", "", "", ""
+		],
+		"Aurorus": [
+			"Blizzard", "Power Gem", "Dark Pulse", "Earth Power", "Thunder"
+		],
+		"Sylveon": [
+			"Moonblast", "Psychic", "Shadow Ball", "Power Gem", "Bug Buzz"
+		],
+		"Hawlucha": [
+			"Superpower", "Acrobatics", "Stone Edge", "U-Turn", "Sucker Punch"
+		],
+		"Dedenne": [
+			"Thunderbolt", "Play Rough", "U-Turn", "Grass Knot", "Fly"
+		],
+		"Carbink": [
+			"Moonblast", "Explosion", "Power Gem", "Psychic", "Gyro Ball"
+		],
+		"Goomy": [
+			"", "", "", "", ""
+		],
+		"Sliggoo": [
+			"", "", "", "", ""
+		],
+		"Goodra": [
+			"Dragon Pulse", "Fire Blast", "Sludge Bomb", "Surf", "Leaf Storm"
+		],
+		"Klefki": [
+			"Play Rough", "Night Blast", "Psyshock", "Doom Desire", "Power Gem"
+		],
+		"Phantump": [
+			"", "", "", "", ""
+		],
+		"Trevenant": [
+			"Solarbeam", "Shadow Blast", "Fire Blast", "Night Blast", "Moonblast"
+		],
+		"Pumpkaboo": [
+			"", "", "", "", ""
+		],
+		"Gourgeist": [
+			"Seed Bomb", "Sludge Bomb", "Fire Blast", "Focus Blast", "Thunder"
+		],
+		"Bergmite": [
+			"", "", "", "", ""
+		],
+		"Avalugg": [
+			"Frost Breath", "Earthquake", "Shadow Ball", "Crunch", "Gyro Ball"
+		],
+		"Noibat": [
+			"", "", "", "", ""
+		],
+		"Noivern": [
+			"Draco Meteor", "Hurricane", "Flamethrower", "Psychic", "Focus Blast"
+		],
+		"Xerneas": [
+			"Moonblast", "Thunder", "Megahorn", "Psychic", "Focus Blast"
+		],
+		"Yveltal": [
+			"Night Blast", "Hurricane", "Megahorn", "Psychic", "Focus Blast"
+		],
+		"Zygarde": [
+			"Earthquake", "Outrage", "Stone Edge", "Sludge Wave", "Grass Knot"
+		],
+		"Diancie": [
+			"Diamond Storm", "Moonblast", "Earth Power", "Fire Blast", "Focus Blast"
+		],
+		"Hoopa": [
+			"Shadow Blast", "Psycho Boost", "Focus Blast", "Thunderbolt", "Energy Ball"
+		],
+		"Volcanion": [
+			"Overheat", "Scald", "Solarbeam", "Focus Blast", "Flash Cannon"
 		]
 	},
 	"pokemon": {
@@ -2148,12 +2371,12 @@
 		"Nidoran M": ["Poison", null],
 		"Nidorino": ["Poison", null],
 		"Nidoking": ["Poison", "Ground"],
-		"Clefairy": ["Normal", null],
-		"Clefable": ["Normal", null],
+		"Clefairy": ["Fairy", null],
+		"Clefable": ["Fairy", null],
 		"Vulpix": ["Fire", null],
 		"Ninetales": ["Fire", null],
-		"Jigglypuff": ["Normal", null],
-		"Wigglytuff": ["Normal", null],
+		"Jigglypuff": ["Normal", "Fairy"],
+		"Wigglytuff": ["Normal", "Fairy"],
 		"Zubat": ["Poison", "Flying"],
 		"Golbat": ["Poison", "Flying"],
 		"Oddish": ["Grass", "Poison"],
@@ -2235,7 +2458,7 @@
 		"Seaking": ["Water", null],
 		"Staryu": ["Water", null],
 		"Starmie": ["Water", "Psychic"],
-		"Mr. Mime": ["Psychic", null],
+		"Mr. Mime": ["Psychic", "Fairy"],
 		"Scyther": ["Bug", "Flying"],
 		"Jynx": ["Ice", "Psychic"],
 		"Electabuzz": ["Electric", null],
@@ -2286,18 +2509,18 @@
 		"Chinchou": ["Water", "Electric"],
 		"Lanturn": ["Water", "Electric"],
 		"Pichu": ["Electric", null],
-		"Cleffa": ["Normal", null],
-		"Igglybuff": ["Normal", null],
-		"Togepi": ["Normal", null],
-		"Togetic": ["Normal", "Flying"],
+		"Cleffa": ["Fairy", null],
+		"Igglybuff": ["Normal", "Fairy"],
+		"Togepi": ["Fairy", null],
+		"Togetic": ["Fairy", "Flying"],
 		"Natu": ["Psychic", "Flying"],
 		"Xatu": ["Psychic", "Flying"],
 		"Mareep": ["Electric", null],
 		"Flaaffy": ["Electric", null],
 		"Ampharos": ["Electric", null],
 		"Bellossom": ["Grass", null],
-		"Marill": ["Water", null],
-		"Azumarill": ["Water", null],
+		"Marill": ["Water", "Fairy"],
+		"Azumarill": ["Water", "Fairy"],
 		"Sudowoodo": ["Rock", null],
 		"Politoed": ["Water", null],
 		"Hoppip": ["Grass", "Flying"],
@@ -2322,8 +2545,8 @@
 		"Dunsparce": ["Normal", null],
 		"Gligar": ["Ground", "Flying"],
 		"Steelix": ["Steel", "Ground"],
-		"Snubbull": ["Normal", null],
-		"Granbull": ["Normal", null],
+		"Snubbull": ["Fairy", null],
+		"Granbull": ["Fairy", null],
 		"Qwilfish": ["Water", "Poison"],
 		"Scizor": ["Bug", "Steel"],
 		"Shuckle": ["Bug", "Rock"],
@@ -2393,9 +2616,9 @@
 		"Swellow": ["Normal", "Flying"],
 		"Wingull": ["Water", "Flying"],
 		"Pelipper": ["Water", "Flying"],
-		"Ralts": ["Psychic", null],
-		"Kirlia": ["Psychic", null],
-		"Gardevoir": ["Psychic", null],
+		"Ralts": ["Psychic", "Fairy"],
+		"Kirlia": ["Psychic", "Fairy"],
+		"Gardevoir": ["Psychic", "Fairy"],
 		"Surskit": ["Bug", "Water"],
 		"Masquerain": ["Bug", "Flying"],
 		"Shroomish": ["Grass", null],
@@ -2411,12 +2634,12 @@
 		"Exploud": ["Normal", null],
 		"Makuhita": ["Fighting", null],
 		"Hariyama": ["Fighting", null],
-		"Azurill": ["Normal", null],
+		"Azurill": ["Normal", "Fairy"],
 		"Nosepass": ["Rock", null],
 		"Skitty": ["Normal", null],
 		"Delcatty": ["Normal", null],
 		"Sableye": ["Dark", "Ghost"],
-		"Mawile": ["Steel", null],
+		"Mawile": ["Steel", "Fairy"],
 		"Aron": ["Steel", "Rock"],
 		"Lairon": ["Steel", "Rock"],
 		"Aggron": ["Steel", "Rock"],
@@ -2552,7 +2775,7 @@
 		"Bronzor": ["Steel", "Psychic"],
 		"Bronzong": ["Steel", "Psychic"],
 		"Bonsly": ["Rock", null],
-		"Mime Jr.": ["Psychic", null],
+		"Mime Jr.": ["Psychic", "Fairy"],
 		"Happiny": ["Normal", null],
 		"Chatot": ["Normal", "Flying"],
 		"Spiritomb": ["Ghost", "Dark"],
@@ -2581,7 +2804,7 @@
 		"Tangrowth": ["Grass", null],
 		"Electivire": ["Electric", null],
 		"Magmortar": ["Fire", null],
-		"Togekiss": ["Normal", "Flying"],
+		"Togekiss": ["Fairy", "Flying"],
 		"Yanmega": ["Bug", "Flying"],
 		"Leafeon": ["Grass", null],
 		"Glaceon": ["Ice", null],
@@ -2659,8 +2882,8 @@
 		"Venipede": ["Bug", "Poison"],
 		"Whirlipede": ["Bug", "Poison"],
 		"Scolipede": ["Bug", "Poison"],
-		"Cottonee": ["Grass", null],
-		"Whimsicott": ["Grass", null],
+		"Cottonee": ["Grass", "Fairy"],
+		"Whimsicott": ["Grass", "Fairy"],
 		"Petilil": ["Grass", null],
 		"Lilligant": ["Grass", null],
 		"Basculin": ["Water", null],
@@ -2762,6 +2985,78 @@
 		"Kyurem": ["Dragon", "Ice"],
 		"Keldeo": ["Water", "Fighting"],
 		"Meloetta": ["Normal", "Psychic"],
-		"Genesect": ["Bug", "Steel"]
+		"Genesect": ["Bug", "Steel"],
+		"Chespin": ["Grass", null],
+		"Quilladin": ["Grass", null],
+		"Chesnaught": ["Grass", "Fighting"],
+		"Fennekin": ["Fire", null],
+		"Braixen": ["Fire", null],
+		"Delphox": ["Fire", "Psychic"],
+		"Froakie": ["Water", null],
+		"Frogadier": ["Water", null],
+		"Greninja": ["Water", "Dark"],
+		"Bunnelby": ["Normal", null],
+		"Diggersby": ["Normal", "Ground"],
+		"Fletchling": ["Normal", "Flying"],
+		"Fletchinder": ["Fire", "Flying"],
+		"Talonflame": ["Fire", "Flying"],
+		"Scatterbug": ["Bug", null],
+		"Spewpa": ["Bug", null],
+		"Vivillon": ["Bug", "Flying"],
+		"Litleo": ["Fire", "Normal"],
+		"Pyroar": ["Fire", "Normal"],
+		"Flabébé": ["Fairy", null],
+		"Floette": ["Fairy", null],
+		"Florges": ["Fairy", null],
+		"Skiddo": ["Grass", null],
+		"Gogoat": ["Grass", null],
+		"Pancham": ["Fighting", null],
+		"Pangoro": ["Fighting", "Dark"],
+		"Furfrou": ["Normal", null],
+		"Espurr": ["Psychic", null],
+		"Meowstic": ["Psychic", null],
+		"Honedge": ["Steel", "Ghost"],
+		"Doublade": ["Steel", "Ghost"],
+		"Aegislash": ["Steel", "Ghost"],
+		"Spritzee": ["Fairy", null],
+		"Aromatisse": ["Fairy", null],
+		"Swirlix": ["Fairy", null],
+		"Slurpuff": ["Fairy", null],
+		"Inkay": ["Dark", "Psychic"],
+		"Malamar": ["Dark", "Psychic"],
+		"Binacle": ["Rock", "Water"],
+		"Barbaracle": ["Rock", "Water"],
+		"Skrelp": ["Poison", "Water"],
+		"Dragalge": ["Poison", "Dragon"],
+		"Clauncher": ["Water", null],
+		"Clawitzer": ["Water", null],
+		"Helioptile": ["Electric", "Normal"],
+		"Heliolisk": ["Electric", "Normal"],
+		"Tyrunt": ["Rock", "Dragon"],
+		"Tyrantrum": ["Rock", "Dragon"],
+		"Amaura": ["Rock", "Ice"],
+		"Aurorus": ["Rock", "Ice"],
+		"Sylveon": ["Fairy", null],
+		"Hawlucha": ["Fighting", "Flying"],
+		"Dedenne": ["Electric", "Fairy"],
+		"Carbink": ["Rock", "Fairy"],
+		"Goomy": ["Dragon", null],
+		"Sliggoo": ["Dragon", null],
+		"Goodra": ["Dragon", null],
+		"Klefki": ["Steel", "Fairy"],
+		"Phantump": ["Ghost", "Grass"],
+		"Trevenant": ["Ghost", "Grass"],
+		"Pumpkaboo": ["Ghost", "Grass"],
+		"Gourgeist": ["Ghost", "Grass"],
+		"Bergmite": ["Ice", null],
+		"Avalugg": ["Ice", null],
+		"Noibat": ["Flying", "Dragon"],
+		"Noivern": ["Flying", "Dragon"],
+		"Xerneas": ["Fairy", null],
+		"Yveltal": ["Dark", "Flying"],
+		"Zygarde": ["Dragon", "Ground"],
+		"Diancie": ["Fairy", "Rock"],
+		"Hoopa": ["Ghost", "Psychic"],
+		"Volcanion": ["Fire", "Water"]
 	}
 }

@@ -23,7 +23,7 @@ require './misc'
 module PokeSky
 
   SLEEP_TIME = 2
-  NPC_SWITCH_CHANCE = 6
+  NPC_SWITCH_CHANCE = 8
 
   BLACK = "\033[30;1m"
   RED = "\033[31;1m"
