@@ -88,7 +88,7 @@ module PokeSky
 
       name_c = pkmn_colored(pkmn)
       s = [prim, sec].compact.map { |t| type_colored(t) }.join(', ')
-      buf << "[#{n}] #{name_c} %s(#{s}) - #{moves}"
+      buf << "[#{n + 1}] #{name_c} %s(#{s}) - #{moves}"
     end
     buf
   end
@@ -203,7 +203,7 @@ module PokeSky
       if offense == plr
         # puts "Your #{pkmn_colored(attacker)}'s moves:"
         attacker.moves.each_with_index do |m, slot|
-          puts "[#{slot}] #{move_colored(m)}"
+          puts "[#{slot + 1}] #{move_colored(m)}"
         end
 
         # Loop until a valid command is given.
@@ -221,7 +221,7 @@ module PokeSky
           end
 
           if cmd =~ /^a (\d)+$/i
-            slot = $1.to_i
+            slot = $1.to_i - 1
             if slot >= 0 && slot < Pokemon::MOVES_SIZE
               move = attacker.moves[slot]
               valid = true
@@ -231,7 +231,7 @@ module PokeSky
           end
 
           if cmd =~ /^s (\d+)$/i
-            slot = $1.to_i
+            slot = $1.to_i - 1
             if slot >= 0 && slot < offense.battlers.size &&
                 offense.battlers.index(attacker) != slot
               switch = slot

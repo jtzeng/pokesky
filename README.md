@@ -10,8 +10,6 @@ from SkyRealm, "Project Pokemon", which has long since become a sloppy
 mess of unmaintainable PHP (yuck). This remake is an attempt to redo a
 similar project with similar features but slightly more maintainable.
 
-Or so I hope...
-
 The current interface is CLI while some aspects of the design are still
 being sorted out. It will be in this stage until it becomes usable enough
 to be featured as a complete web-based game.
@@ -28,6 +26,7 @@ Indeed, it is quite colorful (and maybe even painful to look at for some).
 #### Requirements
 
 * Ruby >= 1.9.1
+* Gems: rainbow
 
 #### TODO
 

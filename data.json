@@ -1408,7 +1408,7 @@
 		"Burmy": [
 			"Razor Leaf", "Fury Cutter", "Bite", "Charge Beam", "Hyper Fang"
 		],
-		"Wormadam (P)": [
+		"Wormadam": [
 			"Giga Drain", "Silver Wind", "Bite", "Charge Beam", "Hyper Fang"
 		],
 		"Mothim": [
@@ -2749,7 +2749,7 @@
 		"Shieldon": ["Rock", "Steel"],
 		"Bastiodon": ["Rock", "Steel"],
 		"Burmy": ["Bug", null],
-		"Wormadam (P)": ["Bug", "Grass"],
+		"Wormadam": ["Bug", "Grass"],
 		"Mothim": ["Bug", "Flying"],
 		"Combee": ["Bug", "Flying"],
 		"Vespiquen": ["Bug", "Flying"],
@@ -3055,8 +3055,8 @@
 		"Xerneas": ["Fairy", null],
 		"Yveltal": ["Dark", "Flying"],
 		"Zygarde": ["Dragon", "Ground"],
-		"Diancie": ["Fairy", "Rock"],
-		"Hoopa": ["Ghost", "Psychic"],
+		"Diancie": ["Rock", "Fairy"],
+		"Hoopa": ["Psychic", "Ghost"],
 		"Volcanion": ["Fire", "Water"]
 	}
 }
